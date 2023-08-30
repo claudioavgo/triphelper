@@ -20,8 +20,8 @@
 Sua viagem começa aqui!!
 
 #### [Ver Projeto (Em desenvolvimento)]()
-#### [Quadro no Jira (Em desenvolvimento)]()
-#### [Prototipo no Figma (Em desenvolvimento)]()
+#### [Quadro no Jira](https://triphelper.atlassian.net/)
+#### [Protótipo no Figma (Em desenvolvimento)]()
 ![](https://i.imgur.com/waxVImv.png)
 
 ## Desenvolvimento
@@ -57,10 +57,10 @@ Intale as dependencias usando "pip install -r triphelper_Core/requirements.txt"
 </a>
 
 
-<p><a href="github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
-<p><a href="github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
-<p><a href="github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
-<p><a href="github.com/ianbnunes">Ian Nunes</a> - ibn@cesar.school 📩</p>
-<p><a href="github.com/GabrielLimaSC">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
-<p><a href="github.com/artursouto">Artur Souto</a> - glsc@cesar.school 📩</p>
+<p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
+<p><a href="https://github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
+<p><a href="https://github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
+<p><a href="https://github.com/ianbnunes">Ian Nunes</a> - ibn@cesar.school 📩</p>
+<p><a href="https://github.com/GabrielLimaSC">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
+<p><a href="https://github.com/artursouto">Artur Souto</a> - glsc@cesar.school 📩</p>
 
