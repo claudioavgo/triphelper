@@ -61,9 +61,6 @@ Intale as dependencias usando "pip install -r triphelper_Core/requirements.txt"
 <p><a href="github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
 <p><a href="github.com/cardozoguilherme">Guilherme Cardozo</a> 📩 gccm@cesar.school</p>
 <p><a href="github.com/ianbnunes">Ian Nunes</a> - ibn@cesar.school 📩</p>
-<p><a href="github.com/GabrielLimaSC">Leonardo Cardoso</a> - lc@cesar.school 📩</p>
+<p><a href="github.com/GabrielLimaSC">Leonardo Cardoso</a> - lc@cesar.school 📩</p> 
 <p><a href="github.com/artursouto">Artur Souto</a> - glsc@cesar.school 📩</p>
-
-
-
 
