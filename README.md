@@ -44,7 +44,7 @@ git clone --depth=1 https://github.com/claudioavgo/triphelper.git
 <p>Criação do ambiente virtual, ativação e dependencias</p>
 
 ```bash
-Ative usando: "python -m venv venv"
+Crie usando: "python -m venv venv"
 
 Ative o ambiente virtual usando: "venv\Scripts\activate"
 
