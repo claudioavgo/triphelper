@@ -7,7 +7,7 @@
 <p>Bem-vindo ao repositório da "TripHelper": Uma solução web para um planejamento de viagens descomplicado. 🗺️✈️
 </p>
 
-<p>A aplicação é:</p>
+<p>A aplicação é:</p> testando
 
 - ideal para aprimorar o planejamento de viagens com facilidade ✨;
 - perfeita para experimentar destinos e itinerários personalizados 🆕;
