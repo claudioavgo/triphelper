@@ -25,7 +25,7 @@ Sua viagem começa aqui!!
 ![](https://i.imgur.com/waxVImv.png)
 
 # Protótipo de baixa fidelidade
-https://drive.google.com/file/d/1SLhFtN02QYw_CCRF3lYWEkw-DJSeQHcV/view
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
 
 ## Desenvolvimento
 <p>Clone o repositório, instale as dependências e inicie a aplicação</p>
