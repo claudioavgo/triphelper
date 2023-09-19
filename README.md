@@ -24,6 +24,9 @@ Sua viagem começa aqui!!
 #### [Protótipo no Figma (Em desenvolvimento)]()
 ![](https://i.imgur.com/waxVImv.png)
 
+# Protótipo de baixa fidelidade
+https://drive.google.com/file/d/1SLhFtN02QYw_CCRF3lYWEkw-DJSeQHcV/view
+
 ## Desenvolvimento
 <p>Clone o repositório, instale as dependências e inicie a aplicação</p>
 
