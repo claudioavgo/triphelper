@@ -39,13 +39,16 @@
           </div>
         </div>
       </nav>
-      <container class="d-flex justify-content-center p-20">
+      <container class="p-20">
         <div>
           <h1>“A vida é uma jornada e não um destino.”</h1>
           <div>
             <h5 class="d-flex justify-content-end">Lynn H. Hough</h5>
           </div>
         </div>
+        {% for i in countries_list %}
+        <h1>{{ i }}</h1><br>
+        {% endfor %}
       </container>
 </body>
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
