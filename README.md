@@ -51,7 +51,7 @@ Crie usando: "python -m venv venv"
 
 Ative o ambiente virtual usando: "venv\Scripts\activate"
 
-Intale as dependencias usando "pip install -r ./requirements.txt"
+Instale as dependencias usando "pip install -r ./requirements.txt"
 ```
 
 <h2>Contribuidores 👨‍👩‍👧‍👦</h2>
