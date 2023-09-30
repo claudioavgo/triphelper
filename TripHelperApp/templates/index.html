@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    .custom-margin-left {
+        margin-left: 560px; /* Ou o valor desejado */
+    }
+</style>
+
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,16 +45,24 @@
           </div>
         </div>
       </nav>
-      <container class="p-20">
+      <container class="d-flex justify-content-center" style="margin-top: 50px">
         <div>
           <h1>“A vida é uma jornada e não um destino.”</h1>
           <div>
-            <h5 class="d-flex justify-content-end">Lynn H. Hough</h5>
+            <h5 class="d-flex justify-content-left custom-margin-left">Lynn H. Hough</h5>
           </div>
         </div>
         {% for i in countries_list %}
         <h1>{{ i }}</h1><br>
         {% endfor %}
+      </container>
+      <container class="d-flex justify-content-center">
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste"id="countrySelect" style="width: 280px; height: 70px;" >
+          <option selected>Escolha o País de Destino</option>
+          {% for i in countries_list %}
+          <option value= i>{{i}}</option>
+          {% endfor %}
+        </select>
       </container>
 </body>
 <div class="toast-container position-fixed bottom-0 end-0 p-3">
