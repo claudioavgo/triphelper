@@ -39,27 +39,54 @@
           </div>
         </div>
     </nav>
+
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images4.alphacoders.com/168/168614.jpg" class="d-block w-100" alt="France">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images5.alphacoders.com/587/thumb-1920-587948.jpg" class="d-block w-100" alt="Mexico">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-1388030.jpg&fm=jpg" class="d-block w-100" alt="Spain">
-          </div>
+            <div class="carousel-item active">
+                <img src="{% static 'images/France_3840x2160.jpg' %}" class="d-block w-100" alt="France">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h2 class="text-white">France</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Mexico_3840x2160.jpg' %}" class="d-block w-100" alt="Mexico">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h2 class="text-white">Mexico</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Spain_3840x2160.jpg' %}" class="d-block w-100" alt="Spain">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h2 class="text-white">Spain</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Turkey_3840x2160.jpg' %}" class="d-block w-100" alt="Turkey">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h2 class="text-white">Turkey</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Italy_3840x2160.jpg' %}" class="d-block w-100" alt="Italy">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h2 class="text-white">Italy</h2>
+                </div>
+            </div>
+
+
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+    
+    
     </container>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
