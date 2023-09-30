@@ -1,5 +1,5 @@
 .bg-blue {
-    background: #3D45FB;
+    background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
 }
 
 .text-white {
