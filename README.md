@@ -22,6 +22,7 @@ Sua viagem começa aqui!!
 #### [Ver Projeto (Em desenvolvimento)]()
 #### [Quadro no Jira](https://triphelper.atlassian.net/)
 #### [Protótipo no Figma (Em desenvolvimento)]()
+#### [Fluxograma no Canvas(Em desenvolvimento)](https://www.canva.com/design/DAFv8cMBYg0/NTQ0X21wpeIaRm9mWDMZUw/edit)
 ![](https://i.imgur.com/waxVImv.png)
 
 # Protótipo de baixa fidelidade
