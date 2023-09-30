@@ -46,7 +46,7 @@
           </div>
         </div>
       </nav>
-      <container class="d-flex justify-content-center" style="margin-top: 15rem">
+      <container class="d-flex justify-content-center" style="margin-top: 50px">
         <div>
           <h1 class="gradient">“Life's a journey, not a destination.”</h1>
           <div>
@@ -55,6 +55,9 @@
         </div>
       </container>
       <container class="d-flex justify-content-center" style="margin-top: 50px">
+        <img src="https://symbl-world.akamaized.net/i/webp/83/c90f5cb3988b7e535daff256ae0cd1.webp" alt="Bootstrap" width="30" height="65" style="width: 70px; height: 65px;">
+      </container>
+      <container class="d-flex justify-content-center" style="margin-top: 20px">
         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste" id="countrySelect" style="width: 400px; height: 70px;" >
           <option selected>Choose your destination</option>
           {% for i in countries_list %}
@@ -62,8 +65,10 @@
           {% endfor %}
         </select>
       </container>
-      <container class="d-flex justify-content-center" style="margin-top: 50px">
+      <container class="d-flex justify-content-center" style="margin-top: 20px">
         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste" id="countrySelectCity" style="display: none;width: 400px; height: 70px;" >
+          <option selected>Choose your city</option>
+          <option value="{{i}}">{{i}}</option>
         </select>
       </container>
 </body>
