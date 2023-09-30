@@ -1,71 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <style>
-    .custom-margin-left {
-        margin-left: 570px; /* Ou o valor desejado */
-    }
-</style>
-
-    {% load static %}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg" type="image/x-icon">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-    <script defer src="{% static 'index.js' %}"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <title>TripHelper</title>
-</head>
-<body class="bg-blue text-white">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-        <div class="container-fluid">
-          <img src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg" alt="Bootstrap" width="30" height="24">
-          <a class="navbar-brand fw-bold" href="#">TripHelper</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+   <head>
+      <style>
+         .custom-margin-left {
+         margin-left: 570px; /* Ou o valor desejado */
+         }
+      </style>
+      {% load static %}
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="shortcut icon"
+         href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
+         type="image/x-icon" />
+      <link rel="stylesheet" href="{% static 'style.css' %}" />
+      <script defer src="{% static 'index.js' %}"></script>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous" />
+      <title>TripHelper</title>
+   </head>
+   <body class="bg-blue text-white">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+         <div class="container-fluid">
+            <img
+               src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
+               alt="Bootstrap"
+               width="30"
+               height="24" />
+            <a class="navbar-brand fw-bold" href="#">TripHelper</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Homepage</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="/top">Most searched places</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More information
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/about">About us</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" target="_blank" href="https://github.com/claudioavgo/triphelper">GitHub</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#"
+                        >Homepage</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="/top"
+                        >Most searched places</a
+                        >
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                     More information
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/about">About us</a></li>
+                        <li>
+                           <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                           <a
+                              class="dropdown-item"
+                              target="_blank"
+                              href="https://github.com/claudioavgo/triphelper"
+                              >GitHub</a
+                              >
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </nav>
       <container class="d-flex justify-content-center" style="margin-top: 15rem">
-        <div>
-          <h1 class="gradient">“Life's a journey, not a destination.”</h1>
-          <div>
-            <h5 class="gradient" class="d-flex justify-content-left" style="margin-left: 400px">~ Aerosmith, Amazing</h5>
-          </div>
-        </div>
+         <div>
+            <h1 class="gradient">“Life's a journey, not a destination.”</h1>
+            <div>
+               <h5
+                  class="gradient"
+                  class="d-flex justify-content-left"
+                  style="margin-left: 400px">
+                  ~ Aerosmith, Amazing
+               </h5>
+            </div>
+         </div>
       </container>
       <container class="d-flex justify-content-center" style="margin-top: 50px">
-        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste" id="countrySelect" style="width: 400px; height: 70px;" >
-          <option selected>Choose your destination</option>
-          {% for i in countries_list %}
-          <option value="{{i}}">{{i}}</option>
-          {% endfor %}
-        </select>
+         <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg teste"
+            id="countrySelect"
+            style="width: 400px; height: 70px">
+            <option selected>Choose your destination</option>
+            {% for i in countries_list %}
+            <option value="{{i}}">{{i}}</option>
+            {% endfor %}
+         </select>
       </container>
       <container class="d-flex justify-content-center" style="margin-top: 50px">
-        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste" id="countrySelectCity" style="display: none;width: 400px; height: 70px;" >
-        </select>
+         <select
+            class="form-select form-select-lg mb-3"
+            aria-label=".form-select-lg teste"
+            id="countrySelectCity"
+            style="display: none; width: 400px; height: 70px"></select>
       </container>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   </body>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 </html>
