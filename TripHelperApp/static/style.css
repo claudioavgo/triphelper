@@ -2,8 +2,17 @@
     background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
 }
 
+.gradient {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(191, 219, 254), rgb(96, 165, 250));
+
+    background-clip: text;
+
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  }
+
 .text-white {
-    color: #FFFCEC;
+    color: linear-gradient(to right, rgb(112, 26, 117), rgb(192, 38, 211), rgb(30, 58, 138));
 }
 
 .p-20 {
