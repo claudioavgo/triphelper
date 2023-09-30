@@ -1,9 +1,9 @@
 .bg-blue {
-    background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+    background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39)); /* Cor do background */
 }
 
 .gradient {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(191, 219, 254), rgb(96, 165, 250));
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(191, 219, 254), rgb(96, 165, 250)); /* Cor do texto */
 
     background-clip: text;
 
