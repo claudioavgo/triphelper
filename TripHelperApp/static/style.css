@@ -9,3 +9,8 @@
 .p-20 {
     padding: 17rem;
 }
+
+select option {
+    font-size: 17px; /* Tamanho da fonte das opções */
+    line-height: 1.2; /* Altura da linha das opções */
+}
