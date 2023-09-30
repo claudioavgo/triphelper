@@ -19,3 +19,7 @@ def retryCities(request, country):
     context = {'cities': cities_list}
 
     return JsonResponse(context)
+
+#About
+def about(request):
+    return render(request, 'about.html')
