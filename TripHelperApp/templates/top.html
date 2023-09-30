@@ -41,25 +41,85 @@
     </nav>
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images4.alphacoders.com/168/168614.jpg" class="d-block w-100" alt="France">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images5.alphacoders.com/587/thumb-1920-587948.jpg" class="d-block w-100" alt="Mexico">
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-1388030.jpg&fm=jpg" class="d-block w-100" alt="Spain">
-          </div>
+            <div class="carousel-item active">
+                <img src="{% static 'images/France_3840x2160.jpg' %}" class="d-block w-100" alt="France">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h1 class="text-white">#1 France</h1>
+                    <br>
+                    <h3>France: 48.4 million visitors</h3>
+                    <br>
+                    <h5>France encompasses medieval citles, alpine
+                        villages, and Mediterranean beaches.
+                        Whenever you visit France, don't forget to visit
+                        the Eiffel Tower, Louvre Museum, and Palace
+                        of Versailles.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Mexico_3840x2160.jpg' %}" class="d-block w-100" alt="Mexico">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h1 class="text-white">#2 Mexico</h1>
+                    <br>
+                    <h3>Mexico: 31.9 million visitors</h3>
+                    <br>
+                    <h5>Visitors are attracted to Mexico's beach
+                        destinations and its cultural tourism. Chichén
+                        Itzá, Tulum and Museo Nacional de
+                        Antropología are some must-visit tourist
+                        destinations in Mexico.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Spain_3840x2160.jpg' %}" class="d-block w-100" alt="Spain">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h1 class="text-white">#3 Spain</h1>
+                    <br>
+                    <h3>Spain: 31.2 million visitors</h3>
+                    <br>
+                    <h5>Spain has a diverse geography and culture. It is
+                        home to the infamous Royal Palace of Madrid,
+                        Prado Museum, and La Sagrada Familia.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Turkey_3840x2160.jpg' %}" class="d-block w-100" alt="Turkey">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h1 class="text-white">#4 Turkey</h1>
+                    <br>
+                    <h3>Turkey: 29.9 million visitors</h3>
+                    <br>
+                    <h5>Located at the juncture of Southeast Europe
+                        and West Asia, Turkey has beautiful tourist
+                        sites like the Hagia Sophia, The Blue Mosque
+                        and the Topkapi Palace Museum.</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/Italy_3840x2160.jpg' %}" class="d-block w-100" alt="Italy">
+                <div class="carousel-caption d-none d-md-block text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <h1 class="text-white">#5 Italy</h1>
+                    <br>
+                    <h3>Italy: 26.9 million visitors</h3>
+                    <br>
+                    <h5>Italy offers delicious food and is home to
+                        tourist destinations of historical importance
+                        and serene views. The Colosseum, Pantheon
+                        and Trevi Fountain are some of the most-
+                        visited places in Italy.</h5>
+                </div>
+            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
+    
+    
     </container>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
