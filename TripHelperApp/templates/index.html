@@ -29,14 +29,14 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Lugares mais visitados</a>
+                <a class="nav-link" aria-current="page" href="#">Most searched places</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Mais informações
+                  More information
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Quem somos?</a></li>
+                  <li><a class="dropdown-item" href="#">About us</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" target="_blank" href="https://github.com/claudioavgo/triphelper">GitHub</a></li>
                 </ul>
@@ -47,15 +47,15 @@
       </nav>
       <container class="d-flex justify-content-center" style="margin-top: 50px">
         <div>
-          <h1>“A vida é uma jornada e não um destino.”</h1>
+          <h1>“Life's a journey, not a destination.”</h1>
           <div>
-            <h5 class="d-flex justify-content-left custom-margin-left">Lynn H. Hough</h5>
+            <h5 class="d-flex justify-content-left" style="margin-left: 400px">~ Aerosmith, Amazing</h5>
           </div>
         </div>
       </container>
-      <container class="d-flex justify-content-center">
+      <container class="d-flex justify-content-center" style="margin-top: 50px">
         <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg teste"id="countrySelect" style="width: 400px; height: 70px;" >
-          <option selected>Escolha o País de Destino</option>
+          <option selected>Choose your destination</option>
           {% for i in countries_list %}
           <option value= i>{{i}}</option>
           {% endfor %}
