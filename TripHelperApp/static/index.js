@@ -1,5 +1,6 @@
 const select = document.querySelector("#countrySelect");
 const selectCity = document.querySelector("#countrySelectCity")
+const conSelectCity = document.querySelector("#containerSelectCity")
 
 async function fetchCitiesData(country) {
     try {
@@ -18,7 +19,7 @@ async function fetchCitiesData(country) {
 
 select.addEventListener("change", async (e) => {
 
-    selectCity.style.display = "none"
+    conSelectCity.style.display = "none"
 
     removeOptions(selectCity);
 
@@ -35,7 +36,7 @@ select.addEventListener("change", async (e) => {
         selectCity.add(option);
     }
 
-    selectCity.style.display = "block"
+    conSelectCity.style.display = "block"
 })
 
 function removeOptions(selectElement) {
