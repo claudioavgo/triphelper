@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/509505bd-74d1-4c84-a5fb-b4558e4a65de/resourceGroups/TripHelperCompany_group-8be2/providers/Microsoft.Web/sites/TripHelperCompany",
+    "appService.deploySubpath": "."
+}

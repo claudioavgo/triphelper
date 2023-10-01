@@ -1,0 +1,4 @@
+Django
+requests
+deep-translator
+whitenoise
