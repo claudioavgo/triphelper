@@ -26,13 +26,12 @@ SECRET_KEY = 'django-insecure-aer^xfe3#*6__7wj2(_!#a0v)d4fe-5)3zaxp80s^o*)gdda-m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["192.168.15.73", "triphelpercompany.azurewebsites.net"]
+ALLOWED_HOSTS = ["localhost", "https://triphelpercompany.azurewebsites.net/"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    "whitenoise.runserver_nostatic",
     "TripHelperApp.apps.TriphelperappConfig",
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,7 +43,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -125,6 +123,3 @@ STATIC_URL = os.environ.get("DJANGO_STATIC_URL", "/static/")
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-STATICFILES_STORAGE = ('whitenoise.storage.CompressedManifestStaticFilesStorage')
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
