@@ -43,13 +43,16 @@ def destination(request, country_iso, city):
 
     return render(request, 'destination.html', context)
 
-def random_Destination(request):
+def random_Destination(request, country, city):
     selected_country, selected_city = randomdestination()
+    print(f"selected_country: {selected_country}, selected_city: {selected_city}")
 
     if selected_country and selected_city:
-
-         return redirect('destination', country=selected_country, city=selected_city)
+        return render(request, 'destination.html', {
+            'selected_country': selected_country,
+            'selected_city': selected_city,
+        })
     else:
-    
         return render(request, 'error.html', {'message': 'Não foi possível obter um destino aleatório.'})
+   
     

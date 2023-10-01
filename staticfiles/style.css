@@ -3,7 +3,7 @@
 }
 
 .gradient {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(191, 219, 254), rgb(96, 165, 250)); /* Cor do texto */
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(103, 232, 249), rgb(3, 105, 161)); /* Cor do texto */
 
     background-clip: text;
 

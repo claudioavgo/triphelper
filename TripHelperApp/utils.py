@@ -119,22 +119,18 @@ def getCountryByIso(iso):
 def randomdestination():
 
     country_list = countries()
-
-    if not country_list:
-        return None, None
     
     selected_country = random.choice(country_list)
-    country_iso = selected_country["iso2"]
+    country_iso = selected_country["iso"]
 
     city_list = cities(country_iso)
 
     if not city_list:
-        return selected_country["name"], None
+        return selected_country["iso"], None
     
-
     selected_city = random.choice(city_list)
 
-    return selected_country["name"], selected_city
+    return selected_country["iso"], selected_city
 
 def plugType(iso2):
     api_url = "https://raw.githubusercontent.com/claudioavgo/triphelper/main/TripHelperApp/static/bin/plug.csv"

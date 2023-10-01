@@ -1,3 +1,3 @@
-from TripHelperApp.utils import *
+from TripHelperApp.views import *
 
-print(countryInformations("BD"))
+random_Destination()
