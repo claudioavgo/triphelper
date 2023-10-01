@@ -1,6 +1,7 @@
 import json
 import requests
 from deep_translator import GoogleTranslator
+import random
 
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
@@ -113,3 +114,25 @@ def getCountryByIso(iso):
     
     else:
         return ""
+    
+def randomdestination():
+
+    country_list = countries()
+
+    if not country_list:
+        return None, None
+    
+    selected_country = random.choice(country_list)
+    country_iso = selected_country["iso2"]
+
+    city_list = cities(country_iso)
+
+    if not city_list:
+        return selected_country["name"], None
+    
+
+    selected_city = random.choice(city_list)
+
+    return selected_country["name"], selected_city
+
+
