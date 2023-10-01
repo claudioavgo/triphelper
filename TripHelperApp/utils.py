@@ -1,7 +1,8 @@
 import json
+import random
+
 import requests
 from deep_translator import GoogleTranslator
-import random
 
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
@@ -65,10 +66,10 @@ def touristAttractions(city, country):
 
         for i in attractions["features"]:
             i["properties"]["googleName"] = i["properties"]["name"]
-            i["properties"]["name"] = GoogleTranslator(source='auto', target='pt').translate(i["properties"]["name"])
+            i["properties"]["name"] = GoogleTranslator(source='auto', target='en').translate(i["properties"]["name"])
             i["wikidata"] = getMorePlaceInfo(i["properties"]["wikidata"])
             try:
-                texto = GoogleTranslator(source='auto', target='pt').translate(i["wikidata"]["wikipedia_extracts"]["text"])
+                texto = GoogleTranslator(source='auto', target='en').translate(i["wikidata"]["wikipedia_extracts"]["text"])
 
                 if len(texto) > 232:
                     i["wikidata"]["wikipedia_extracts"]["text"] = texto[:232]+"..."
@@ -135,4 +136,25 @@ def randomdestination():
 
     return selected_country["name"], selected_city
 
+def plugType(iso2):
+    api_url = "https://raw.githubusercontent.com/claudioavgo/triphelper/main/TripHelperApp/static/bin/plug.csv"
+    data = requests.get(api_url)
+    types = []
 
+    for i in data.text.split("\n"):
+        if iso2 in i:
+            types.append(i.split(",")[4])
+    return types
+
+def countryInformations(iso2):
+    countryName = getCountryByIso(iso2)
+    api_url = f"https://restcountries.com/v3.1/name/{countryName}"
+    data = json.loads(requests.get(api_url).text)
+    languages = []
+
+    for i in data[0]["languages"]:
+        languages.append(data[0]["languages"][i])
+    
+    data[0]["languages"] = languages
+    
+    return data
