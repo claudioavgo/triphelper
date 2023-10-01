@@ -2,6 +2,7 @@ const select = document.querySelector("#countrySelect");
 const selectCity = document.querySelector("#countrySelectCity");
 const loader1 = document.querySelector("#loader1");
 const conSelectCity = document.querySelector("#containerSelectCity");
+const attBtn = document.querySelector("#attBtn")
 
 async function fetchCitiesData(country) {
   try {
@@ -44,11 +45,24 @@ select.addEventListener("change", async (e) => {
   }
 });
 
+selectCity.addEventListener("change", (e)=> {
+  if (e.target.value.includes("Choose")) {
+    attBtn.style.display = "none"
+  } else {
+    attBtn.style.display = "block"
+  }
+})
+
+attBtn.addEventListener("click", ()=> {
+  attBtn.style.display = "none";
+  loader1.style.display = "flex";
+  window.location.href = `destination/${select.value}/${selectCity.value}`;
+})
+
 function removeOptions(selectElement) {
   var i,
     L = selectElement.options.length - 1;
   for (i = L; i >= 0; i--) {
     selectElement.remove(i);
   }
-  
 }

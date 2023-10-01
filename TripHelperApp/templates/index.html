@@ -22,7 +22,7 @@
          crossorigin="anonymous" />
       <title>TripHelper</title>
    </head>
-   <body class="bg-blue text-white">
+   <body data-bs-theme="dark">
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
          <div class="container-fluid">
             <img
@@ -83,10 +83,10 @@
       </nav>
       <container class="d-flex justify-content-center" style="margin-top: 10rem">
          <div>
-            <h1 class="gradient">“Life's a journey, not a destination.”</h1>
+            <h1 class="">“Life's a journey, not a destination.”</h1>
             <div>
                <h5
-                  class="gradient"
+                  class=""
                   class="d-flex justify-content-left"
                   style="margin-left: 400px">
                   ~ Aerosmith, Amazing
@@ -102,7 +102,7 @@
             style="width: 400px; height: 70px">
             <option selected>Choose your destination</option>
             {% for i in countries_list %}
-            <option value="{{i}}">{{i}}</option>
+            <option value="{{i.iso}}">{{i.name}}</option>
             {% endfor %}
          </select>
       </container>
@@ -112,7 +112,7 @@
             aria-label=".form-select-lg teste"
             id="countrySelectCity"
             style="width: 400px; height: 70px"></select>
-            <button type="button" class="btn btn-light btn-lg">See attractions</button>
+            <button id="attBtn" type="button" class="btn btn-light btn-lg" style="display: none;">See attractions</button>
       </container>
       <container id="loader1" style="margin-top: 20px; display: none; flex-direction: column;justify-content: center;align-items: center;">
          <div class="spinner-border" role="status">

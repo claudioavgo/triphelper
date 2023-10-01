@@ -4,7 +4,8 @@ from . import views
 
 urlpatterns = [
     path("api/<str:country>/cities", views.retryCities, name="retryCities"),
-    path("", views.index, name="index"),
+    path("destination/<str:country_iso>/<str:city>", views.destination, name="destination"),
     path("about", views.about, name="about"),
     path("top", views.top, name="top"),
+    path("", views.index, name="index"),
 ]

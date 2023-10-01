@@ -5,7 +5,7 @@ from .utils import *
 
 # Create your views here.
 
-#Homepage
+# Home Page
 def index(request):
     countries_list = countries()
 
@@ -13,6 +13,7 @@ def index(request):
 
     return render(request, 'index.html', context)
 
+#Cities API
 def retryCities(request, country):
     cities_list = cities(country)
 
@@ -20,10 +21,17 @@ def retryCities(request, country):
 
     return JsonResponse(context)
 
-#About
+# About Page
 def about(request):
     return render(request, 'about.html')
 
-#Top
+# Top Page
 def top(request):
     return render(request, 'top.html')
+
+# Destination Page
+def destination(request, country_iso, city):
+    
+    context = {"content": touristAttractions(city, country_iso), "country": getCountryByIso(country_iso), "city": city, "iso": str(country_iso).lower()}
+
+    return render(request, 'destination.html', context)
