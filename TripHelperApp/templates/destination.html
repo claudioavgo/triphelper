@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <style>
+      tr:hover {
+        background-color: inherit !important; 
+    }
+  </style>
+  
     {% load static %}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -84,34 +90,34 @@
         <h1>{{ city }}, {{ country }} <img style="height: 50px;" src="https://flagcdn.com/{{iso}}.svg" alt=""></h1>
     </div>
     <container>
-      <table class="table">
+      <table class="table" style="width: 100%; box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); border-collapse: collapse; border-radius: 5px; overflow: hidden;">
          <tbody>
-           <tr>
-             <th scope="row">Language</th>
-             {% for key in info.0.languages %}
-             <td>{{ key }}</td>
-             {% endfor %}
-           </tr>
-           <tr>
-             <th scope="row">Capital</th>
-             {% for key in info.0.capital %}
-             <td>{{ key }}</td>
-             {% endfor %}
-           </tr>
-           <tr>
-             <th scope="row">Currency</th>
-             {% for key in info.0.currencies %}
-             <td>{{ key }}</td>
-             {% endfor %}
-           </tr>
-          <tr>
-            <th scope="row">Plug</th>
-            {% for i in plug%}
-            <td>{{i}}</td>
-            {% endfor %}
-          </tr>
+             <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                 <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Language</th>
+                 {% for key in info.0.languages %}
+                 <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                 {% endfor %}
+             </tr>
+             <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                 <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Capital</th>
+                 {% for key in info.0.capital %}
+                 <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                 {% endfor %}
+             </tr>
+             <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                 <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Currency</th>
+                 {% for key in info.0.currencies %}
+                 <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                 {% endfor %}
+             </tr>
+             <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                 <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Plug</th>
+                 {% for i in plug %}
+                 <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ i|default:" " }}</td>
+                 {% endfor %}
+             </tr>
          </tbody>
-       </table>
+     </table>
     </container>
     <div class="card-container">
         {% for i in content.features %}
