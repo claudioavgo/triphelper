@@ -1,0 +1,25 @@
+.bg-blue {
+    background: linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39)); /* Cor do background */
+}
+
+.gradient {
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(191, 219, 254), rgb(96, 165, 250)); /* Cor do texto */
+
+    background-clip: text;
+
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+  }
+
+.text-white {
+    color: linear-gradient(to right, rgb(112, 26, 117), rgb(192, 38, 211), rgb(30, 58, 138));
+}
+
+.p-20 {
+    padding: 17rem;
+}
+
+select option {
+    font-size: 17px; /* Tamanho da fonte das opções */
+    line-height: 1.2; /* Altura da linha das opções */
+}
