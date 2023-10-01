@@ -81,7 +81,7 @@
             </div>
          </div>
       </nav>
-      <container class="d-flex justify-content-center" style="margin-top: 15rem">
+      <container class="d-flex justify-content-center" style="margin-top: 10rem">
          <div>
             <h1 class="gradient">“Life's a journey, not a destination.”</h1>
             <div>
@@ -94,10 +94,7 @@
             </div>
          </div>
       </container>
-      <container class="d-flex justify-content-center" style="margin-top: 20px">
-      <img src="https://symbl-world.akamaized.net/i/webp/83/c90f5cb3988b7e535daff256ae0cd1.webp" alt="Bootstrap" width="50" height="50">
-      </container>
-      <container class="d-flex justify-content-center" style="margin-top: 20px">
+      <container class="d-flex justify-content-center" style="margin-top: 30px">
          <select
             class="form-select form-select-lg mb-3"
             aria-label=".form-select-lg teste"
@@ -109,15 +106,18 @@
             {% endfor %}
          </select>
       </container>
-      <container id="containerSelectCity" class="d-flex justify-content-center" style="margin-top: 50px; display: none">
+      <container id="containerSelectCity" style="margin-top: 20px; display: none; flex-direction: column;justify-content: center;align-items: center;">
          <select
             class="form-select form-select-lg mb-3"
             aria-label=".form-select-lg teste"
             id="countrySelectCity"
             style="width: 400px; height: 70px"></select>
+            <button type="button" class="btn btn-light btn-lg">See attractions</button>
       </container>
-      <container class="d-flex justify-content-center" style="margin-top: 50px;display: none;">
-        <button type="button" class="btn btn-light btn-lg">See attractions</button>
+      <container id="loader1" style="margin-top: 20px; display: none; flex-direction: column;justify-content: center;align-items: center;">
+         <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
       </container>
    </body>
    <script

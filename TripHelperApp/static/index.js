@@ -1,47 +1,54 @@
 const select = document.querySelector("#countrySelect");
-const selectCity = document.querySelector("#countrySelectCity")
-const conSelectCity = document.querySelector("#containerSelectCity")
+const selectCity = document.querySelector("#countrySelectCity");
+const loader1 = document.querySelector("#loader1");
+const conSelectCity = document.querySelector("#containerSelectCity");
 
 async function fetchCitiesData(country) {
-    try {
-      const response = await fetch(`api/${country}/cities`);
-      
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      
-      const data = await response.json();
-      return data;
-    } catch (error) {
-      throw error;
+  try {
+    const response = await fetch(`api/${country}/cities`);
+
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
     }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    throw error;
   }
+}
 
 select.addEventListener("change", async (e) => {
-
-    conSelectCity.style.display = "none"
-
+  if (e.target.value.includes("Choose")) {conSelectCity.style.display = "none";loader1.style.display = "none";}
+  else {
+    conSelectCity.style.display = "none";
+    loader1.style.display = "flex";
+  
     removeOptions(selectCity);
-
-    const cities_list = await fetchCitiesData(e.target.value)
-    
+  
+    const cities_list = await fetchCitiesData(e.target.value);
+  
     var option = document.createElement("option");
     option.text = "Choose your city";
     option.selected = true;
     selectCity.add(option);
-
+  
     for (const item of cities_list.cities) {
-        var option = document.createElement("option");
-        option.text = item;
-        selectCity.add(option);
+      var option = document.createElement("option");
+      option.text = item;
+      selectCity.add(option);
     }
-
-    conSelectCity.style.display = "block"
-})
+  
+    loader1.style.display = "none";
+    conSelectCity.style.display = "flex";
+  }
+});
 
 function removeOptions(selectElement) {
-    var i, L = selectElement.options.length - 1;
-    for(i = L; i >= 0; i--) {
-       selectElement.remove(i);
-    }
- }
+  var i,
+    L = selectElement.options.length - 1;
+  for (i = L; i >= 0; i--) {
+    selectElement.remove(i);
+  }
+  
+}
