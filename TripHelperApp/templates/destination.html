@@ -83,6 +83,44 @@
     <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
         <h1>{{ city }}, {{ country }} <img style="height: 50px;" src="https://flagcdn.com/{{iso}}.svg" alt=""></h1>
     </div>
+
+
+    <container>
+      <table class="table">
+         <tbody>
+           <tr>
+             <th scope="row">Language</th>
+             {% for key in info.0.languages %}
+             <td>{{ key }}</td>
+             {% endfor %}
+           </tr>
+           <tr>
+             <th scope="row">Capital</th>
+             <td>(capital)</td>
+           </tr>
+           <tr>
+             <th scope="row">Currency</th>
+             <td>(currency)</td>
+           </tr>
+           <tr>
+            <th scope="row">Driving Side</th>
+            <td>(Driving Side)</td>
+          </tr>
+          <tr>
+            <th scope="row">Plug</th>
+            {% for i in plug%}
+            <td>{{i}}</td>
+            {% endfor %}
+          </tr>
+          <tr>
+            <th scope="row">Travel Advisory</th>
+            <td>(Travel Advisory)</td>
+          </tr>
+         </tbody>
+       </table>
+    </container>
+
+    
     <div class="card-container">
         {% for i in content.features %}
         <div class="card" style="height: 30rem;">

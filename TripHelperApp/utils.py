@@ -1,7 +1,8 @@
 import json
+import random
+
 import requests
 from deep_translator import GoogleTranslator
-import random
 
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
@@ -135,4 +136,25 @@ def randomdestination():
 
     return selected_country["name"], selected_city
 
+def plugType(iso2):
+    api_url = "https://raw.githubusercontent.com/benjiao/world-plugs/master/world-plugs.csv"
+    data = requests.get(api_url)
+    types = []
 
+    for i in data.text.split("\n"):
+        if iso2 in i:
+            types.append(i.split(",")[4])
+    return types
+
+def countryInformations(iso2):
+    countryName = getCountryByIso(iso2)
+    api_url = f"https://restcountries.com/v3.1/name/{countryName}"
+    data = json.loads(requests.get(api_url).text)
+    languages = []
+
+    for i in data[0]["languages"]:
+        languages.append(data[0]["languages"][i])
+    
+    data[0]["languages"] = languages
+    
+    return data

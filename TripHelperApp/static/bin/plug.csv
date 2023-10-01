@@ -1,0 +1,505 @@
+,country_code,frequency,name,plug_type,voltage
+0,AF,50 Hz,Afghanistan,Type C,220 V
+1,AF,50 Hz,Afghanistan,Type F,220 V
+2,AL,50 Hz,Albania,Type C,230 V
+3,AL,50 Hz,Albania,Type F,230 V
+4,DZ,50 Hz,Algeria,Type C,230 V
+5,DZ,50 Hz,Algeria,Type F,230 V
+6,AS,60 Hz,American Samoa,Type A,120 V
+7,AS,60 Hz,American Samoa,Type B,120 V
+8,AS,60 Hz,American Samoa,Type F,120 V
+9,AS,60 Hz,American Samoa,Type I,120 V
+10,AD,50 Hz,Andorra,Type C,230 V
+11,AD,50 Hz,Andorra,Type F,230 V
+12,AO,50 Hz,Angola,Type C,220 V
+13,AI,60 Hz,Anguilla,Type A,110 V
+14,AG,60 Hz,Antigua and Barbuda,Type A,230 V
+15,AG,60 Hz,Antigua and Barbuda,Type B,230 V
+16,AR,50 Hz,Argentina,Type C,220 V
+17,AR,50 Hz,Argentina,Type I,220 V
+18,AM,50 Hz,Armenia,Type C,230 V
+19,AM,50 Hz,Armenia,Type F,230 V
+20,AW,60 Hz,Aruba,Type A,127 V
+21,AW,60 Hz,Aruba,Type B,127 V
+22,AW,60 Hz,Aruba,Type F,127 V
+23,AU,50 Hz,Australia,Type I,230 V
+24,AT,50 Hz,Austria,Type C,230 V
+25,AT,50 Hz,Austria,Type F,230 V
+26,AZ,50 Hz,Azerbaijan,Type C,220 V
+27,AZ,50 Hz,Azerbaijan,Type F,220 V
+28,BS,60 Hz,Bahamas,Type A,120 V
+29,BS,60 Hz,Bahamas,Type B,120 V
+30,BH,50 Hz,Bahrain,Type G,230 V
+31,BD,50 Hz,Bangladesh,Type C,220 V
+32,BD,50 Hz,Bangladesh,Type D,220 V
+33,BD,50 Hz,Bangladesh,Type G,220 V
+34,BD,50 Hz,Bangladesh,Type K,220 V
+35,BB,50 Hz,Barbados,Type A,115 V
+36,BB,50 Hz,Barbados,Type B,115 V
+37,BY,50 Hz,Belarus,Type C,220 V
+38,BY,50 Hz,Belarus,Type F,220 V
+39,BE,50 Hz,Belgium,Type C,230 V
+40,BE,50 Hz,Belgium,Type E,230 V
+41,BZ,60 Hz,Belize,Type A,"110 V, 220 V"
+42,BZ,60 Hz,Belize,Type B,"110 V, 220 V"
+43,BZ,60 Hz,Belize,Type G,"110 V, 220 V"
+44,BJ,50 Hz,Benin,Type C,220 V
+45,BJ,50 Hz,Benin,Type E,220 V
+46,BM,60 Hz,Bermuda,Type A,120 V
+47,BM,60 Hz,Bermuda,Type B,120 V
+48,BT,50 Hz,Bhutan,Type C,230 V
+49,BT,50 Hz,Bhutan,Type D,230 V
+50,BT,50 Hz,Bhutan,Type F,230 V
+51,BT,50 Hz,Bhutan,Type G,230 V
+52,BT,50 Hz,Bhutan,Type M,230 V
+53,BO,50 Hz,Bolivia,Type A,"115 V, 230 V"
+54,BO,50 Hz,Bolivia,Type C,"115 V, 230 V"
+55,BA,50 Hz,Bosnia and Herzegovina,Type C,230 V
+56,BA,50 Hz,Bosnia and Herzegovina,Type F,230 V
+57,BW,50 Hz,Botswana,Type D,230 V
+58,BW,50 Hz,Botswana,Type G,230 V
+59,BW,50 Hz,Botswana,Type M,230 V
+60,BR,60 Hz,Brazil,Type C,"127 V, 220 V"
+61,BR,60 Hz,Brazil,Type N,"127 V, 220 V"
+62,VG,60 Hz,British Virgin Islands,Type A,110 V
+63,VG,60 Hz,British Virgin Islands,Type B,110 V
+64,BN,50 Hz,Brunei Darussalam,Type G,240 V
+65,BG,50 Hz,Bulgaria,Type C,230 V
+66,BG,50 Hz,Bulgaria,Type F,230 V
+67,BF,50 Hz,Burkina Faso,Type C,220 V
+68,BF,50 Hz,Burkina Faso,Type E,220 V
+69,BI,50 Hz,Burundi,Type C,220 V
+70,BI,50 Hz,Burundi,Type E,220 V
+71,KH,50 Hz,Cambodia,Type A,230 V
+72,KH,50 Hz,Cambodia,Type C,230 V
+73,KH,50 Hz,Cambodia,Type G,230 V
+74,CM,50 Hz,Cameroon,Type C,220 V
+75,CM,50 Hz,Cameroon,Type E,220 V
+76,CA,60 Hz,Canada,Type A,120 V
+77,CA,60 Hz,Canada,Type B,120 V
+78,CV,50 Hz,Cape Verde,Type C,220 V
+79,CV,50 Hz,Cape Verde,Type F,220 V
+80,KY,60 Hz,Cayman Islands,Type A,120 V
+81,KY,60 Hz,Cayman Islands,Type B,120 V
+82,CF,50 Hz,Central African Republic,Type C,220 V
+83,CF,50 Hz,Central African Republic,Type E,220 V
+84,TD,50 Hz,Chad,Type C,220 V
+85,TD,50 Hz,Chad,Type D,220 V
+86,TD,50 Hz,Chad,Type E,220 V
+87,TD,50 Hz,Chad,Type F,220 V
+88,CL,50 Hz,Chile,Type C,220 V
+89,CL,50 Hz,Chile,Type L,220 V
+90,CN,50 Hz,China,Type A,220 V
+91,CN,50 Hz,China,Type C,220 V
+92,CN,50 Hz,China,Type I,220 V
+93,CO,60 Hz,Colombia,Type A,110 V
+94,CO,60 Hz,Colombia,Type B,110 V
+95,KM,50 Hz,Comoros,Type C,220 V
+96,KM,50 Hz,Comoros,Type E,220 V
+97,CG,50 Hz,Congo,Type C,230 V
+98,CG,50 Hz,Congo,Type E,230 V
+99,CD,50 Hz,Congo (Democratic Rep. of),Type C,220 V
+100,CD,50 Hz,Congo (Democratic Rep. of),Type D,220 V
+101,CD,50 Hz,Congo (Democratic Rep. of),Type E,220 V
+102,CK,50 Hz,Cook Islands,Type I,240 V
+103,CR,60 Hz,Costa Rica,Type A,120 V
+104,CR,60 Hz,Costa Rica,Type B,120 V
+105,CI,50 Hz,Cote d'Ivoire,Type C,230 V
+106,CI,50 Hz,Cote d'Ivoire,Type E,230 V
+107,HR,50 Hz,Croatia,Type C,230 V
+108,HR,50 Hz,Croatia,Type F,230 V
+109,CU,60 Hz,Cuba,Type A,110 V 
+110,CU,60 Hz,Cuba,Type B,110 V 
+111,CY,50 Hz,Cyprus,Type G,240 V
+112,CZ,50 Hz,Czech Republic,Type C,230 V
+113,CZ,50 Hz,Czech Republic,Type E,230 V
+114,DK,50 Hz,Denmark,Type C,230 V
+115,DK,50 Hz,Denmark,Type F,230 V
+116,DK,50 Hz,Denmark,Type E,230 V
+117,DK,50 Hz,Denmark,Type K,230 V
+118,DJ,50 Hz,Djibouti,Type C,220 V
+119,DJ,50 Hz,Djibouti,Type E,220 V
+120,DM,50 Hz,Dominica,Type D,230 V
+121,DM,50 Hz,Dominica,Type G,230 V
+122,DO,60 Hz,Dominican Republic,Type A,110 V
+123,DO,60 Hz,Dominican Republic,Type B,110 V
+124,EC,60 Hz,Ecuador,Type A,120 V
+125,EC,60 Hz,Ecuador,Type B,120 V
+126,EG,50 Hz,Egypt,Type C,220 V
+127,EG,50 Hz,Egypt,Type F,220 V
+128,SV,60 Hz,El Salvador,Type A,115 V
+129,SV,60 Hz,El Salvador,Type B,115 V
+130,GQ,50 Hz,Equatorial Guinea,Type C,220 V
+131,GQ,50 Hz,Equatorial Guinea,Type E,220 V
+132,ER,50 Hz,Eritrea,Type C,230 V
+133,ER,50 Hz,Eritrea,Type L,230 V
+134,EE,50 Hz,Estonia,Type C,230 V
+135,EE,50 Hz,Estonia,Type F,230 V
+136,ET,50 Hz,Ethiopia,Type C,220 V
+137,ET,50 Hz,Ethiopia,Type E,220 V
+138,ET,50 Hz,Ethiopia,Type F,220 V
+139,ET,50 Hz,Ethiopia,Type L,220 V
+140,FK,50 Hz,Falkland Islands (Malvinas),Type G,240 V
+141,FO,50 Hz,Faroe Islands,Type C,230 V
+142,FO,50 Hz,Faroe Islands,Type F,230 V
+143,FO,50 Hz,Faroe Islands,Type E,230 V
+144,FO,50 Hz,Faroe Islands,Type K,230 V
+145,FJ,50 Hz,Fiji,Type I,240 V
+146,FI,50 Hz,Finland,Type C,230 V
+147,FI,50 Hz,Finland,Type F,230 V
+148,FR,50 Hz,France,Type C,230 V
+149,FR,50 Hz,France,Type E,230 V
+150,GF,50 Hz,French Guiana,Type C,220 V
+151,GF,50 Hz,French Guiana,Type D,220 V
+152,GF,50 Hz,French Guiana,Type E,220 V
+153,GA,50 Hz,Gabon,Type C,220 V
+154,GM,50 Hz,Gambia,Type G,230 V
+155,GE,50 Hz,Georgia,Type C,220 V
+156,GE,50 Hz,Georgia,Type F,220 V
+157,DE,50 Hz,Germany,Type C,230 V
+158,DE,50 Hz,Germany,Type F,230 V
+159,GH,50 Hz,Ghana,Type D,230 V
+160,GH,50 Hz,Ghana,Type G,230 V
+161,GI,50 Hz,Gibraltar,Type C,240 V
+162,GI,50 Hz,Gibraltar,Type G,240 V
+163,GR,50 Hz,Greece,Type C,230 V
+164,GR,50 Hz,Greece,Type F,230 V
+165,GL,50 Hz,Greenland,Type C,230 V
+166,GL,50 Hz,Greenland,Type F,230 V
+167,GL,50 Hz,Greenland,Type E,230 V
+168,GL,50 Hz,Greenland,Type K,230 V
+169,GD,50 Hz,Grenada,Type G,230 V
+170,GP,50 Hz,Guadeloupe,Type C,230 V
+171,GP,50 Hz,Guadeloupe,Type D,230 V
+172,GP,50 Hz,Guadeloupe,Type E,230 V
+173,GU,60 Hz,Guam,Type A,110 V
+174,GU,60 Hz,Guam,Type B,110 V
+175,GT,60 Hz,Guatemala,Type A,120 V
+176,GT,60 Hz,Guatemala,Type B,120 V
+177,GN,50 Hz,Guinea,Type C,220 V
+178,GN,50 Hz,Guinea,Type F,220 V
+179,GN,50 Hz,Guinea,Type K,220 V
+180,GW,50 Hz,Guinea Bissau,Type C,220 V
+181,GY,60 Hz,Guyana,Type A,240 V
+182,GY,60 Hz,Guyana,Type B,240 V
+183,GY,60 Hz,Guyana,Type D,240 V
+184,GY,60 Hz,Guyana,Type G,240 V
+185,HT,60 Hz,Haiti,Type A,110 V
+186,HT,60 Hz,Haiti,Type B,110 V
+187,HN,60 Hz,Honduras,Type A,110 V
+188,HN,60 Hz,Honduras,Type B,110 V
+189,HK,50 Hz,Hong Kong,Type G,220 V
+190,HK,50 Hz,Hong Kong,Type D,220 V
+191,HU,50 Hz,Hungary,Type C,230 V
+192,HU,50 Hz,Hungary,Type F,230 V
+193,IS,50 Hz,Iceland,Type C,230 V
+194,IS,50 Hz,Iceland,Type F,230 V
+195,IN,50 Hz,India,Type C,230 V
+196,IN,50 Hz,India,Type D,230 V
+197,IN,50 Hz,India,Type M,230 V
+198,ID,50 Hz,Indonesia,Type C,220 V 110 V
+199,ID,50 Hz,Indonesia,Type F,220 V 110 V
+200,IR,50 Hz,Iran,Type C,220 V
+201,IR,50 Hz,Iran,Type F,220 V
+202,IQ,50 Hz,Iraq,Type C,230 V
+203,IQ,50 Hz,Iraq,Type D,230 V
+204,IQ,50 Hz,Iraq,Type G,230 V
+205,IE,50 Hz,Ireland,Type G,230 V
+206,IM,50 Hz,Isle of Man,Type C,240 V
+207,IM,50 Hz,Isle of Man,Type G,240 V
+208,IL,50 Hz,Israel,Type C,230 V
+209,IL,50 Hz,Israel,Type H,230 V
+210,IL,50 Hz,Israel,Type M,230 V
+211,IT,50 Hz,Italy,Type C,230 V 
+212,IT,50 Hz,Italy,Type F,230 V 
+213,IT,50 Hz,Italy,Type L,230 V 
+214,JM,50 Hz,Jamaica,Type A,110 V
+215,JM,50 Hz,Jamaica,Type B,110 V
+216,JP,50 Hz,Japan,Type A,100 V
+217,JP,50 Hz,Japan,Type B,100 V
+218,JO,50 Hz,Jordan,Type B,230 V
+219,JO,50 Hz,Jordan,Type C,230 V
+220,JO,50 Hz,Jordan,Type D,230 V
+221,JO,50 Hz,Jordan,Type F,230 V
+222,JO,50 Hz,Jordan,Type G,230 V
+223,JO,50 Hz,Jordan,Type J,230 V
+224,KZ,50 Hz,Kazakhstan,Type C,220 V
+225,KZ,50 Hz,Kazakhstan,Type F,220 V
+226,KE,50 Hz,Kenya,Type G,240 V
+227,KI,50 Hz,Kiribati,Type I,240 V
+228,KP,50 Hz,"Korea, Democratic People's Republic of",Type A,"220 V, 110 V"
+229,KP,50 Hz,"Korea, Democratic People's Republic of",Type C,"220 V, 110 V"
+230,KP,50 Hz,"Korea, Democratic People's Republic of",Type F,"220 V, 110 V"
+231,KR,60 Hz,"Korea, Republic of",Type C,220 V
+232,KR, 60 Hz,"Korea, Republic of",Type F,220 V
+233,KW,50 Hz,Kuwait,Type C,240 V
+234,KW,50 Hz,Kuwait,Type G,240 V
+235,KG,50 Hz,Kyrgyzstan,Type C,220 V
+236,KG,50 Hz,Kyrgyzstan,Type F,220 V
+237,LA,50 Hz,Lao People's Democratic Republic,Type A,230 V
+238,LA,50 Hz,Lao People's Democratic Republic,Type B,230 V
+239,LA,50 Hz,Lao People's Democratic Republic,Type C,230 V
+240,LA,50 Hz,Lao People's Democratic Republic,Type E,230 V
+241,LA,50 Hz,Lao People's Democratic Republic,Type F,230 V
+242,LV,50 Hz,Latvia,Type C,230 V
+243,LV,50 Hz,Latvia,Type F,230 V
+244,LB,50 Hz,Lebanon,Type A,220 V
+245,LB,50 Hz,Lebanon,Type B,220 V
+246,LB,50 Hz,Lebanon,Type C,220 V
+247,LB,50 Hz,Lebanon,Type D,220 V
+248,LB,50 Hz,Lebanon,Type G,220 V
+249,LS,50 Hz,Lesotho,Type M,220 V
+250,LR,50 Hz,Liberia,Type A,"120 V, 220 V"
+251,LR,50 Hz,Liberia,Type B,"120 V, 220 V"
+252,LR,50 Hz,Liberia,Type C,"120 V, 220 V"
+253,LR,50 Hz,Liberia,Type E,"120 V, 220 V"
+254,LR,50 Hz,Liberia,Type F,"120 V, 220 V"
+255,LY,50 Hz,Libya,Type C,"127 V, 230 V"
+256,LY,50 Hz,Libya,Type D,"127 V, 230 V"
+257,LY,50 Hz,Libya,Type F,"127 V, 230 V"
+258,LY,50 Hz,Libya,Type L,"127 V, 230 V"
+259,LI,50 Hz,Liechtenstein,Type C,230 V
+260,LI,50 Hz,Liechtenstein,Type J,230 V
+261,LT,50 Hz,Lithuania,Type C,220 V
+262,LT,50 Hz,Lithuania,Type F,220 V
+263,LU,50 Hz,Luxembourg,Type C,230 V 
+264,LU,50 Hz,Luxembourg,Type F,230 V 
+265,MO,50 Hz,Macau,Type D,220 V
+266,MO,50 Hz,Macau,Type M,220 V
+267,MO,50 Hz,Macau,Type G,220 V
+268,MO,50 Hz,Macau,Type F,220 V
+269,MK,50 Hz,Macedonia,Type C,230 V
+270,MK,50 Hz,Macedonia,Type F,230 V
+271,MG,50 Hz,Madagascar,Type C,"127 V, 220 V"
+272,MG,50 Hz,Madagascar,Type D,"127 V, 220 V"
+273,MG,50 Hz,Madagascar,Type E,"127 V, 220 V"
+274,MG,50 Hz,Madagascar,Type J,"127 V, 220 V"
+275,MG,50 Hz,Madagascar,Type K,"127 V, 220 V"
+276,MW,50 Hz,Malawi,Type G,230 V
+277,MY,50 Hz,Malaysia,Type A,240 V 
+278,MY,50 Hz,Malaysia,Type C,240 V 
+279,MY,50 Hz,Malaysia,Type G,240 V 
+280,MY,50 Hz,Malaysia,Type M,240 V 
+281,MV,50 Hz,Maldives,Type A,230 V
+282,MV,50 Hz,Maldives,Type C,230 V
+283,MV,50 Hz,Maldives,Type D,230 V
+284,MV,50 Hz,Maldives,Type G,230 V
+285,MV,50 Hz,Maldives,Type J,230 V
+286,MV,50 Hz,Maldives,Type K,230 V
+287,MV,50 Hz,Maldives,Type L,230 V
+288,ML,50 Hz,Mali,Type C,220 V
+289,ML,50 Hz,Mali,Type E,220 V
+290,MT,50 Hz,Malta,Type G,230 V
+291,MQ,50 Hz,Martinique,Type C,220 V
+292,MQ,50 Hz,Martinique,Type D,220 V
+293,MQ,50 Hz,Martinique,Type E,220 V
+294,MR,50 Hz,Mauritania,Type C,220 V
+295,MU,50 Hz,Mauritius,Type C,230 V
+296,MU,50 Hz,Mauritius,Type G,230 V
+297,MX,60 Hz,Mexico,Type A,127 V
+298,MX,60 Hz,Mexico,Type B,127 V
+299,FM,60 Hz,"Micronesia, Federated States of",Type A,120 V
+300,FM,60 Hz,"Micronesia, Federated States of",Type B,120 V
+301,MC,50 Hz,Monaco,Type C,230 V
+302,MC,50 Hz,Monaco,Type D,230 V
+303,MC,50 Hz,Monaco,Type E,230 V
+304,MC,50 Hz,Monaco,Type F,230 V
+305,MN,50 Hz,Mongolia,Type C,220 V
+306,MN,50 Hz,Mongolia,Type E,220 V
+307,ME,50 Hz,Montenegro,Type C,230 V
+308,ME,50 Hz,Montenegro,Type F,230 V
+309,MS,60 Hz,Montserrat,Type A,230 V
+310,MS,60 Hz,Montserrat,Type B,230 V
+311,MA,50 Hz,Morocco,Type C,"127 V, 220 V"
+312,MA,50 Hz,Morocco,Type E,"127 V, 220 V"
+313,MZ,50 Hz,Mozambique,Type C,220 V
+314,MZ,50 Hz,Mozambique,Type F,220 V
+315,MZ,50 Hz,Mozambique,Type M,220 V
+316,MM,50 Hz,Myanmar,Type C,230 V
+317,MM,50 Hz,Myanmar,Type D,230 V
+318,MM,50 Hz,Myanmar,Type F,230 V
+319,MM,50 Hz,Myanmar,Type G,230 V
+320,NA,50 Hz,Namibia,Type D,220 V
+321,NA,50 Hz,Namibia,Type M,220 V
+322,NR,50 Hz,Nauru,Type I,240 V
+323,NP,50 Hz,Nepal,Type C,230 V
+324,NP,50 Hz,Nepal,Type D,230 V
+325,NP,50 Hz,Nepal,Type M,230 V
+326,NL,50 Hz,Netherlands,Type C,230 V 
+327,NL,50 Hz,Netherlands,Type F,230 V 
+328,CW,50 Hz,Netherlands Antilles,Type A,"127 V, 220 V"
+329,CW,50 Hz,Netherlands Antilles,Type B,"127 V, 220 V"
+330,CW,50 Hz,Netherlands Antilles,Type C,"127 V, 220 V"
+331,CW,50 Hz,Netherlands Antilles,Type F,"127 V, 220 V"
+332,NC,50 Hz,New Caledonia,Type C,220 V
+333,NC,50 Hz,New Caledonia,Type F,220 V
+334,NZ,50 Hz,New Zealand,Type I,230 V
+335,NI,60 Hz,Nicaragua,Type A,120 V
+336,NI,60 Hz,Nicaragua,Type B,120 V
+337,NE,50 Hz,Niger,Type A,220 V
+338,NE,50 Hz,Niger,Type B,220 V
+339,NE,50 Hz,Niger,Type C,220 V
+340,NE,50 Hz,Niger,Type D,220 V
+341,NE,50 Hz,Niger,Type E,220 V
+342,NE,50 Hz,Niger,Type F,220 V
+343,NG,50 Hz,Nigeria,Type D,230 V
+344,NG,50 Hz,Nigeria,Type G,230 V
+345,NO,50 Hz,Norway,Type C,230 V
+346,NO,50 Hz,Norway,Type F,230 V
+347,OM,50 Hz,Oman,Type C,240 V
+348,OM,50 Hz,Oman,Type G,240 V
+349,PK,50 Hz,Pakistan,Type C,230 V
+350,PK,50 Hz,Pakistan,Type D,230 V
+351,PK,50 Hz,Pakistan,Type G,230 V
+352,PK,50 Hz,Pakistan,Type M,230 V
+353,PW,60 Hz,Palau,Type A,120 V
+354,PW,60 Hz,Palau,Type B,120 V
+355,PA,60 Hz,Panama,Type A,110 V
+356,PA,60 Hz,Panama,Type B,110 V
+357,PG,50 Hz,Papua New Guinea,Type I,240 V
+358,PY,50 Hz,Paraguay,Type C,220 V
+359,PE,60 Hz,Peru,Type A,220 V
+360,PE,60 Hz,Peru,Type B,220 V
+361,PE,60 Hz,Peru,Type C,220 V
+362,PH,60 Hz,"Philippines, Rep. of the",Type A,220 V
+363,PH,60 Hz,"Philippines, Rep. of the",Type B,220 V
+364,PH,60 Hz,"Philippines, Rep. of the",Type C,220 V
+365,PL,50 Hz,Poland,Type C,230 V 
+366,PL,50 Hz,Poland,Type E,230 V 
+367,PT,50 Hz,Portugal,Type C,230 V
+368,PT,50 Hz,Portugal,Type F,230 V
+369,PR,60 Hz,Puerto Rico,Type A,120 V
+370,PR,60 Hz,Puerto Rico,Type B,120 V
+371,QA,50 Hz,Qatar,Type D,240 V
+372,QA,50 Hz,Qatar,Type G,240 V
+373,MD,50 Hz,Moldova,Type C,220 V
+374,MD,50 Hz,Moldova,Type F,220 V
+375,RE,50 Hz,Reunion,Type E,220 V
+376,RO,50 Hz,Romania,Type C,230 V 
+377,RO,50 Hz,Romania,Type F,230 V 
+378,RU,50 Hz,Russia,Type C,220 V
+379,RU,50 Hz,Russia,Type F,220 V
+380,RW,50 Hz,Rwanda,Type C,230 V
+381,RW,50 Hz,Rwanda,Type J,230 V
+382,KN,60 Hz,Saint Kitts and Nevis,Type A,230 V
+383,KN,60 Hz,Saint Kitts and Nevis,Type B,230 V
+384,KN,60 Hz,Saint Kitts and Nevis,Type D,230 V
+385,KN,60 Hz,Saint Kitts and Nevis,Type G,230 V
+386,LC,50 Hz,Saint Lucia,Type G,240 V
+387,MF,60 Hz,Saint Martin,Type C,"120 V, 220 V"
+388,MF,60 Hz,Saint Martin,Type F,"120 V, 220 V"
+389,VC,50 Hz,Saint Vincent and the Grenadines,Type A,230 V
+390,VC,50 Hz,Saint Vincent and the Grenadines,Type C,230 V
+391,VC,50 Hz,Saint Vincent and the Grenadines,Type E,230 V
+392,VC,50 Hz,Saint Vincent and the Grenadines,Type G,230 V
+393,VC,50 Hz,Saint Vincent and the Grenadines,Type I,230 V
+394,VC,50 Hz,Saint Vincent and the Grenadines,Type K,230 V
+395,WS,50 Hz,Samoa,Type I,230 V
+396,SM,50 Hz,San Marino,Type C,230 V
+397,SM,50 Hz,San Marino,Type F,230 V
+398,SM,50 Hz,San Marino,Type L,230 V
+399,ST,50 Hz,Sao Tome and Principe,Type C,220 V
+400,ST,50 Hz,Sao Tome and Principe,Type F,220 V
+401,SA,60 Hz,Saudi Arabia,Type G," 220 V, 230 V"
+402,SN,50 Hz,Senegal,Type C,230 V
+403,SN,50 Hz,Senegal,Type D,230 V
+404,SN,50 Hz,Senegal,Type E,230 V
+405,SN,50 Hz,Senegal,Type K,230 V
+406,RS,50 Hz,Serbia,Type C,230 V 
+407,RS,50 Hz,Serbia,Type F,230 V 
+408,SC,50 Hz,Seychelles,Type G,240 V
+409,SL,50 Hz,Sierra Leone,Type D,230 V
+410,SL,50 Hz,Sierra Leone,Type G,230 V
+411,SG,50 Hz,Singapore,Type C,230 V
+412,SG,50 Hz,Singapore,Type G,230 V
+413,SG,50 Hz,Singapore,Type M,230 V
+414,SK,50 Hz,Slovakia,Type C,230 V
+415,SK,50 Hz,Slovakia,Type E,230 V
+416,SI,50 Hz,Slovenia,Type C,230 V
+417,SI,50 Hz,Slovenia,Type F,230 V
+418,SB,50 Hz,Solomon Islands,Type I,220 V
+419,SB,50 Hz,Solomon Islands,Type G,220 V
+420,SO,50 Hz,Somalia,Type C,220 V
+421,ZA,50 Hz,South Africa,Type C,230 V
+422,ZA,50 Hz,South Africa,Type D,230 V
+423,ZA,50 Hz,South Africa,Type M,230 V
+424,ZA,50 Hz,South Africa,Type N,230 V
+425,ES,50 Hz,Spain,Type C,230 V 
+426,ES,50 Hz,Spain,Type F,230 V 
+427,LK,50 Hz,Sri Lanka,Type D,230 V
+428,LK,50 Hz,Sri Lanka,Type M,230 V
+429,LK,50 Hz,Sri Lanka,Type G,230 V
+430,SD,50 Hz,Sudan,Type C,230 V
+431,SD,50 Hz,Sudan,Type D,230 V
+432,SR,60 Hz,Suriname,Type C,127 V
+433,SR,60 Hz,Suriname,Type F,127 V
+434,SZ,50 Hz,Swaziland,Type M,230 V
+435,SE,50 Hz,Sweden,Type C,230 V 
+436,SE,50 Hz,Sweden,Type F,230 V 
+437,CH,50 Hz,Switzerland,Type C,230 V
+438,CH,50 Hz,Switzerland,Type J,230 V
+439,SY,50 Hz,Syrian Arab Republic,Type C,220 V
+440,SY,50 Hz,Syrian Arab Republic,Type E,220 V
+441,SY,50 Hz,Syrian Arab Republic,Type L,220 V
+442,TW,60 Hz,Taiwan,Type A,110 V
+443,TW,60 Hz,Taiwan,Type B,110 V
+444,TZ,50 Hz,Tanzania,Type D,230 V
+445,TZ,50 Hz,Tanzania,Type G,230 V
+446,TJ,50 Hz,Tajikistan,Type C,220 V
+447,TJ,50 Hz,Tajikistan,Type F,220 V
+448,TJ,50 Hz,Tajikistan,Type I,220 V
+449,TH,50 Hz,Thailand,Type A,220 V
+450,TH,50 Hz,Thailand,Type B,220 V
+451,TH,50 Hz,Thailand,Type C,220 V
+452,TH,50 Hz,Thailand,Type F,220 V
+453,TL,50 Hz,Timor-Leste,Type C,220 V
+454,TL,50 Hz,Timor-Leste,Type E,220 V
+455,TL,50 Hz,Timor-Leste,Type F,220 V
+456,TL,50 Hz,Timor-Leste,Type I,220 V
+457,TG,50 Hz,Togo,Type C,220 V
+458,TO,50 Hz,Tonga,Type I,240 V
+459,TT,60 Hz,Trinidad and Tobago,Type A,115 V
+460,TT,60 Hz,Trinidad and Tobago,Type B,115 V
+461,TN,50 Hz,Tunisia,Type C,230 V
+462,TN,50 Hz,Tunisia,Type E,230 V
+463,TR,50 Hz,Turkey,Type C,220 V
+464,TR,50 Hz,Turkey,Type F,220 V
+465,TM,50 Hz,Turkmenistan,Type B,220 V
+466,TM,50 Hz,Turkmenistan,Type C,220 V
+467,TM,50 Hz,Turkmenistan,Type F,220 V
+468,TC,60 Hz,Turks and Caicos Islands,Type A,120 V
+469,TC,60 Hz,Turks and Caicos Islands,Type B,120 V
+470,TV,50 Hz,Tuvalu,Type I,220 V
+471,UG,50 Hz,Uganda,Type G,240 V
+472,UA,50 Hz,Ukraine,Type C,220 V
+473,UA,50 Hz,Ukraine,Type F,220 V
+474,AE,50 Hz,United Arab Emirates,Type C,220 V
+475,AE,50 Hz,United Arab Emirates,Type D,220 V
+476,AE,50 Hz,United Arab Emirates,Type G,220 V
+477,GB,50 Hz,United Kingdom,Type G,230 V 
+478,US,60 Hz,United States of America,Type A,120 V
+479,US,60 Hz,United States of America,Type B,120 V
+480,VI,60 Hz,United States  Virgin Islands,Type A,110 V
+481,VI,60 Hz,United States  Virgin Islands,Type B,110 V
+482,UY,50 Hz,Uruguay,Type C,230 V 
+483,UY,50 Hz,Uruguay,Type F,230 V 
+484,UY,50 Hz,Uruguay,Type I,230 V 
+485,UY,50 Hz,Uruguay,Type L,230 V 
+486,UZ,50 Hz,Uzbekistan,Type C,220 V
+487,UZ,50 Hz,Uzbekistan,Type I,220 V
+488,VU,50 Hz,Vanuatu,Type C,220 V
+489,VU,50 Hz,Vanuatu,Type G,220 V
+490,VU,50 Hz,Vanuatu,Type I,220 V
+491,VE,60 Hz,Venezuela,Type A,120 V
+492,VE,60 Hz,Venezuela,Type B,120 V
+493,VN,50 Hz,Vietnam,Type A,220 V
+494,VN,50 Hz,Vietnam,Type C,220 V
+495,VN,50 Hz,Vietnam,Type F,220 V
+496,YE,50 Hz,Yemen,Type A,230 V
+497,YE,50 Hz,Yemen,Type D,230 V
+498,YE,50 Hz,Yemen,Type G,230 V
+499,ZM,50 Hz,Zambia,Type C,230 V
+500,ZM,50 Hz,Zambia,Type D,230 V
+501,ZM,50 Hz,Zambia,Type G,230 V
+502,ZW,50 Hz,Zimbabwe,Type D,220 V
+503,ZW,50 Hz,Zimbabwe,Type G,220 V
