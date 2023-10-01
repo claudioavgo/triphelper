@@ -1,5 +1,6 @@
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
+from django.shortcuts import redirect
 
 from .utils import *
 
@@ -35,3 +36,13 @@ def destination(request, country_iso, city):
     context = {"content": touristAttractions(city, country_iso), "country": getCountryByIso(country_iso), "city": city, "iso": str(country_iso).lower()}
 
     return render(request, 'destination.html', context)
+
+def random_Destination(request):
+    selected_country, selected_city = randomdestination()
+
+    if selected_country and selected_city:
+
+         return redirect('destination', country=selected_country, city=selected_city)
+    else:
+    
+        return render(request, 'error.html', {'message': 'Não foi possível obter um destino aleatório.'})
