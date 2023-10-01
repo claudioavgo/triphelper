@@ -66,10 +66,10 @@ def touristAttractions(city, country):
 
         for i in attractions["features"]:
             i["properties"]["googleName"] = i["properties"]["name"]
-            i["properties"]["name"] = GoogleTranslator(source='auto', target='pt').translate(i["properties"]["name"])
+            i["properties"]["name"] = GoogleTranslator(source='auto', target='en').translate(i["properties"]["name"])
             i["wikidata"] = getMorePlaceInfo(i["properties"]["wikidata"])
             try:
-                texto = GoogleTranslator(source='auto', target='pt').translate(i["wikidata"]["wikipedia_extracts"]["text"])
+                texto = GoogleTranslator(source='auto', target='en').translate(i["wikidata"]["wikipedia_extracts"]["text"])
 
                 if len(texto) > 232:
                     i["wikidata"]["wikipedia_extracts"]["text"] = texto[:232]+"..."
@@ -137,7 +137,7 @@ def randomdestination():
     return selected_country["name"], selected_city
 
 def plugType(iso2):
-    api_url = "https://raw.githubusercontent.com/benjiao/world-plugs/master/world-plugs.csv"
+    api_url = "https://raw.githubusercontent.com/claudioavgo/triphelper/main/TripHelperApp/static/bin/plug.csv"
     data = requests.get(api_url)
     types = []
 
