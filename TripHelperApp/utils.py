@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 
 load_dotenv()
 
-apiKey = os.environ.get('ATTRACTIONS_API_KEY')
+apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
 def countries():
     try:
