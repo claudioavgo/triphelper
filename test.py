@@ -1,3 +1,4 @@
 from TripHelperApp.utils import *
+from TripHelperApp.models import *
 
-print(cities('BR'))
+print(User.check_account("admin", "admin"))

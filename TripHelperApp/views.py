@@ -1,6 +1,10 @@
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
 
+# from django.contrib.auth.models import User
+
+from .models import *
+
 from .utils import *
 
 # Create your views here.
@@ -14,11 +18,14 @@ def index(request):
     while cities_list == []:
         random_country = random.choice(countries_list)
         cities_list = cities(random_country['iso'])
+    
+    logged = False
 
     context = {
         'countries_list': countries_list,
         'random_country': random_country,
-        'random_city': random.choice(cities_list)
+        'random_city': random.choice(cities_list),
+        'account': logged
     }
 
     return render(request, 'index.html', context)
@@ -51,5 +58,19 @@ def destination(request, country_iso, city):
     }
 
     return render(request, 'destination.html', context)
+
+def register(request):
+    if request.method == "POST":
+        try:
+            user = User.objects.get(email=request.POST["email"], password=request.POST["password"])
+            return redirect("/top")
+        except:
+            return redirect("/register?error=1")
+    else:
+        context = {"error": request.GET.get("error", 0)}
+        return render(request, 'register.html', context)
+
+
+
    
     

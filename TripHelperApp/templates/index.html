@@ -23,6 +23,7 @@
     <title>TripHelper</title>
   </head>
   <body data-bs-theme="dark">
+    {% if error %}
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
       <div class="container-fluid">
         <img
@@ -41,7 +42,7 @@
           aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" style="display: flex;justify-content: center;align-items: center;" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -58,31 +59,48 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
+              class="nav-link dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
               More information
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/about">About us</a></li>
                 <li>
-                  <hr class="dropdown-divider" />
+                  <hr class="dropdown-divider"/>
                 </li>
                 <li>
                   <a
-                    class="dropdown-item"
-                    target="_blank"
-                    href="https://github.com/claudioavgo/triphelper"
-                    >GitHub</a
-                    >
-                </li>
-              </ul>
-            </li>
-          </ul>
+                  class="dropdown-item"
+                  target="_blank"
+                  href="https://github.com/claudioavgo/triphelper">GitHub</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div style="display: flex; justify-content: center; align-items: center;">
+              {% if logged %}
+              <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: 10</span>
+              <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                  <img src="https://source.boringavatars.com/beam/35/Coded" style="margin-right: .3rem;" alt="" srcset="">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><button class="dropdown-item" type="button">Exit</button></li>
+                </ul>
+              </div>
+              {% else %}
+              <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+                <a href="register">
+                  <button type="button" class="btn btn-secondary">Sign in</button>
+                </a>
+              </div>
+              {% endif %}
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     <container class="d-flex justify-content-center" style="margin-top: 10rem">
       <div>
         <h1 class="gradient">“Life's a journey, not a destination.”</h1>

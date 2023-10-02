@@ -23,3 +23,7 @@ select option {
     font-size: 17px; /* Tamanho da fonte das opções */
     line-height: 1.2; /* Altura da linha das opções */
 }
+
+.hover-account:hover {
+    background-color: #f1f1f12b;
+}
