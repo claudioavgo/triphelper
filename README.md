@@ -9,11 +9,11 @@
 
 <p>A aplicação é:</p> 
 
-- ideal para aprimorar o planejamento de viagens com facilidade ✨;
-- perfeita para experimentar destinos e itinerários personalizados 🆕;
-- excelente para enriquecer seu portfólio e impressionar com suas aventuras 📁;
-- uma ótima fonte de exemplos para guias e tutoriais sobre viagens 📃;
-- simples de usar e ainda permite a adição de novos recursos com praticidade 👌.
+- Ideal para aprimorar o planejamento de viagens com facilidade ✨;
+- Perfeita para experimentar destinos e itinerários personalizados 🆕;
+- Excelente para enriquecer seu portfólio e impressionar com suas aventuras 📁;
+- Uma ótima fonte de exemplos para guias e tutoriais sobre viagens 📃;
+- Simples de usar e ainda permite a adição de novos recursos com praticidade 👌.
 
 ![](https://i.imgur.com/waxVImv.png)
 
@@ -28,8 +28,10 @@ Sua viagem começa aqui!!
 # Protótipo de baixa fidelidade
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
 
-## Issue/bug tracker
+## Issue/Bug Tracker
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
+![image](https://github.com/claudioavgo/triphelper/assets/132784629/c6d761d8-f20b-4f45-a4cc-a41b335e9f11)
+
 
 
 
