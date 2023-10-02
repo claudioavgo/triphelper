@@ -28,6 +28,10 @@ Sua viagem começa aqui!!
 # Protótipo de baixa fidelidade
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
 
+## Issue/bug tracker
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/6ef3e561-e9bb-4da0-9ae7-6e64788d49f5)
+
+
 ## Desenvolvimento
 <p>Clone o repositório, instale as dependências e inicie a aplicação</p>
 
