@@ -1,3 +1,5 @@
-Django
-requests
 deep-translator
+python-dotenv
+whitenoise
+requests
+Django

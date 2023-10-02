@@ -1,11 +1,13 @@
 import os
 import json
 import random
-import dotenv
 import requests
+from dotenv import load_dotenv
 from deep_translator import GoogleTranslator
 
-apiKey = os.getenv("ATTRACTIONS_API_KEY")
+load_dotenv()
+
+apiKey = os.environ.get('ATTRACTIONS_API_KEY')
 
 def countries():
     try:
