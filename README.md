@@ -63,7 +63,7 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 
 <p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
 <p><a href="https://github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
+<p><a href="https://github.com/leooghub">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
 <p><a href="https://github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
 <p><a href="https://github.com/ianbnunes">Ian Nunes</a> - ibn@cesar.school 📩</p>
-<p><a href="https://github.com/leooghub">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
 <p><a href="https://github.com/artursouto">Artur Souto</a> - asmpm@cesar.school 📩</p>
