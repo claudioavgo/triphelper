@@ -63,7 +63,15 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 
 <h2> Relato de Pair Programming: </h2>
 Utilizamos o Pair Programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
- 
+<h3>Duplas feitas no segundo sprint: </h3>
+<p><b>Cláudio Alves e Guilherme Cardozo:</b> Cláudio e Guilherme optaram pelo uso do pair programming devido à várias vantagens, entre elas o aprendizado commpartilhado, onde os dois programadores podem se ajudar no desenvolvimento e passar conhecimento entre eles.</p>
+<p><b>Gabriel Lima e Leonardo Cardoso:</b> Gabriel e Leonardo usaram essa técnica a fim obter maior foco no desenvolvimento do Trip Helper, evitando distrações e aumentando a produtividade da dupla, resultando em um tempo de desenvolvimento menor.</p>
+<p><b>Artur Souto e Ian Nunes:</b> Arthur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
+Além disso, para que todos estivessem à par do progresso da aplicação, fizemos reuniões durante assincronas durante todo o processo do segundo sprint. Com a necessidade da terceira entrega, optaremos pela troca das duplas, com o intuito de que todos da equipe interajam entre si.
+
+
+
+
 
 <h2>Contribuidores 👨‍👩‍👧‍👦</h2>
 <a href="https://github.com/claudioavgo/triphelper/graphs/contributors">
