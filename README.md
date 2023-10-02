@@ -30,6 +30,8 @@ Sua viagem começa aqui!!
 
 ## Issue/bug tracker
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/6ef3e561-e9bb-4da0-9ae7-6e64788d49f5)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/0f5ace0c-c56f-474f-830c-67ebdeddc7b6)
+
 
 
 ## Desenvolvimento
