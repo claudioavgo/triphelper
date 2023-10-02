@@ -29,7 +29,7 @@ Sua viagem começa aqui!!
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
 
 ## Issue/bug tracker
-![image](https://github.com/claudioavgo/triphelper/assets/132563707/6ef3e561-e9bb-4da0-9ae7-6e64788d49f5)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/e549e98b-8ea8-4c41-ae0c-129ac7397bcd)
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/0f5ace0c-c56f-474f-830c-67ebdeddc7b6)
 
 
