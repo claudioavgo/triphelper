@@ -62,7 +62,7 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 ```
 
 <h2> Relato de Pair Programming: <h2>
-Utilizamos o Pair Programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
+###Utilizamos o Pair Programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
  
 
 <h2>Contribuidores 👨‍👩‍👧‍👦</h2>
