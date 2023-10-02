@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'TripHelperCompany'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0ADDB412F8674E1385C4CE004B401671 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3DBE6D8A418B4D3D9A9E60B69496698C }}
