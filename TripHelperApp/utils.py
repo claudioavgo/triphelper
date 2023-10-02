@@ -1,42 +1,45 @@
+import os
 import json
 import random
-
+import dotenv
 import requests
 from deep_translator import GoogleTranslator
 
-apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
+apiKey = os.getenv("ATTRACTIONS_API_KEY")
 
 def countries():
-    url = "https://countriesnow.space/api/v0.1/countries"
-    req = requests.get(url)
-
-    if req.status_code == 200:
-        lista_paises = [] 
+    try:
+        with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
+            data = json.loads(json_file.read())
+        
+        lista_paises = []
           
-        dicionario_paises = json.loads(req.text)
+        dicionario_paises = data
 
         for i in range(228):
             lista_paises.append({"name": dicionario_paises["data"][i]["country"], "iso": dicionario_paises["data"][i]["iso2"]})
     
         return lista_paises
-    
-    else:
+    except:
         return []
     
 def cities(country_iso):
-    url = "https://countriesnow.space/api/v0.1/countries"
-    req = requests.get(url)
-
-    if req.status_code == 200:
+    try:
+        with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
+            data = json.loads(json_file.read())
+        
         cities_list = []
-            
-        dicionario_paises = json.loads(req.text)
+          
+        dicionario_paises = data
 
         for i in range(228):
             if dicionario_paises["data"][i]["iso2"] == country_iso:
                 cities_list = dicionario_paises["data"][i]["cities"]
-        
+    
         return cities_list
+    except Exception as e:
+        print(e)
+        return []
     
 def findCoordinates(city, country):
     url = f"https://api.opentripmap.com/0.1/en/places/geoname?name={city}&country={country}&apikey={apiKey}"

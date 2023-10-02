@@ -8,8 +8,14 @@ from .utils import *
 # Home Page
 def index(request):
     countries_list = countries()
+    random_country = random.choice(countries_list)
+    cities_list = cities(random_country['iso'])
 
-    context = {'countries_list': countries_list}
+    context = {
+        'countries_list': countries_list,
+        'random_country': random_country,
+        'random_city': random.choice(cities_list)
+    }
 
     return render(request, 'index.html', context)
 
@@ -31,7 +37,6 @@ def top(request):
 
 # Destination Page
 def destination(request, country_iso, city):
-    
     context = {
         "content": touristAttractions(city, country_iso), 
         "country": getCountryByIso(country_iso), 
@@ -42,17 +47,5 @@ def destination(request, country_iso, city):
     }
 
     return render(request, 'destination.html', context)
-
-def random_Destination(request, country, city):
-    selected_country, selected_city = randomdestination()
-    print(f"selected_country: {selected_country}, selected_city: {selected_city}")
-
-    if selected_country and selected_city:
-        return render(request, 'destination.html', {
-            'selected_country': selected_country,
-            'selected_city': selected_city,
-        })
-    else:
-        return render(request, 'error.html', {'message': 'Não foi possível obter um destino aleatório.'})
    
     

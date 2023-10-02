@@ -1,3 +1,3 @@
-from TripHelperApp.views import *
+from TripHelperApp.utils import *
 
-random_Destination()
+print(cities('BR'))

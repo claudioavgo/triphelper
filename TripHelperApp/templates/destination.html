@@ -55,32 +55,31 @@
                        >
                  </li>
                  <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="/top"
+                  <a class="nav-link" aria-current="page" href="/"
                      >Random Destination</a>
                 </li>
                  <li class="nav-item dropdown">
                     <a
                        class="nav-link dropdown-toggle"
-                       href="#"
                        role="button"
                        data-bs-toggle="dropdown"
                        aria-expanded="false">
                     More information
                     </a>
                     <ul class="dropdown-menu">
-                       <li><a class="dropdown-item" href="/about">About us</a></li>
-                       <li>
-                          <hr class="dropdown-divider" />
-                       </li>
-                       <li>
-                          <a
-                             class="dropdown-item"
-                             target="_blank"
-                             href="https://github.com/claudioavgo/triphelper"
-                             >GitHub</a
-                             >
-                       </li>
-                    </ul>
+                        <li><a class="dropdown-item" href="/about">About us</a></li>
+                        <li>
+                           <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                           <a
+                              class="dropdown-item"
+                              target="_blank"
+                              href="https://github.com/claudioavgo/triphelper"
+                              >GitHub</a
+                              >
+                        </li>
+                     </ul>
                  </li>
               </ul>
            </div>
@@ -89,8 +88,8 @@
     <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
         <h1>{{ city }}, {{ country }} <img style="height: 50px;" src="https://flagcdn.com/{{iso}}.svg" alt=""></h1>
     </div>
-    <container>
-      <table class="table" style="width: 100%; box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); border-collapse: collapse; border-radius: 5px; overflow: hidden;">
+    <container style="width: 100%; padding-left: 50px; padding-right: 50px;">
+      <table class="table" style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); border-collapse: collapse; border-radius: 5px; overflow: hidden;">
          <tbody>
              <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
                  <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Language</th>
@@ -119,6 +118,9 @@
          </tbody>
      </table>
     </container>
+    <div style="display: flex; justify-content: start; padding-left: 10rem; padding-right: 10rem;">
+        <h1>Some attractions</h1>
+    </div>
     <div class="card-container">
         {% for i in content.features %}
         <div class="card" style="height: 30rem;">
@@ -139,7 +141,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 10rem;
-            padding-top: 5rem;
+            padding-top: 2rem;
         }
     
         .card {
