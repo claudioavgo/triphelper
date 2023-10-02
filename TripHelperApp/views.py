@@ -8,8 +8,12 @@ from .utils import *
 # Home Page
 def index(request):
     countries_list = countries()
+    
     random_country = random.choice(countries_list)
-    cities_list = cities(random_country['iso'])
+
+    cities_list = []
+    while cities_list == []:
+        cities_list = cities(random_country['iso'])
 
     context = {
         'countries_list': countries_list,
