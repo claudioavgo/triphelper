@@ -25,8 +25,11 @@ Sua viagem começa aqui!!
 #### [Diagrama de atividades do sistema (Em desenvolvimento)](https://www.canva.com/design/DAFv8cMBYg0/NTQ0X21wpeIaRm9mWDMZUw/edit)
 ![](https://i.imgur.com/waxVImv.png)
 
-# Protótipo de baixa fidelidade
+# Screencast protótipo de baixa fidelidade
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
+
+# Screencast entrega 02
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/6pqEQJ49ES4)
 
 ## Issue/Bug Tracker
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
