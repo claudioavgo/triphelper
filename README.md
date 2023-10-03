@@ -38,8 +38,11 @@ Sua viagem começa aqui!!
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/c6d761d8-f20b-4f45-a4cc-a41b335e9f11)
 
+# Quadro da sprint do Jira
+![image](https://github.com/claudioavgo/triphelper/assets/64589027/89af3d2b-a470-4715-8e55-36f5ef5ee172)
 
-
+# Quadro Backlog do Jira
+![image](https://github.com/claudioavgo/triphelper/assets/64589027/763766ea-63c4-43dd-8709-6396cb8dee1c)
 
 ## Desenvolvimento
 <p>Clone o repositório, instale as dependências e inicie a aplicação</p>
