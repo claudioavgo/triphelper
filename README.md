@@ -31,6 +31,10 @@ Sua viagem começa aqui!!
 # Screencast entrega 02
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/6pqEQJ49ES4)
 
+# Diagrama de atividades do sistema
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/d7fc8ad4-b132-4381-a76b-b32583023c26)
+
+
 ## Issue/Bug Tracker
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/c6d761d8-f20b-4f45-a4cc-a41b335e9f11)
