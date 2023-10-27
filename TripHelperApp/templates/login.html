@@ -53,30 +53,26 @@
             </div>
         </div>
     </nav>
-    <form style="padding: 10rem 35rem 10rem 35rem" action="/register" method="post">
+    <form style="padding: 10rem 35rem 10rem 35rem" action="/login" method="post">
         {% csrf_token %}
         <div class="mb-3">
             {% if error %}
                 <div class="alert alert-danger" role="alert">
-                    This email has already been registered!
+                    You email or password are wrong!
                 </div>
             {% endif %}
-            <label for="exampleInputEmail1" class="form-label">Username</label>
-            <input name="username" type="text" class="form-control" id="exampleInputEmail1">
-        </div>
-        <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input name="password" type="password" class="form-control" id="exampleInputPassword1">
-            <div id="emailHelp" class="form-text">We'll never share your information with anyone else.</div>
         </div>
         <div class="mb-3">
-            <p>Have a account? Sign in <a href="/login">here</a></p>
+            <p>Don't have a account? Sign up <a href="/register">here</a></p>
         </div>
-        <button type="submit" class="btn btn-primary">Sign up</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

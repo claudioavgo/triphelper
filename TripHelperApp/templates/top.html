@@ -45,6 +45,27 @@
               </ul>
             </li>
           </ul>
+          <div style="display: flex; justify-content: center; align-items: center;">
+            {% if user is not none %}
+            <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: {{ user.credits }}</span>
+            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <a href="logout">
+                  <li><button class="dropdown-item" type="button">Exit</button></li>
+                </a>
+              </ul>
+            </div>
+            {% else %}
+            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+              <a href="login">
+                <button type="button" class="btn btn-secondary">Sign in</button>
+              </a>
+            </div>
+            {% endif %}
+          </div>
         </div>
       </div>
     </nav>

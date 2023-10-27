@@ -20,10 +20,15 @@
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous" />
+      <!-- Dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 4 Autocomplete -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap-4-autocomplete/dist/bootstrap-4-autocomplete.min.js" crossorigin="anonymous"></script>
     <title>TripHelper</title>
   </head>
   <body data-bs-theme="dark">
-    {% if error %}
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
       <div class="container-fluid">
         <img
@@ -80,19 +85,21 @@
               </li>
             </ul>
             <div style="display: flex; justify-content: center; align-items: center;">
-              {% if logged %}
-              <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: 10</span>
+              {% if user is not none %}
+              <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: {{ user.credits }}</span>
               <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                  <img src="https://source.boringavatars.com/beam/35/Coded" style="margin-right: .3rem;" alt="" srcset="">
+                  <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end">
-                  <li><button class="dropdown-item" type="button">Exit</button></li>
+                  <a href="logout">
+                    <li><button class="dropdown-item" type="button">Exit</button></li>
+                  </a>
                 </ul>
               </div>
               {% else %}
               <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
-                <a href="register">
+                <a href="login">
                   <button type="button" class="btn btn-secondary">Sign in</button>
                 </a>
               </div>
@@ -120,6 +127,7 @@
         aria-label=".form-select-lg teste"
         id="countrySelect"
         style="width: 400px; height: 70px">
+        
         <option selected>Choose your destination</option>
         {% for i in countries_list %}
         <option value="{{i.iso}}">{{i.name}}</option>

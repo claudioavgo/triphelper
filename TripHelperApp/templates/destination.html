@@ -80,14 +80,35 @@
               </ul>
             </li>
           </ul>
+          <div style="display: flex; justify-content: center; align-items: center;">
+            {% if user is not none %}
+            <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: {{ user.credits }}</span>
+            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <a href="logout">
+                  <li><button class="dropdown-item" type="button">Exit</button></li>
+                </a>
+              </ul>
+            </div>
+            {% else %}
+            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+              <a href="login">
+                <button type="button" class="btn btn-secondary">Sign in</button>
+              </a>
+            </div>
+            {% endif %}
+          </div>
         </div>
       </div>
     </nav>
     <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
       <h1>{{ city }}, {{ country }} <img style="height: 50px;" src="https://flagcdn.com/{{iso}}.svg" alt=""></h1>
     </div>
-    <container style="width: 100%; padding-left: 50px; padding-right: 50px;">
-      <table class="table" style="box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); border-collapse: collapse; border-radius: 5px; overflow: hidden;">
+    <div style="padding-left: 10rem; padding-right: 10rem;">
+      <table class="table" style="border-collapse: collapse; overflow: hidden;">
         <tbody>
           <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
             <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Language</th>
@@ -115,8 +136,8 @@
           </tr>
         </tbody>
       </table>
-    </container>
-    <div style="display: flex; justify-content: start; padding-left: 10rem; padding-right: 10rem;">
+    </div>
+    <div style="display: flex; justify-content: start; padding-left: 10rem; padding-right: 10rem;margin-top: 1rem;">
       <h1>Some attractions</h1>
     </div>
     <div class="card-container">

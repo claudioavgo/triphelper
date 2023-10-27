@@ -1,13 +1,25 @@
 import os
 import json
 import random
+import resend
 import requests
 from dotenv import load_dotenv
+from django.conf import settings
+import schedule
+from django.core.mail import send_mail
 from deep_translator import GoogleTranslator
 
 load_dotenv()
 
+resend.api_key = "re_fcxxQ6Sw_87NSeQksyKyXouMsyR8YVUzE"
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
+
+
+def calcula_duracao(funcao):
+    def wrapper():
+        print('a')
+
+    return wrapper
 
 def countries():
     try:
@@ -159,3 +171,16 @@ def countryInformations(iso2):
     data[0]["languages"] = languages
     
     return data
+
+def send_mail_message(message, to): 
+    params = {
+    "from": "TripHelperCompany <TripHelper@claudioav.com>",
+    "to": [to],
+    "subject": "👋 Hello from TripHelper!",
+    "html": f"""
+        <h1>{message}</h1> 
+    """,
+    }
+
+    email = resend.Emails.send(params)
+    print(email)
