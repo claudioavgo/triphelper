@@ -125,6 +125,3 @@ def logoutPage(request):
     return redirect("/")
 
 
-
-   
-    
