@@ -1,10 +1,9 @@
-from django.http import HttpResponse, JsonResponse
 from django.contrib.auth import authenticate, login, logout
-from django.shortcuts import redirect, render
 from django.contrib.auth.models import User
-    
-from .models import *
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import redirect, render
 
+from .models import *
 from .utils import *
 
 # Create your views here.
@@ -67,6 +66,14 @@ def top(request, user):
         'user': user,
     }
     return render(request, 'top.html', context)
+
+# Favorite Places Page
+@requer_autenticacao
+def favoritePlaces(request, user):
+    context = {
+        'user': user,
+    }
+    return render(request, 'favorite.html', context)
 
 # Destination Page
 @requer_autenticacao
