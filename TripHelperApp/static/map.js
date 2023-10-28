@@ -7,7 +7,9 @@ var map = new Datamap({
         "borderColor": '#212529',
         highlightFillColor: '#fa0fa0',
         borderWidth: 3,
-        popupOnHover: true,
+        popupTemplate: function(geography, data) { //this function should just return a string
+            return '<div><strong>' + geography.properties.name + '</strong></div>';
+        },
     },
 });
 
