@@ -3,3 +3,5 @@ python-dotenv
 whitenoise
 requests
 Django
+resend
+schedule
