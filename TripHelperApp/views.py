@@ -71,15 +71,26 @@ def top(request, user):
 # Destination Page
 @requer_autenticacao
 def destination(request, country_iso, city, user):
-    context = {
-        "content": touristAttractions(city, country_iso), 
-        "country": getCountryByIso(country_iso), 
-        "city": city, 
-        "iso": str(country_iso).lower(),
-        "plug": plugType(country_iso),
-        "info": countryInformations(country_iso),
-        "user": user
-    }
+    if country_iso == "TS":
+        context = {
+            "content": False, 
+            "country": False, 
+            "city": city, 
+            "iso": str(country_iso).lower(),
+            "plug": [],
+            "info": False,
+            "user": user
+        }
+    else:
+        context = {
+            "content": touristAttractions(city, country_iso), 
+            "country": getCountryByIso(country_iso), 
+            "city": city, 
+            "iso": str(country_iso).lower(),
+            "plug": plugType(country_iso),
+            "info": countryInformations(country_iso),
+            "user": user
+        }
 
     return render(request, 'destination.html', context)
 

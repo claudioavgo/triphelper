@@ -1,16 +1,26 @@
-var map = new Datamap({ element: document.getElementById("container") });
+var map = new Datamap({ 
+    element: document.getElementById("container"), 
+    fills: {          
+        'defaultFill': '#3D45FB',
+    },
+    geographyConfig: {
+        "borderColor": '#212529',
+        highlightFillColor: '#fa0fa0',
+        borderWidth: 3,
+        popupOnHover: true,
+    },
+});
 
 const country_input = document.getElementById("countrySelect");
 
 map.svg.selectAll(".datamaps-subunit").on("click", async function (geography) {
   const iso2 = await iso3toiso2(geography.id);
-  console.log(iso2);
   setCountry(iso2);
 });
 
 function setCountry(country) {
   country_input.value = country;
-  country_input.subumit();
+  country_input.dispatchEvent(new Event("change"))
 }
 
 async function getCountries() {
