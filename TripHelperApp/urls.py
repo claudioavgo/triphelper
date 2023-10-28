@@ -11,4 +11,6 @@ urlpatterns = [
     path("about", views.about, name="about"),
     path("top", views.top, name="top"),
     path("", views.index, name="index"),
+    path('like/', views.like_view, name='like'),
+    path('dislike/', views.dislike_view, name='dislike'),
 ]

@@ -135,4 +135,8 @@ def logoutPage(request):
     logout(request)
     return redirect("/")
 
+def like_view(request):
+    return HttpResponse('Like processado com sucesso.')
 
+def dislike_view(request):
+    return HttpResponse('Dislike processado com sucesso.')
