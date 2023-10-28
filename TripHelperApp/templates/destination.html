@@ -164,9 +164,10 @@
         <div class="col-md-12 bootstrap snippets">
            <div class="panel">
               <div class="panel-body">
-                 <textarea class="form-control" rows="2" placeholder="What are you thinking?"></textarea>
+                <textarea class="form-control" rows="2" id="user-input" placeholder="What are you thinking?"></textarea>
+              
                  <div class="mar-top clearfix">
-                    <button class="btn btn-sm btn-primary pull-right" type="submit"><i class="fa fa-pencil fa-fw"></i> Share</button>
+                  <button class="btn btn-sm btn-primary pull-right" type="submit" onclick="addComment()" style="margin-top: 15px ;"><i class="fa fa-pencil fa-fw"></i> Share</button>
                  </div>
               </div>
           </div>
@@ -181,82 +182,82 @@
                     <div class="panel-body">
                       <!-- Newsfeed Content -->
                       <!--===================================================-->
-                      <div class="media-block">
-                                              <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar1.png"></a>
-                                              <div class="media-body">
-                                                <div class="mar-btm">
-                                                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lisa D.</a>
-                                                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 11 min ago</p>
-                                                </div>
-                                                <p>consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                                                <div class="pad-ver">
-                                                  <div class="btn-group">
-                                                    <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(1)"><i class="fa fa-thumbs-up"></i> <span id="like-count-1">0</span></a>
-                                                    
-                                        
-                                                    <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(1)"><i class="fa fa-thumbs-down"></i></a>
-                                                  </div>
-                                                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                                </div>
-                                                <hr>
-                                                <!-- Comments -->
-                                                <div>
-                                                  <div class="media-block">
-                                                    <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
-                                                    <div class="media-body">
-                                                      <div class="mar-btm">
-                                                        <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Bobby Marz</a>
-                                                        <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 7 min ago</p>
-                                                      </div>
-                                                      <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                                                      <div class="pad-ver">
-                                                        <div class="btn-group">
-                                                          <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(2)"><i class="fa fa-thumbs-up"></i> <span id="like-count-2">0</span></a>
-                                                          <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(2)"><i class="fa fa-thumbs-down"></i></a>
-                                                        </div>
-                                                        <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                                      </div>
-                                                      <hr>
-                                                    </div>
-                                                  </div>
-                                                  <div class="media-block">
-                                                    <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
-                                                    </a>
-                                                    <div class="media-body">
-                                                      <div class="mar-btm">
-                                                        <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lucy Moon</a>
-                                                        <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web - 2 min ago</p>
-                                                      </div>
-                                                      <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
-                                                      <div class="pad-ver">
-                                                        <div class="btn-group">
-                                                          <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(3)"><i class="fa fa-thumbs-up"></i> <span id="like-count-3">0</span></a>
-                                                          <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(3)"><i class="fa fa-thumbs-down"></i></a>
-                                                        </div>
-                                                        <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                                      </div>
-                                                      <hr>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                       </div>
-                                       <!--===================================================-->
-                                       <!-- End Newsfeed Content -->
-                                       <!-- Newsfeed Content -->
-                                       <!--===================================================-->
-                                    </div>
-                                 </div>
+                      <div class="media-block">                                           
+                          <!-- Comments -->
+                          <div id="comments-container">
+                            <div class="media-block">
+                              <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+                              <div class="media-body">
+                                <div class="mar-btm">
+                                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Bobby Marz</a>
+                                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 7 min ago</p>
+                                </div>
+                                <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                <div class="pad-ver">
+                                  <div class="btn-group">
+                                    <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(2)"><i class="fa fa-thumbs-up"></i> <span id="like-count-2">0</span></a>
+                                    <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(2)"><i class="fa fa-thumbs-down"></i></a>
+                                  </div>
+                                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+                                </div>
+                                <hr>
                               </div>
+                            </div>
+                            <div class="media-block">
+                              <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
+                              </a>
+                              <div class="media-body">
+                                <div class="mar-btm">
+                                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lucy Moon</a>
+                                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web - 2 min ago</p>
+                                </div>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
+                                <div class="pad-ver">
+                                  <div class="btn-group">
+                                    <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(3)"><i class="fa fa-thumbs-up"></i> <span id="like-count-3">0</span></a>
+                                    <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(3)"><i class="fa fa-thumbs-down"></i></a>
+                                  </div>
+                                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+                                </div>
+                                <hr>
+                              </div>
+                            </div>
                           </div>
                           <script>
-                              function decreaseLikes(id) {
-                                  var count = document.getElementById("like-count-" + id);
-                                  var currentCount = parseInt(count.innerHTML);
-                                  count.innerHTML = currentCount - 1;
+                            function decreaseLikes(id) {
+                              var count = document.getElementById("like-count-" + id);
+                              var currentCount = parseInt(count.innerHTML);
+                              count.innerHTML = currentCount - 1;
+                            }
+
+                            function addComment() {
+                              var userInput = document.getElementById("user-input").value;
+                              if (userInput !== "") {
+                                var commentsContainer = document.getElementById("comments-container");
+                                var newComment = `
+                                  <div class="media-block">
+                                    <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+                                    <div class="media-body">
+                                      <div class="mar-btm">
+                                        <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lisa D.</a>
+                                        <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - just now</p>
+                                      </div>
+                                      <p>${userInput}</p>
+                                      <div class="pad-ver">
+                                        <div class="btn-group">
+                                          <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(4)"><i class="fa fa-thumbs-up"></i> <span id="like-count-4">0</span></a>
+                                          <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(4)"><i class="fa fa-thumbs-down"></i></a>
+                                        </div>
+                                        <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+                                      </div>
+                                      <hr>
+                                    </div>
+                                  </div>
+                                `;
+                                commentsContainer.insertAdjacentHTML("afterbegin", newComment);
+                                document.getElementById("user-input").value = "";
                               }
+                            }
                           </script>
     
     <style>
