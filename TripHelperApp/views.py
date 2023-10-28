@@ -71,7 +71,7 @@ def top(request, user):
 # Destination Page
 @requer_autenticacao
 def destination(request, country_iso, city, user):
-    if country_iso == "TS":
+    if country_iso == "TS" and city == "Teste":
         context = {
             "content": False, 
             "country": False, 
