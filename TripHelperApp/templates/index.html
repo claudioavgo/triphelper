@@ -34,7 +34,7 @@
       <script src="https://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
       <title>TripHelper</title>
    </head>
-   <body data-bs-theme="dark">
+   <body style="margin: 0px; padding: 0px;" data-bs-theme="dark">
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
          <div class="container-fluid">
             <img
@@ -116,12 +116,11 @@
       </nav>
       <container class="d-flex justify-content-center" style="margin-top: 10rem">
          <div>
-            <h1 class="gradient">“Life's a journey, not a destination.”</h1>
+            <h1 style="color: #3D45FB;">“Life's a journey, not a destination.”</h1>
             <div>
                <h5
-                  class="gradient"
                   class="d-flex justify-content-left"
-                  style="margin-left: 400px">
+                  style="margin-left: 400px; color: #3D45FB">
                   ~ Aerosmith, Amazing
                </h5>
             </div>
@@ -155,9 +154,31 @@
       <container>
          <div id="container" style="position: relative; width: 95%; height: 100vh; margin: 0 auto;"></div>
       </container>
+      <div style="margin: 0; height: 15rem;">
+
+         <div style="background-color: #2B3035; height: 100%; width: 100%; display: flex; justify-content: space-between; align-items: center;padding-left: 10rem;padding-right: 10rem">
+            <div style="display: flex;">
+               <div style="margin-right: 10rem;">
+                  <h5 style="margin-bottom: 1rem;">About</h5>
+                  <a href="https://github.com/claudioavgo/triphelper" style="text-decoration: none;color: rgba(255, 255, 255, 0.555);"><p>GitHub</p></a>
+                  <a href="/about" style="text-decoration: none;color: rgba(255, 255, 255, 0.555);"><p>Check the project</p></a>
+               </div>
+               <div>
+                  <h5 style="margin-bottom: 1rem;">Help</h5>
+                  <a href="https://github.com/claudioavgo/triphelper" style="text-decoration: none;color: rgba(255, 255, 255, 0.555);"><p>Use Cases</p></a>
+                  <a href="/about" style="text-decoration: none;color: rgba(255, 255, 255, 0.555);"><p>Terms of Service</p></a>
+               </div>
+            </div>
+            <div>
+               
+               <img src="{% static 'images/TripHelperCompany.svg' %}" style="height: 2rem;" alt="" srcset="">
+               <img src="{% static 'images/image.svg' %}" style="height: 8rem;" alt="" srcset="">
+            </div>
+         </div>
+      </div>
    </body>
    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"></script>
-</html>
+</hfull
