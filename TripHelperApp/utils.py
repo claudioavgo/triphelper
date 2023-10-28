@@ -172,6 +172,20 @@ def countryInformations(iso2):
     
     return data
 
+
+def iso3toiso2(iso3: str) -> str:
+    try:
+        with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
+            data = json.loads(json_file.read())
+        
+        iso2 = None
+
+        for i in data["data"]:
+            if i["iso3"] == iso3:
+                return i["iso2"]
+    except:
+        return None
+
 def send_mail_message(message, to): 
     params = {
     "from": "TripHelperCompany <TripHelper@claudioav.com>",
