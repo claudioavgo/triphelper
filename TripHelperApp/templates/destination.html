@@ -1,286 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <style>
-      tr:hover {
-      background-color: inherit !important; 
-      }
-    </style>
-    {% load static %}
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
-      type="image/x-icon" />
-    <link rel="stylesheet" href="{% static 'style.css' %}" />
-    <link rel="stylesheet" href="{% static 'comments.css' %}" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous" />
-    
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    
-    <title>TripHelper</title>
-
-    
-  </head>
-  <body data-bs-theme="dark">
-    
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
-      <div class="container-fluid">
-        <img
-          src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
-          alt="Bootstrap"
-          width="30"
-          height="24" />
-        <a class="navbar-brand fw-bold" href="/">TripHelper</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/"
-                >Homepage</a
-                >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/top"
-                >Most searched places</a
-                >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/"
-                >Random Destination</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">
-              More information
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/about">About us</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a
-                    class="dropdown-item"
-                    target="_blank"
-                    href="https://github.com/claudioavgo/triphelper"
-                    >GitHub</a
-                    >
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <div style="display: flex; justify-content: center; align-items: center;">
-            {% if user is not none %}
-            <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: {{ user.credits }}</span>
-            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
-              <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
-              </button>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <a href="logout">
-                  <li><button class="dropdown-item" type="button">Exit</button></li>
-                </a>
-              </ul>
+   <head>
+      <style>
+         tr:hover {
+         background-color: inherit !important; 
+         }
+      </style>
+      {% load static %}
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         rel="shortcut icon"
+         href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
+         type="image/x-icon" />
+      <link rel="stylesheet" href="{% static 'style.css' %}" />
+      <link rel="stylesheet" href="{% static 'comments.css' %}" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+         crossorigin="anonymous" />
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+      <title>TripHelper</title>
+   </head>
+   <body data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+         <div class="container-fluid">
+            <img
+               src="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
+               alt="Bootstrap"
+               width="30"
+               height="24" />
+            <a class="navbar-brand fw-bold" href="/">TripHelper</a>
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent"
+               aria-expanded="false"
+               aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="/"
+                        >Homepage</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="/top"
+                        >Most searched places</a
+                        >
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" aria-current="page" href="/"
+                        >Random Destination</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a
+                        class="nav-link dropdown-toggle"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                     More information
+                     </a>
+                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/about">About us</a></li>
+                        <li>
+                           <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                           <a
+                              class="dropdown-item"
+                              target="_blank"
+                              href="https://github.com/claudioavgo/triphelper"
+                              >GitHub</a
+                              >
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <div style="display: flex; justify-content: center; align-items: center;">
+                  {% if user is not none %}
+                  <span class="badge" style="background-color: #3D45FB; padding: 0.5rem; font-size: 1rem;">Credits: {{ user.credits }}</span>
+                  <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+                     <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                     <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
+                     </button>
+                     <ul class="dropdown-menu dropdown-menu-end">
+                        <a href="logout">
+                           <li><button class="dropdown-item" type="button">Exit</button></li>
+                        </a>
+                     </ul>
+                  </div>
+                  {% else %}
+                  <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
+                     <a href="login">
+                     <button type="button" class="btn btn-secondary">Sign in</button>
+                     </a>
+                  </div>
+                  {% endif %}
+               </div>
             </div>
-            {% else %}
-            <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
-              <a href="login">
-                <button type="button" class="btn btn-secondary">Sign in</button>
-              </a>
-            </div>
-            {% endif %}
+         </div>
+      </nav>
+      <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
+         <h1>{{ city }}, {{ country }} <img style="height: 50px;"  alt=""></h1>
+      </div>
+      <div style="padding-left: 10rem; padding-right: 10rem;">
+         <table class="table" style="border-collapse: collapse; overflow: hidden;">
+            <tbody>
+               <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                  <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Language</th>
+                  {% for key in info.0.languages %}
+                  <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                  {% endfor %}
+               </tr>
+               <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                  <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Capital</th>
+                  {% for key in info.0.capital %}
+                  <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                  {% endfor %}
+               </tr>
+               <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                  <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Currency</th>
+                  {% for key in info.0.currencies %}
+                  <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
+                  {% endfor %}
+               </tr>
+               <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
+                  <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Plug</th>
+                  {% for i in plug %}
+                  <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ i|default:" " }}</td>
+                  {% endfor %}
+               </tr>
+            </tbody>
+         </table>
+      </div>
+      <div style="display: flex; justify-content: start; padding-left: 10rem; padding-right: 10rem;margin-top: 1rem;">
+         <h1>Some attractions</h1>
+      </div>
+      <div class="card-container">
+      {% if not content %}
+        <h1>No attractions :/</h1>
+      {% endif %}
+      {% for i in content.places %}
+      <a href="{{ i.url }}">
+        <div class="card" style="height: fit-content;width: 20rem;">
+          <img src="{{ i.img_url }}" class="card-img-top" style="height: 12rem;" alt="{{ i.name }}">
+          <div class="card-body">
+              <h5 class="card-title">{{ i.name }}</h5>
+              <p class="card-text">{{ i.activity_type }}</p>
+              <p class="card-text">{{ i.time }}</p>
           </div>
         </div>
-      </div>
-    </nav>
-    <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
-      <h1>{{ city }}, {{ country }} <img style="height: 50px;"  alt=""></h1>
-    </div>
-    <div style="padding-left: 10rem; padding-right: 10rem;">
-      <table class="table" style="border-collapse: collapse; overflow: hidden;">
-        <tbody>
-          <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
-            <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Language</th>
-            {% for key in info.0.languages %}
-            <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
-            {% endfor %}
-          </tr>
-          <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
-            <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Capital</th>
-            {% for key in info.0.capital %}
-            <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
-            {% endfor %}
-          </tr>
-          <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
-            <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Currency</th>
-            {% for key in info.0.currencies %}
-            <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ key|default:" " }}</td>
-            {% endfor %}
-          </tr>
-          <tr class="hover-row" style="border-bottom: 2px solid #e5e5e5;">
-            <th scope="row" style="background-color: transparent; font-weight: bold; color: #ffffff;">Plug</th>
-            {% for i in plug %}
-            <td style="flex: 1; text-align: center; padding: 15px 20px;">{{ i|default:" " }}</td>
-            {% endfor %}
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div style="display: flex; justify-content: start; padding-left: 10rem; padding-right: 10rem;margin-top: 1rem;">
-      <h1>Some attractions</h1>
-    </div>
-    <div class="card-container">
-      {% for i in content.features %}
-      <div class="card" style="height: 30rem;">
-        <img src="{{ i.wikidata.preview.source }}" class="card-img-top" style="height: 12rem;" alt="{{ i.properties.name }}">
-        <div class="card-body">
-          <h5 class="card-title">{{ i.properties.name }}</h5>
-          <p class="card-text">{{ i.wikidata.wikipedia_extracts.text }}</p>
-          {% if i.wikidata.wikipedia %}
-          <a target="_blank" href="{{ i.wikidata.wikipedia }}" class="btn btn-primary">Search on Wikipedia</a>
-          {% endif %}
-        </div>
-      </div>
+      </a>
       {% endfor %}
-    
-    
-    
       <div class="container bootdey">
-        <div class="col-md-12 bootstrap snippets">
-           <div class="panel">
-              <div class="panel-body">
-                <textarea class="form-control" rows="2" id="user-input" placeholder="What are you thinking?"></textarea>
-              
-                 <div class="mar-top clearfix">
-                  <button class="btn btn-sm btn-primary pull-right" type="submit" onclick="addComment()" style="margin-top: 15px ;"><i class="fa fa-pencil fa-fw"></i> Share</button>
+      <div class="col-md-12 bootstrap snippets">
+      <div class="panel">
+         <div class="panel-body">
+            <textarea class="form-control" rows="2" id="user-input" placeholder="What are you thinking?"></textarea>
+            <div class="mar-top clearfix">
+               <button class="btn btn-sm btn-primary pull-right" type="submit" onclick="addComment()" style="margin-top: 15px ;"><i class="fa fa-pencil fa-fw"></i> Share</button>
+            </div>
+         </div>
+      </div>
+      <div class="panel">
+      <script>
+         function increaseLikes(counter) {
+          var likeCount = document.getElementById("like-count-" + counter);
+          var currentLikes = parseInt(likeCount.innerHTML);
+          likeCount.innerHTML = currentLikes + 1;
+         }
+      </script>
+      <div class="panel-body">
+      <!-- Newsfeed Content -->
+      <!--===================================================-->
+      <div class="media-block">
+      <!-- Comments -->
+      <div id="comments-container">
+         <div class="media-block">
+            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+            <div class="media-body">
+               <div class="mar-btm">
+                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Bobby Marz</a>
+                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 7 min ago</p>
+               </div>
+               <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+               <div class="pad-ver">
+                  <div class="btn-group">
+                     <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(2)"><i class="fa fa-thumbs-up"></i> <span id="like-count-2">0</span></a>
+                     <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(2)"><i class="fa fa-thumbs-down"></i></a>
+                  </div>
+                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+               </div>
+               <hr>
+            </div>
+         </div>
+         <div class="media-block">
+            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
+            </a>
+            <div class="media-body">
+               <div class="mar-btm">
+                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lucy Moon</a>
+                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web - 2 min ago</p>
+               </div>
+               <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
+               <div class="pad-ver">
+                  <div class="btn-group">
+                     <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(3)"><i class="fa fa-thumbs-up"></i> <span id="like-count-3">0</span></a>
+                     <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(3)"><i class="fa fa-thumbs-down"></i></a>
+                  </div>
+                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+               </div>
+               <hr>
+            </div>
+         </div>
+      </div>
+      <script>
+         function decreaseLikes(id) {
+           var count = document.getElementById("like-count-" + id);
+           var currentCount = parseInt(count.innerHTML);
+           count.innerHTML = currentCount - 1;
+         }
+         
+         function addComment() {
+           var userInput = document.getElementById("user-input").value;
+           if (userInput !== "") {
+             var commentsContainer = document.getElementById("comments-container");
+             var newComment = `
+               <div class="media-block">
+                 <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+                 <div class="media-body">
+                   <div class="mar-btm">
+                     <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lisa D.</a>
+                     <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - just now</p>
+                   </div>
+                   <p>${userInput}</p>
+                   <div class="pad-ver">
+                     <div class="btn-group">
+                       <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(4)"><i class="fa fa-thumbs-up"></i> <span id="like-count-4">0</span></a>
+                       <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(4)"><i class="fa fa-thumbs-down"></i></a>
+                     </div>
+                     <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
+                   </div>
+                   <hr>
                  </div>
-              </div>
-          </div>
-                  <div class="panel">
-                  <script>
-                    function increaseLikes(counter) {
-                     var likeCount = document.getElementById("like-count-" + counter);
-                     var currentLikes = parseInt(likeCount.innerHTML);
-                     likeCount.innerHTML = currentLikes + 1;
-                    }
-                  </script>
-                    <div class="panel-body">
-                      <!-- Newsfeed Content -->
-                      <!--===================================================-->
-                      <div class="media-block">                                           
-                          <!-- Comments -->
-                          <div id="comments-container">
-                            <div class="media-block">
-                              <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
-                              <div class="media-body">
-                                <div class="mar-btm">
-                                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Bobby Marz</a>
-                                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 7 min ago</p>
-                                </div>
-                                <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                                <div class="pad-ver">
-                                  <div class="btn-group">
-                                    <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(2)"><i class="fa fa-thumbs-up"></i> <span id="like-count-2">0</span></a>
-                                    <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(2)"><i class="fa fa-thumbs-down"></i></a>
-                                  </div>
-                                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                </div>
-                                <hr>
-                              </div>
-                            </div>
-                            <div class="media-block">
-                              <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
-                              </a>
-                              <div class="media-body">
-                                <div class="mar-btm">
-                                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lucy Moon</a>
-                                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web - 2 min ago</p>
-                                </div>
-                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
-                                <div class="pad-ver">
-                                  <div class="btn-group">
-                                    <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(3)"><i class="fa fa-thumbs-up"></i> <span id="like-count-3">0</span></a>
-                                    <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(3)"><i class="fa fa-thumbs-down"></i></a>
-                                  </div>
-                                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                </div>
-                                <hr>
-                              </div>
-                            </div>
-                          </div>
-                          <script>
-                            function decreaseLikes(id) {
-                              var count = document.getElementById("like-count-" + id);
-                              var currentCount = parseInt(count.innerHTML);
-                              count.innerHTML = currentCount - 1;
-                            }
-
-                            function addComment() {
-                              var userInput = document.getElementById("user-input").value;
-                              if (userInput !== "") {
-                                var commentsContainer = document.getElementById("comments-container");
-                                var newComment = `
-                                  <div class="media-block">
-                                    <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
-                                    <div class="media-body">
-                                      <div class="mar-btm">
-                                        <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lisa D.</a>
-                                        <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - just now</p>
-                                      </div>
-                                      <p>${userInput}</p>
-                                      <div class="pad-ver">
-                                        <div class="btn-group">
-                                          <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(4)"><i class="fa fa-thumbs-up"></i> <span id="like-count-4">0</span></a>
-                                          <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(4)"><i class="fa fa-thumbs-down"></i></a>
-                                        </div>
-                                        <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                                      </div>
-                                      <hr>
-                                    </div>
-                                  </div>
-                                `;
-                                commentsContainer.insertAdjacentHTML("afterbegin", newComment);
-                                document.getElementById("user-input").value = "";
-                              }
-                            }
-                          </script>
-    
-    <style>
-      .card-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 10rem;
-      padding-top: 2rem;
-      }
-      .card {
-      width: calc(33.33% - 10px); /* 3 cards per row with 10px spacing */
-      margin-bottom: 20px;
-    }
-      
-    </style>
-  </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous">
-  </script>
+               </div>
+             `;
+             commentsContainer.insertAdjacentHTML("afterbegin", newComment);
+             document.getElementById("user-input").value = "";
+           }
+         }
+      </script>
+      <style>
+         .card-container {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         padding: 10rem;
+         padding-top: 2rem;
+         }
+         .card {
+         width: calc(33.33% - 10px); /* 3 cards per row with 10px spacing */
+         margin-bottom: 20px;
+         }
+      </style>
+   </body>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
 </html>

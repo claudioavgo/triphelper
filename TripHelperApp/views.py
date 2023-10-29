@@ -2,6 +2,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render
+from django.views.decorators.cache import cache_page
 
 from .models import *
 from .utils import *
@@ -60,6 +61,7 @@ def about(request, user):
     return render(request, 'about.html', context)
 
 # Top Page
+@cache_page(60 * 60)
 @requer_autenticacao
 def top(request, user):
     context = {
@@ -77,6 +79,7 @@ def favoritePlaces(request, user):
 
 # Destination Page
 @requer_autenticacao
+
 def destination(request, country_iso, city, user):
     if country_iso == "TS" and city == "Teste":
         context = {
@@ -90,7 +93,7 @@ def destination(request, country_iso, city, user):
         }
     else:
         context = {
-            "content": touristAttractions(city, country_iso), 
+            "content": touristAttractions(city, country_iso),
             "country": getCountryByIso(country_iso), 
             "city": city, 
             "iso": str(country_iso).lower(),

@@ -30,8 +30,9 @@ def countries():
           
         dicionario_paises = data
 
-        for i in range(228):
-            lista_paises.append({"name": dicionario_paises["data"][i]["country"], "iso": dicionario_paises["data"][i]["iso2"]})
+        for i in dicionario_paises["data"]:
+            print(i)
+            lista_paises.append({"name": i["country"], "iso": i["iso2"]})
     
         return lista_paises
     except:
@@ -46,9 +47,9 @@ def cities(country_iso):
           
         dicionario_paises = data
 
-        for i in range(228):
-            if dicionario_paises["data"][i]["iso2"] == country_iso:
-                cities_list = dicionario_paises["data"][i]["cities"]
+        for i in dicionario_paises["data"]:
+            if i["iso2"] == country_iso:
+                cities_list = i["cities"]
     
         return cities_list
     except Exception as e:
@@ -66,14 +67,8 @@ def findCoordinates(city, country):
         return []
     
 def touristAttractions(city, country):
-    coordinates = findCoordinates(city, country)
 
-    print(coordinates)
-
-    lon = coordinates["lon"]
-    lat = coordinates["lat"]
-
-    url = f"https://api.opentripmap.com/0.1/en/places/radius?radius=10000&lon={lon}&lat={lat}&src_geom=wikidata&src_attr=wikidata&limit=6&apikey={apiKey}"
+    url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
     
     req  = requests.get(url)
     
@@ -81,24 +76,7 @@ def touristAttractions(city, country):
 
     if req.status_code == 200:
 
-        for i in attractions["features"]:
-            i["properties"]["googleName"] = i["properties"]["name"]
-            i["properties"]["name"] = GoogleTranslator(source='auto', target='en').translate(i["properties"]["name"])
-            i["wikidata"] = getMorePlaceInfo(i["properties"]["wikidata"])
-            try:
-                texto = GoogleTranslator(source='auto', target='en').translate(i["wikidata"]["wikipedia_extracts"]["text"])
-
-                if len(texto) > 232:
-                    i["wikidata"]["wikipedia_extracts"]["text"] = texto[:232]+"..."
-            except:
-                print("Não possui")
-            
-            try:
-                i["wikidata"]["preview"]["source"] = i["wikidata"]["preview"]["source"]
-            except:
-                i["wikidata"]["preview"] = {'source': 'https://htmlcolorcodes.com/assets/images/colors/white-color-solid-background-1920x1080.png'}
-        
-        #print(attractions)
+        print(attractions)
 
         return attractions
     else:
