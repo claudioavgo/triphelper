@@ -14,6 +14,8 @@ load_dotenv()
 resend.api_key = "re_fcxxQ6Sw_87NSeQksyKyXouMsyR8YVUzE"
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
+cache = {}
+
 def countries():
     try:
         with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
@@ -59,18 +61,31 @@ def findCoordinates(city, country):
         return []
     
 def touristAttractions(city, country):
-
-    url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
     
-    req  = requests.get(url)
+    with open('./TripHelperApp/static/bin/cache.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
     
-    attractions = json.loads(req.text)
 
-    if req.status_code == 200:
+    try:
+        if data[city]:
+            return data[city]
+    except:
+        url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
+        
+        req  = requests.get(url)
+        
+        attractions = json.loads(req.text)
 
-        return attractions
-    else:
-        return []
+        if req.status_code == 200:
+
+            data[city] = attractions
+
+            with open('./TripHelperApp/static/bin/cache.json', 'w', encoding='utf-8') as file:
+                file.write(json.dumps(data, indent=4))
+
+            return attractions
+        else:
+            return []
 
 def getMorePlaceInfo(xid):
     url_info = f"https://api.opentripmap.com/0.1/en/places/xid/{xid}?apikey={apiKey}"

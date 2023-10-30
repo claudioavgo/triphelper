@@ -69,18 +69,11 @@ def top(request, user):
     }
     return render(request, 'top.html', context)
 
-# Favorite Places Page
-@requer_autenticacao
-def favoritePlaces(request, user):
-    context = {
-        'user': user,
-    }
-    return render(request, 'favorite.html', context)
-
 # Destination Page
 @requer_autenticacao
-@cache_page(60 * 60)
+#@cache_page(60 * 60)
 def destination(request, country_iso, city, user):
+
     if country_iso == "TS" and city == "Teste":
         context = {
             "content": False, 
@@ -95,11 +88,12 @@ def destination(request, country_iso, city, user):
         context = {
             "content": touristAttractions(city, country_iso),
             "country": getCountryByIso(country_iso), 
-            "city": city, 
+            "city": city,
             "iso": str(country_iso).lower(),
             "plug": plugType(country_iso),
             "info": countryInformations(country_iso),
-            "user": user
+            "user": user,
+            "favPlaces": user.getFavPlaces if user else []
         }
 
     return render(request, 'destination.html', context)
@@ -167,9 +161,9 @@ def likeControlAPI(request, user):
 
     if str(type).lower() == "like":
 
-        fp = FavoritePlace.objects.get(city=city)
-
-        if not fp:
+        try:
+            fp = FavoritePlace.objects.get(city=city)
+        except:
             fp = FavoritePlace.objects.create(city=city, country=country, iso2=iso2)
 
         real_user.favPlaces.add(fp)
