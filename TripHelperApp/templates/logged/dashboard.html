@@ -42,7 +42,7 @@
                alt="Bootstrap"
                width="30"
                height="24" />
-            <a class="navbar-brand fw-bold" href="#">TripHelper</a>
+            <a class="navbar-brand fw-bold" href="/">TripHelper</a>
             <button
                class="navbar-toggler"
                type="button"
@@ -56,7 +56,7 @@
             <div class="collapse navbar-collapse" style="display: flex;justify-content: center;align-items: center;" id="navbarSupportedContent">
                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#"
+                     <a class="nav-link" aria-current="page" href="/"
                         >Homepage</a
                         >
                   </li>
@@ -99,7 +99,7 @@
                      </button>
                      <ul class="dropdown-menu dropdown-menu-end ">
                         <a href="/account">
-                           <li><button class="dropdown-item" type="button">My Places</button></li>
+                           <li><button class="dropdown-item active" type="button">My Places</button></li>
                         </a>
                         <a href="/logout">
                            <li><button class="dropdown-item" type="button">Exit</button></li>
@@ -117,46 +117,36 @@
             </div>
          </div>
       </nav>
-      <container class="d-flex justify-content-center" style="margin-top: 10rem">
-         <div>
-            <h1 style="color: #3D45FB;">“Life's a journey, not a destination.”</h1>
-            <div>
-               <h5
-                  class="d-flex justify-content-left"
-                  style="margin-left: 400px; color: #3D45FB">
-                  ~ Aerosmith, Amazing
-               </h5>
+      <container class="d-flex justify-content-center" style="margin-top: 10rem;margin-bottom: 10rem;width: 100%;">
+         <div style="display: flex;flex-direction: column;justify-content: center;align-items: start;width: 100%;padding-left: 10rem; padding-right: 10rem;">
+            <h1>My Favorite Places</h1>
+            <div style="display: flex;margin-top: 2rem;">               
+               {% for i in fav %}
+                  <div class="card" style="width: 18rem;">
+                     <div class="card-img-top" style="background-image: url('https://flagcdn.com/{{ i.iso2.lower }}.svg');height: 100px;">
+                        <h1>a</h1>
+                     </div>
+                     
+                     <div class="card-body">
+                        <h5 class="card-title">{{ i.city }}</h5>
+                        <p class="card-text">{{ i.country }}</p>
+                        <a href="/destination/{{ i.iso2 }}/{{ i.city }}" class="btn btn-primary">See attractions</a>
+                        <div style="display: flex;">
+                           <svg width="24" height="24" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                              <g fill="#3D45FB">
+                                  <path d="M232 94c0 66-104 122-104 122S24 160 24 94a54 54 0 0 1 54-54c22.59 0 41.94 12.31 50 32c8.06-19.69 27.41-32 50-32a54 54 0 0 1 54 54Z" opacity=".5"/>
+                                  <path d="M178 32c-20.65 0-38.73 8.88-50 23.89C116.73 40.88 98.65 32 78 32a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 220.66 240 164 240 94a62.07 62.07 0 0 0-62-62Zm-50 174.8C109.74 196.16 32 147.69 32 94a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8Z"/>
+                              </g>
+                          </svg>
+                        </div>
+                     </div>
+                     
+                  </div>
+               {% endfor %}
             </div>
          </div>
       </container>
-      <container class="d-flex justify-content-center" style="margin-top: 30px">
-         <select
-            class="form-select form-select-lg mb-3"
-            aria-label=".form-select-lg teste"
-            id="countrySelect"
-            style="width: 400px; height: 70px">
-            <option selected>Choose your destination</option>
-            {% for i in countries_list %}
-            <option value="{{i.iso}}">{{i.name}}</option>
-            {% endfor %}
-         </select>
-      </container>
-      <container id="containerSelectCity" style="margin-top: 20px; display: none; flex-direction: column;justify-content: center;align-items: center;">
-         <select
-            class="form-select form-select-lg mb-3"
-            aria-label=".form-select-lg teste"
-            id="countrySelectCity"
-            style="width: 400px; height: 70px"></select>
-         <button id="attBtn" type="button" class="btn btn-light btn-lg" style="display: none;">See attractions</button>
-      </container>
-      <container id="loader1" style="margin-top: 20px; display: none; flex-direction: column;justify-content: center;align-items: center;">
-         <div class="spinner-border" role="status">
-            <span class="visually-hidden">Loading...</span>
-         </div>
-      </container>
-      <container>
-         <div id="container" style="position: relative; width: 95%; height: 100vh; margin: 0 auto;"></div>
-      </container>
+
       <div style="margin: 0; height: 15rem;">
 
          <div style="background-color: #2B3035; height: 100%; width: 100%; display: flex; justify-content: space-between; align-items: center;padding-left: 10rem;padding-right: 10rem">

@@ -79,7 +79,7 @@ def favoritePlaces(request, user):
 
 # Destination Page
 @requer_autenticacao
-
+@cache_page(60 * 60)
 def destination(request, country_iso, city, user):
     if country_iso == "TS" and city == "Teste":
         context = {
@@ -145,8 +145,39 @@ def logoutPage(request):
     logout(request)
     return redirect("/")
 
-def like_view(request):
-    return HttpResponse('Like processado com sucesso.')
+@requer_autenticacao
+def account(request, user):
+    #usr = Perfil.objects.get(user)
 
-def dislike_view(request):
-    return HttpResponse('Dislike processado com sucesso.')
+    context = {
+        'user': user,
+        'fav': Perfil.objects.get(usuario=user.usuario).favPlaces.all()
+    }
+    return render(request, 'logged/dashboard.html', context=context)
+
+@requer_autenticacao
+def likeControlAPI(request, user):
+    
+    country = request.GET['country']
+    city = request.GET['city']
+    iso2 = request.GET['iso2']
+    type = request.GET['type']
+
+    real_user = Perfil.objects.get(usuario=user.usuario)
+
+    if str(type).lower() == "like":
+
+        fp = FavoritePlace.objects.get(city=city)
+
+        if not fp:
+            fp = FavoritePlace.objects.create(city=city, country=country, iso2=iso2)
+
+        real_user.favPlaces.add(fp)
+
+    else:
+        fp = FavoritePlace.objects.get(city=city)
+        real_user.favPlaces.remove(fp)
+        
+    context = {'city': city, 'country': country, 'iso2': iso2, 'type': type}
+
+    return JsonResponse(context)
