@@ -12,6 +12,7 @@ class CustomTextTestResult(unittest.TextTestResult):
 
 if __name__ == "__main__":
     print()
+    print(f"{Colors.LIGHT_WHITE}{Colors.NEGATIVE}{Colors.BOLD} TEST CASES {Colors.END}")
     loader = unittest.TestLoader()
     suite = unittest.TestSuite()
 
@@ -20,6 +21,6 @@ if __name__ == "__main__":
     suite.addTest(discover)
 
     result = CustomTextTestResult(None, None, 1)
-    runner = unittest.TextTestRunner(verbosity=0, resultclass=CustomTextTestResult)
+    runner = unittest.TextTestRunner(verbosity=2, resultclass=CustomTextTestResult)
 
     runner.run(suite)

@@ -249,6 +249,7 @@
            var userInput = document.getElementById("user-input").value;
            if (userInput !== "") {
              var commentsContainer = document.getElementById("comments-container");
+             send_comment(userInput)
              var newComment = `
                <div class="media-block">
                  <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
