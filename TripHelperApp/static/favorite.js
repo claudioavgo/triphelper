@@ -1,10 +1,13 @@
-/* when a user clicks, toggle the 'is-animating' class */
-$(".fav").on('click touchstart', function(){
-    $(this).toggleClass('is-animating');
-  });
-  
-  /*when the animation is over, remove the class*/
-  $(".fav").on('animationend', function(){
-    $(this).toggleClass('is-animating');
-  });
-  
+async function dislike(br, country, city) {
+    const data = await fetch(
+        "/api/feed?country=Brazil&city=Recife&type=Like&iso2=BR"
+    );
+    return data.json();
+}
+
+async function like(br, country, city) {
+    const data = await fetch(
+        "/api/feed?country=Brazil&city=Recife&type=like&iso2=BR"
+    );
+    return data.json();
+}

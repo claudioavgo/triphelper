@@ -14,13 +14,6 @@ load_dotenv()
 resend.api_key = "re_fcxxQ6Sw_87NSeQksyKyXouMsyR8YVUzE"
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
-
-def calcula_duracao(funcao):
-    def wrapper():
-        print('a')
-
-    return wrapper
-
 def countries():
     try:
         with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
@@ -31,7 +24,6 @@ def countries():
         dicionario_paises = data
 
         for i in dicionario_paises["data"]:
-            print(i)
             lista_paises.append({"name": i["country"], "iso": i["iso2"]})
     
         return lista_paises
@@ -76,8 +68,6 @@ def touristAttractions(city, country):
 
     if req.status_code == 200:
 
-        print(attractions)
-
         return attractions
     else:
         return []
@@ -95,17 +85,17 @@ def getMorePlaceInfo(xid):
         return []
 
 def getCountryByIso(iso):
-    url = "https://countriesnow.space/api/v0.1/countries"
-    req = requests.get(url)
+    with open('./TripHelperApp/static/bin/countries.json', 'r', encoding='utf-8') as json_file:
+            data = json.loads(json_file.read())
 
-    if req.status_code == 200:
+    if data:
         country = ""
           
-        dicionario_paises = json.loads(req.text)
+        dicionario_paises = data
 
-        for i in range(228):
-            if dicionario_paises["data"][i]["iso2"] == iso:
-                country = dicionario_paises["data"][i]["country"]
+        for i in dicionario_paises["data"]:
+            if i["iso2"] == iso:
+                country = i["country"]
         return country
     
     else:

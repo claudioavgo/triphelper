@@ -52,11 +52,14 @@
               <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                 <img src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}" style="margin-right: .3rem;" alt="" srcset="">
               </button>
-              <ul class="dropdown-menu dropdown-menu-end">
-                <a href="logout">
-                  <li><button class="dropdown-item" type="button">Exit</button></li>
+              <ul class="dropdown-menu dropdown-menu-end ">
+                <a href="/account">
+                   <li><button class="dropdown-item" type="button">My Places</button></li>
                 </a>
-              </ul>
+                <a href="/logout">
+                   <li><button class="dropdown-item" type="button">Exit</button></li>
+                </a>
+             </ul>
             </div>
             {% else %}
             <div class="btn-group" style="margin-right: 1rem; margin-left: 1rem;">
