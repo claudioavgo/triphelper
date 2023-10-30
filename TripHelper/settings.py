@@ -28,7 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-aer^xfe3#*6__7wj2(_!#a0v)d4fe-5)3zaxp80s^o*)gdda-m'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True if '192' in str(socket.gethostbyname(socket.gethostname())) else False
+#DEBUG = True if '192' in str(socket.gethostbyname(socket.gethostname())) else False
+
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1','triphelpercompany.azurewebsites.net']
 CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net','https://*.127.0.0.1', 'http://127.0.0.1']

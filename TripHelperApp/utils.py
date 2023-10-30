@@ -8,13 +8,14 @@ from django.conf import settings
 import schedule
 from django.core.mail import send_mail
 from deep_translator import GoogleTranslator
+from django.core.cache import cache
 
 load_dotenv()
 
 resend.api_key = "re_fcxxQ6Sw_87NSeQksyKyXouMsyR8YVUzE"
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
 
-cache = {}
+
 
 def countries():
     try:
@@ -60,16 +61,41 @@ def findCoordinates(city, country):
     else:
         return []
     
-def touristAttractions(city, country):
+# def touristAttractions(city, country):
     
-    with open('./TripHelperApp/static/bin/cache.json', 'r', encoding='utf-8') as file:
-        data = json.load(file)
+#     with open('./TripHelperApp/static/bin/cache.json', 'r', encoding='utf-8') as file:
+#         data = json.load(file)
     
 
-    try:
-        if data[city]:
-            return data[city]
-    except:
+#     try:
+#         if data[city]:
+#             return data[city]
+#     except:
+#         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
+        
+#         req  = requests.get(url)
+        
+#         attractions = json.loads(req.text)
+
+#         if req.status_code == 200:
+
+#             data[city] = attractions
+
+#             with open('./TripHelperApp/static/bin/cache.json', 'w', encoding='utf-8') as file:
+#                 file.write(json.dumps(data, indent=4))
+
+#             return attractions
+#         else:
+#             return []
+        
+def touristAttractions(city, country):
+    
+    ch = cache.get(city)
+
+    if ch:
+        print("cached")
+        return ch
+    else:
         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
         
         req  = requests.get(url)
@@ -78,10 +104,7 @@ def touristAttractions(city, country):
 
         if req.status_code == 200:
 
-            data[city] = attractions
-
-            with open('./TripHelperApp/static/bin/cache.json', 'w', encoding='utf-8') as file:
-                file.write(json.dumps(data, indent=4))
+            cache.set(city, attractions, None)
 
             return attractions
         else:
@@ -181,3 +204,8 @@ def send_mail_message(message, to):
 
     email = resend.Emails.send(params)
     print(email)
+
+def test_cache():
+    #cache.set('mykey', 'myvalue')
+
+    print(cache.get('mykey'))

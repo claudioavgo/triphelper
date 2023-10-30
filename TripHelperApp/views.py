@@ -26,7 +26,6 @@ def requer_autenticacao(f):
 
 @requer_autenticacao
 def index(request, user):
-    print(user)
     countries_list = countries()
 
     cities_list = []
@@ -141,8 +140,6 @@ def logoutPage(request):
 
 @requer_autenticacao
 def account(request, user):
-    #usr = Perfil.objects.get(user)
-
     context = {
         'user': user,
         'fav': Perfil.objects.get(usuario=user.usuario).favPlaces.all()
@@ -173,5 +170,31 @@ def likeControlAPI(request, user):
         real_user.favPlaces.remove(fp)
         
     context = {'city': city, 'country': country, 'iso2': iso2, 'type': type}
+
+    return JsonResponse(context)
+
+
+@requer_autenticacao
+def commentAPI(request, user):
+    
+    country = request.GET['country']
+    city = request.GET['city']
+    comment = request.GET['comment']
+
+    print(user)
+
+    real_user = Perfil.objects.get(usuario=user.usuario)
+
+    if comment:
+        cmmt = Comment.objects.create(text=comment, author=user.usuario)
+
+        try:
+            p = Place.objects.get(country=country, city=city)
+        except:
+            p = Place.objects.create(country=country, city=city)
+        
+        p.comments.add(cmmt)
+
+    context = {}
 
     return JsonResponse(context)

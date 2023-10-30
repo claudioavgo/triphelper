@@ -145,5 +145,54 @@
         ],
         "tried": 1,
         "blocks": 16
+    },
+    "Agra": {
+        "success": true,
+        "places": [
+            {
+                "name": "Jaipur to Agra cab via abhaneri & fatehpur Sikri -Transfer",
+                "img_url": "https://cdn.getyourguide.com/img/tour/64be69df43374.jpeg/132.jpg",
+                "activity_type": "Transfer",
+                "time": "5 hours",
+                "url": "https://www.getyourguide.com/fatehpur-sikri-india-l164346/jaipur-to-agra-via-fatehpur-sikri-private-transfer-in-cab-t492828/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            },
+            {
+                "name": "Agra: Skip-the-Line Taj Mahal & Agra Fort Private Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6464a2b41b764.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "6 hours",
+                "url": "https://www.getyourguide.com/agra-l824/agra-skip-the-line-taj-mahal-agra-fort-private-tour-t465775/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            },
+            {
+                "name": "From Jaipur To Agra Private Taj Mahal Day Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/52df4302a4f5f971.jpeg/132.jpg",
+                "activity_type": "Day trip",
+                "time": "8 hours - 1 day",
+                "url": "https://www.getyourguide.com/agra-l824/from-jaipur-taj-mahal-agra-fort-baby-taj-private-day-tour-t503069/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            },
+            {
+                "name": "Taj Mahal with Professional Photoshoot.",
+                "img_url": "https://cdn.getyourguide.com/img/tour/64b0eced7dcce.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "5 hours",
+                "url": "https://www.getyourguide.com/agra-l824/taj-mahal-with-professional-photoshoot-t488586/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            },
+            {
+                "name": "From Delhi: Private 4-Day Golden Triangle Luxury Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5cb826d22f386.jpeg/132.jpg",
+                "activity_type": "Multi-day trip",
+                "time": "4 days",
+                "url": "https://www.getyourguide.com/new-delhi-l231/private-3-day-luxury-golden-triangle-tour-from-delhi-t91188/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            },
+            {
+                "name": "Delhi/Jaipur/Agra: Private One-Way Transfer",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6490ab4eef291.jpeg/132.jpg",
+                "activity_type": "Transfer",
+                "time": "30 minutes - 3.5 hours",
+                "url": "https://www.getyourguide.com/new-delhi-l231/one-way-transfer-to-delhi-jaipur-or-agra-by-private-car-t476385/?ranking_uuid=ab7ead11-6e8e-4c1c-a80b-ebda50a3bd5e"
+            }
+        ],
+        "tried": 1,
+        "blocks": 16
     }
 }
