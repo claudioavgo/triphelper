@@ -68,6 +68,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ## > Diagrama de atividades do sistema - Entrega 03
 
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/43944f85-441a-44a8-89f0-c4468bb54a1e)
+(Clique na foto para uma melhor visualização)
 
 
 ## > Issue/Bug Tracker - Entrega 03
