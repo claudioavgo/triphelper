@@ -5,24 +5,19 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 class FavoriteCases(unittest.TestCase):
-    # declare variable to store the URL to be visited
     base_url="https://triphelpercompany.azurewebsites.net"
 
-    # --- Pre - Condition ---
     def setUp(self):
-        # declare and initialize driver variable
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.driver=webdriver.Chrome(options=options)
         
-        # browser should be loaded in maximized window
         self.driver.maximize_window()
 
-        # driver should wait implicitly for a given duration, for the element under consideration to load.
-        # to enforce this setting we will use builtin implicitly_wait() function of our 'driver' object.
-        self.driver.implicitly_wait(10)  #10 is in seconds
-
-    #@unittest.skip(reason="Test")
+        self.driver.implicitly_wait(10)
+        
+    # Casos de teste
+    # Para skipar um test use isso antes da função -> @unittest.skip(reason="Test")
     def test_no_fav_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -68,7 +63,6 @@ class FavoriteCases(unittest.TestCase):
 
         driver.find_element(By.XPATH,'/html/body/form/button').click()
 
-
         # Recebendo a quantidade de favoritos na página
 
         driver.find_element(By.XPATH,'//*[@id="navbarSupportedContent"]/div/div/button').click()
@@ -79,8 +73,7 @@ class FavoriteCases(unittest.TestCase):
 
         self.assertEqual(len(favs), 0)
 
-    # --- Post - Condition ---
+        # Final dos casos de teste
+
     def tearDown(self):
-        # to close the browser
-        print(f"\n➜  {self.__class__.__name__}")
         self.driver.close()

@@ -2,6 +2,8 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
+# 
+
 class HomePageCases(unittest.TestCase):
     base_url="https://triphelpercompany.azurewebsites.net"
 
@@ -27,5 +29,5 @@ class HomePageCases(unittest.TestCase):
     # --- Final dos casos de teste ---
 
     def tearDown(self):
-        #print(f"\n➜  {self.__class__.__name__}")
+        print(f"\n➜  {self.__class__.__name__}")
         self.driver.close()
