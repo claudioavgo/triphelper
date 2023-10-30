@@ -9,6 +9,7 @@ on:
     branches: [ "CI/CD" ]
   pull_request:
     branches: [ "CI/CD" ]
+
   workflow_dispatch:
 
 jobs:

@@ -67,6 +67,8 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 
 ## > Diagrama de atividades do sistema - Entrega 03
 
+![image](https://github.com/claudioavgo/triphelper/assets/124815014/0fca1bbb-590a-4f29-8fdc-ebde9be6d453)
+
 ## > Issue/Bug Tracker - Entrega 03
 
 ## > Quadro da Sprint do Jira - Entrega 03
