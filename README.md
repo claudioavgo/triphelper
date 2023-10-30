@@ -70,7 +70,6 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ## > Issue/Bug Tracker - Entrega 03
 
 ## > Quadro da Sprint do Jira - Entrega 03
-![image](https://github.com/claudioavgo/triphelper/assets/132563707/22f7831c-8c14-45e5-9add-630157d55764)
 
 ## > Relatos de Pair Programming - Entrega 03
 ### Relato da terceira sprint
