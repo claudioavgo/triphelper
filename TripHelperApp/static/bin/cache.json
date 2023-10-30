@@ -96,5 +96,54 @@
         ],
         "tried": 0,
         "blocks": 16
+    },
+    "login": {
+        "success": true,
+        "places": [
+            {
+                "name": "Colmar Self-Guided City Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/638dfe9549564.jpeg/132.jpg",
+                "activity_type": "Other experience",
+                "time": "2 days",
+                "url": "https://www.getyourguide.com/colmar-l2924/colmar-selfguided-and-interactive-city-tour-t436562/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            },
+            {
+                "name": "Strasbourg: Interactive Self-Guided City Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/623dcfd404815.jpeg/132.jpg",
+                "activity_type": "Other experience",
+                "time": "2 days",
+                "url": "https://www.getyourguide.com/strasbourg-l293/strasbourg-interactive-self-guided-city-tour-t415483/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            },
+            {
+                "name": "Prague: Prague Zoo Online Audio Guide",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6b4c0ad216a31c25.jpeg/132.jpg",
+                "activity_type": "Adventure",
+                "time": "1 day",
+                "url": "https://www.getyourguide.com/prague-l10/prague-prague-zoo-online-audio-guide-t537714/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            },
+            {
+                "name": "Prague: Beer Tour Audio Guide with Ticket to Exhibition",
+                "img_url": "https://cdn.getyourguide.com/img/tour/64affca8a4294.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "1 day",
+                "url": "https://www.getyourguide.com/prague-l10/prague-beer-tour-audio-guide-with-ticket-to-exhibition-t483572/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            },
+            {
+                "name": "Prague: \u017di\u017ekov Television Tower e-Ticket with Audio Guide",
+                "img_url": "https://cdn.getyourguide.com/img/tour/646111dcd2a68.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "1 day",
+                "url": "https://www.getyourguide.com/prague-l10/prague-zizkov-tower-admission-ticket-audio-guide-t464921/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            },
+            {
+                "name": "Denver LoDo: Scavenger Hunt Walking Tour by Smartphone",
+                "img_url": "https://cdn.getyourguide.com/img/tour/624717da64c8e.jpeg/132.jpg",
+                "activity_type": "Other experience",
+                "time": "30 days",
+                "url": "https://www.getyourguide.com/denver-l948/denver-lodo-scavenger-hunt-walking-tour-by-smartphone-t415982/?ranking_uuid=28c2370e-1608-42dd-9166-f1a3e99406d0"
+            }
+        ],
+        "tried": 1,
+        "blocks": 16
     }
 }
