@@ -6,8 +6,10 @@ name: Build and deploy Python app to Azure Web App - TripHelperCompany
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "CI/CD" ]
+  pull_request:
+    branches: [ "CI/CD" ]
+
   workflow_dispatch:
 
 jobs:
