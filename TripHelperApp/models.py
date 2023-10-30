@@ -16,6 +16,10 @@ class Perfil(models.Model):
     usuario = models.OneToOneField(User, on_delete=models.CASCADE)
     favPlaces = models.ManyToManyField(FavoritePlace, default=None, blank=True)
 
+    def getFavPlaces(self):
+        
+        return [y.city for y in self.favPlaces.all()]
+
     def __str__(self):
         return self.usuario.username
     

@@ -67,11 +67,14 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 
 ## > Diagrama de atividades do sistema - Entrega 03
 
-![image](https://github.com/claudioavgo/triphelper/assets/124815014/0fca1bbb-590a-4f29-8fdc-ebde9be6d453)
+![image](https://github.com/claudioavgo/triphelper/assets/132784629/29661b8c-df2f-4939-b5a5-0daaa13c9bd0)
+
 
 ## > Issue/Bug Tracker - Entrega 03
 
 ## > Quadro da Sprint do Jira - Entrega 03
+
+![image](https://github.com/claudioavgo/triphelper/assets/124815014/384054f1-8004-477f-b28b-519213eb4a3b)
 
 ## > Relatos de Pair Programming - Entrega 03
 ### Relato da terceira sprint
@@ -116,7 +119,7 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 <a href="https://github.com/claudioavgo/triphelper/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=claudioavgo/triphelper" />
 </a>
-<p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩 </p>
+<p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
 <p><a href="https://github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
 <p><a href="https://github.com/leooghub">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
 <p><a href="https://github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
