@@ -80,8 +80,12 @@ WSGI_APPLICATION = 'TripHelper.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'th',
+        'USER': 'adminth',
+        'PASSWORD': 'ADWaATH123!',
+        'HOST': 'triphelperdb.postgres.database.azure.com', 
+        'PORT': '5432',
     }
 }
 
