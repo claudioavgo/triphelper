@@ -33,3 +33,8 @@ select option {
 .hover-account:hover {
     background-color: #f1f1f12b;
 }
+
+.button-none {
+    background-color: transparent;
+    border: none;
+}
