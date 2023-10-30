@@ -61,41 +61,16 @@ def findCoordinates(city, country):
     else:
         return []
     
-# def touristAttractions(city, country):
-    
-#     with open('./TripHelperApp/static/bin/cache.json', 'r', encoding='utf-8') as file:
-#         data = json.load(file)
-    
-
-#     try:
-#         if data[city]:
-#             return data[city]
-#     except:
-#         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
-        
-#         req  = requests.get(url)
-        
-#         attractions = json.loads(req.text)
-
-#         if req.status_code == 200:
-
-#             data[city] = attractions
-
-#             with open('./TripHelperApp/static/bin/cache.json', 'w', encoding='utf-8') as file:
-#                 file.write(json.dumps(data, indent=4))
-
-#             return attractions
-#         else:
-#             return []
-        
 def touristAttractions(city, country):
     
-    ch = cache.get(city)
+    with open('./TripHelperApp/static/bin/cache.json', 'r', encoding='utf-8') as file:
+        data = json.load(file)
 
-    if ch:
-        print("cached")
-        return ch
-    else:
+    try:
+        if data[city]:
+            print('cached')
+            return data[city]
+    except:
         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
         
         req  = requests.get(url)
@@ -104,11 +79,36 @@ def touristAttractions(city, country):
 
         if req.status_code == 200:
 
-            cache.set(city, attractions, None)
+            data[city] = attractions
+
+            with open('./TripHelperApp/static/bin/cache.json', 'w', encoding='utf-8') as file:
+                file.write(json.dumps(data, indent=4))
 
             return attractions
         else:
             return []
+        
+# def touristAttractions(city, country):
+    
+#     ch = cache.get(city)
+
+#     if ch:
+#         print("cached")
+#         return ch
+#     else:
+#         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
+        
+#         req  = requests.get(url)
+        
+#         attractions = json.loads(req.text)
+
+#         if req.status_code == 200:
+
+#             cache.set(city, attractions, None)
+
+#             return attractions
+#         else:
+#             return []
 
 def getMorePlaceInfo(xid):
     url_info = f"https://api.opentripmap.com/0.1/en/places/xid/{xid}?apikey={apiKey}"
