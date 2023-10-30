@@ -118,7 +118,7 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 <a href="https://github.com/claudioavgo/triphelper/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=claudioavgo/triphelper" />
 </a>
-<p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩 </p>
+<p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
 <p><a href="https://github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
 <p><a href="https://github.com/leooghub">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
 <p><a href="https://github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
