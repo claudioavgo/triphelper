@@ -1,4 +1,4 @@
-async function dislike(iso2, country, city, reload = false) {
+async function dislike(iso2, country, city, reload) {
     const data = await fetch(
         `/api/feed?country=${country}&city=${city}&type=dislike&iso2=${iso2}`
     );
@@ -35,7 +35,7 @@ try {
             const iso2 = window.location.href.split("/")[4];
             const city = window.location.href.split("/")[5];
             const country = document.querySelector("#country").innerText;
-            dislike(iso2, country, city);
+            dislike(iso2, country, city, false);
             heart.setAttribute("fill", "gray");
         });
     }
@@ -48,7 +48,7 @@ try {
 
     dislike_element.forEach(element => {
         element.addEventListener("click", (e) => {
-            dislike(element.attributes[0].value, element.attributes[1].value, element.attributes[2].value, reload = true);
+            dislike(element.attributes[0].value, element.attributes[1].value, element.attributes[2].value, true);
         });
     });
 } catch (e) {
