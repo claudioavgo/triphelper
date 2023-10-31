@@ -220,7 +220,7 @@ class FavoriteCases(unittest.TestCase):
         ####################################
         ####################################
         ####################################
-        
+
         profile.click()
 
         exit = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/ul/a[2]/li/button')
