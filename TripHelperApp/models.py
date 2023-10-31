@@ -14,8 +14,8 @@ class FavoritePlace(models.Model):
 class Comment(models.Model):
     text = models.TextField()
     likes = models.IntegerField(default=0)
-    author = models.OneToOneField(User, on_delete=models.CASCADE)
-    uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False, blank=True)
+    author = models.CharField(default="Nenhum", null=True, blank=True)
+    id =  models.AutoField(primary_key=True)
 
     def like(self):
         self.likes += 1
@@ -39,7 +39,7 @@ class Place(models.Model):
 class Perfil(models.Model):
     credits = models.IntegerField(default=10)
     usuario = models.OneToOneField(User, on_delete=models.CASCADE)
-    comments = models.ManyToManyField(Comment)
+    comments = models.ManyToManyField(Comment, default=None, blank=True)
     favPlaces = models.ManyToManyField(FavoritePlace, default=None, blank=True)
 
     def getFavPlaces(self):

@@ -73,6 +73,8 @@ def top(request, user):
 #@cache_page(60 * 60)
 def destination(request, country_iso, city, user):
 
+    comments = Place.objects.get(city=city)
+
     if country_iso == "TS" and city == "Teste":
         context = {
             "content": False, 
@@ -92,7 +94,8 @@ def destination(request, country_iso, city, user):
             "plug": plugType(country_iso),
             "info": countryInformations(country_iso),
             "user": user,
-            "favPlaces": user.getFavPlaces if user else []
+            "favPlaces": user.getFavPlaces if user else [],
+            "comments": comments.comments.all()
         }
 
     return render(request, 'destination.html', context)
