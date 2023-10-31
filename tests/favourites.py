@@ -1,6 +1,7 @@
 import random
 import string
 import unittest
+import time
 
 from bin.destination import *
 from selenium import webdriver
@@ -78,6 +79,7 @@ class FavoriteCases(unittest.TestCase):
 
         # Final dos casos de teste
 
+    #@unittest.skip("demonstrating skipping")
     def test_fav_new_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -138,6 +140,11 @@ class FavoriteCases(unittest.TestCase):
 
         fav_action.click()
 
+        heart = driver.find_element_by_xpath("//*[@id='like']/svg/g")
+
+        self.assertEqual(heart.get_attribute("fill"), "red")
+
+    #@unittest.skip("demonstrating skipping")
     def test_unfav_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -195,8 +202,12 @@ class FavoriteCases(unittest.TestCase):
         see_attractions.click()
 
         fav_action = driver.find_element(By.XPATH, '//*[@id="like"]')
+        
+        #time.sleep(1)
 
         fav_action.click()
+
+        #time.sleep(1)
 
         profile = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/button') 
 
@@ -210,20 +221,23 @@ class FavoriteCases(unittest.TestCase):
         ####################################
         ####################################
 
-        unfav_buttons = driver.find_element(By.XPATH, '//*[@id="like"]')
+        driver.refresh()
+
+        time.sleep(1)
+
+        favs_prev = driver.find_elements(By.CLASS_NAME,'card')
+
+        unfav_buttons = driver.find_element(By.XPATH, '//*[@id="dislike"]')
 
         unfav_buttons.click()
 
         ####################################
         ####################################
         ####################################
+        
+        favs_next = driver.find_elements(By.CLASS_NAME,'card')
 
-        profile.click()
-
-        exit = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/ul/a[2]/li/button')
-
-        exit.click()
-
+        self.assertLess(len(favs_prev), len(favs_next))
 
     def tearDown(self):
         self.driver.close()

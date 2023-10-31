@@ -1694,5 +1694,185 @@
     },
     "Aksay": {
         "success": false
+    },
+    "Namukulu": {
+        "success": false
+    },
+    "Nieuw Amsterdam": {
+        "success": true,
+        "places": [
+            {
+                "name": "Amsterdam: Cultural Inner City Tour in German or English",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5f96a483142a4.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "2 hours",
+                "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-culture-history-walking-tour-in-german-t66011/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            },
+            {
+                "name": "From Brussels: Day Trip to Amsterdam",
+                "img_url": "https://cdn.getyourguide.com/img/tour/574833964b68b.jpeg/132.jpg",
+                "activity_type": "Day trip",
+                "time": "12 hours",
+                "url": "https://www.getyourguide.com/brussels-l8/brussels-to-amsterdam-full-day-trip-t66978/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            },
+            {
+                "name": "Amsterdam: City Card with Free Entrance & Public Transport",
+                "img_url": "https://cdn.getyourguide.com/img/tour/dce1f6e2aedeb623.jpeg/132.jpg",
+                "activity_type": "City card",
+                "time": "1 - 5 days",
+                "url": "https://www.getyourguide.com/amsterdam-l36/i-amsterdam-city-card-t46103/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            },
+            {
+                "name": "Amsterdam: Cultural Food Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5e4a92f3bad18.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "2.5 hours",
+                "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-cultural-food-tour-in-german-t112132/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            },
+            {
+                "name": "Amsterdam: Red Light District & City Tour German or English",
+                "img_url": "https://cdn.getyourguide.com/img/tour/60c3aa43c2d23.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "2 hours",
+                "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-red-light-district-city-walking-tour-in-german-t400702/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            },
+            {
+                "name": "Amsterdam: Culinary City Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5f2325af7dfb2.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "3 hours",
+                "url": "https://www.getyourguide.com/amsterdam-l36/amsterdam-culinary-cultural-tour-t357430/?ranking_uuid=d4451b04-e2fc-43bf-81b0-f082326d3733"
+            }
+        ],
+        "tried": 0,
+        "blocks": 16
+    },
+    "Petran": {
+        "success": false
+    },
+    "Tete": {
+        "success": true,
+        "places": [
+            {
+                "name": "Exploration of Lyon Walking Tour for Couples",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6398de9a7f727.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "3 hours",
+                "url": "https://www.getyourguide.com/lyon-l295/lyon-romantic-private-tour-t402752/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            },
+            {
+                "name": "Lyon: 4-Hour Electric Bike Tour with Tasting Break",
+                "img_url": "https://cdn.getyourguide.com/img/tour/58bd89cbeecc0.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "4 hours",
+                "url": "https://www.getyourguide.com/lyon-l295/lyon-4-hour-electric-bike-tour-with-tasting-break-t47939/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            },
+            {
+                "name": "Tumpak Sewu Waterfall Tour from Malang or Surabaya",
+                "img_url": "https://cdn.getyourguide.com/img/tour/a51d76a0bf6829ce.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "12 hours",
+                "url": "https://www.getyourguide.com/indonesia-l169044/tumpak-sewu-waterfall-tour-from-malang-or-surabaya-t518715/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            },
+            {
+                "name": "Lyon: 'Parc de la T\u00eate d'Or' Urban Park Walking Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/61f838cf1db1e.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "2.5 hours",
+                "url": "https://www.getyourguide.com/lyon-l295/lyon-parc-de-la-tete-d-or-urban-park-walking-tour-t411946/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            },
+            {
+                "name": "Lyon: Parc T\u00eate d'Or Bike Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/62b18c6789b92.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "2 hours",
+                "url": "https://www.getyourguide.com/lyon-l295/lyon-15-hour-e-bike-tour-t161019/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            },
+            {
+                "name": "Lyon: 3-Hour Guided E-Bike Tour with a Tasting Break",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5e2f1b215dee0.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "3 hours",
+                "url": "https://www.getyourguide.com/lyon-l295/25-hour-lyon-electric-bike-tour-with-tasting-break-t66089/?ranking_uuid=69a7a199-773a-46ac-ab18-4d54e89cbb3d"
+            }
+        ],
+        "tried": 4,
+        "blocks": 16
+    },
+    "Lola": {
+        "success": true,
+        "places": [
+            {
+                "name": "Madrid: La Cueva de Lola Flamenco Show Tickets with Drink",
+                "img_url": "https://cdn.getyourguide.com/img/tour/639c7172c5255.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "1 hour",
+                "url": "https://www.getyourguide.com/madrid-l46/madrid-flamenco-show-tickets-with-drink-in-the-city-center-t437857/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            },
+            {
+                "name": "1.5-Hour Historical Tour of Leipzig with Costumed Guide",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5aef7f8d080a2.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "1.5 hours",
+                "url": "https://www.getyourguide.com/leipzig-l25/15-hour-historical-tour-of-leipzig-with-costumed-guide-t10353/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            },
+            {
+                "name": "Benalm\u00e1dena: Sea Life Benalm\u00e1dena Premium Entry Ticket",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6433de9ee014e.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "1 minute",
+                "url": "https://www.getyourguide.com/benalmadena-l429/benalmadena-sea-life-benalmadena-premium-entry-ticket-t457425/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            },
+            {
+                "name": "Munich: Nymphenburg Tour With Public Transportation",
+                "img_url": "https://cdn.getyourguide.com/img/tour/62e11a0fb4f91.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "3 hours",
+                "url": "https://www.getyourguide.com/munich-l26/munich-nymphenburg-palace-and-grounds-guided-private-tour-t427272/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            },
+            {
+                "name": "Ronda: Organic Olive Oil Tour with Tasting",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6196a31b08312.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "1.5 hours",
+                "url": "https://www.getyourguide.com/la-organic-l167142/ronda-organic-olive-oil-tour-with-tasting-t408226/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            },
+            {
+                "name": "Quebrada de Humahuaca & Purmamarca Day Trip",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5970c683155e2.jpeg/132.jpg",
+                "activity_type": "Day trip",
+                "time": "13 hours",
+                "url": "https://www.getyourguide.com/salta-l1153/quebrada-de-humahuaca-full-day-tour-from-salta-t57393/?ranking_uuid=b47def4f-dd5c-4af4-8a21-ba606c10c1f1"
+            }
+        ],
+        "tried": 0,
+        "blocks": 7
+    },
+    "Comayaguela": {
+        "success": false
+    },
+    "La Habana": {
+        "success": false
+    },
+    "Imeong": {
+        "success": false
+    },
+    "Avatiu": {
+        "success": false
+    },
+    "Ambriz": {
+        "success": false
+    },
+    "Matsusaka": {
+        "success": false
+    },
+    "Engalsvik": {
+        "success": false
+    },
+    "Velez": {
+        "success": false
+    },
+    "Manzini": {
+        "success": false
     }
 }
