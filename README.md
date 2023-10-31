@@ -79,6 +79,8 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/f3da0b48-5f98-4566-86af-104bc4c74b49)
 
 ## > Quadro da Sprint do Jira - Entrega 03
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/4054b490-c0a4-4958-aa88-8598318eaad8)
+
 
 ![image](https://github.com/claudioavgo/triphelper/assets/124815014/384054f1-8004-477f-b28b-519213eb4a3b)
 
