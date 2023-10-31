@@ -6,6 +6,7 @@
          background-color: inherit !important; 
          }
       </style>
+      {% load cache %}
       {% load static %}
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,6 +15,8 @@
          href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
          type="image/x-icon" />
       <link rel="stylesheet" href="{% static 'style.css' %}" />
+      <script defer src="{% static 'favourite.js' %}"></script>
+      <script defer src="{% static 'comment.js' %}"></script>
       <link rel="stylesheet" href="{% static 'comments.css' %}" />
       <link
          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -109,9 +112,21 @@
             </div>
          </div>
       </nav>
+
       <div style="display: flex; justify-content: center; align-items: center; margin-top: 5rem;">
-         <h1>{{ city }}, {{ country }} <img style="height: 50px;"  alt=""></h1>
+         <h1 style="margin-right: 1rem;">{{ city }}, <span id="country">{{ country }}</span></h1>
+         {% if user %}
+         <button id="like" class="button-none">
+            <svg width="32" height="32" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+               <g fill="{% if city in user.getFavPlaces %}red{% else %}gray{% endif %}">
+                   <path d="M232 94c0 66-104 122-104 122S24 160 24 94a54 54 0 0 1 54-54c22.59 0 41.94 12.31 50 32c8.06-19.69 27.41-32 50-32a54 54 0 0 1 54 54Z" opacity=".7"/>
+                   <path d="M178 32c-20.65 0-38.73 8.88-50 23.89C116.73 40.88 98.65 32 78 32a62.07 62.07 0 0 0-62 62c0 70 103.79 126.66 108.21 129a8 8 0 0 0 7.58 0C136.21 220.66 240 164 240 94a62.07 62.07 0 0 0-62-62Zm-50 174.8C109.74 196.16 32 147.69 32 94a46.06 46.06 0 0 1 46-46c19.45 0 35.78 10.36 42.6 27a8 8 0 0 0 14.8 0c6.82-16.67 23.15-27 42.6-27a46.06 46.06 0 0 1 46 46c0 53.61-77.76 102.15-96 112.8Z"/>
+               </g>
+            </svg>
+         </button>
+         {% endif %}
       </div>
+      
       <div style="padding-left: 10rem; padding-right: 10rem;">
          <table class="table" style="border-collapse: collapse; overflow: hidden;">
             <tbody>
@@ -155,107 +170,65 @@
           <img src="{{ i.img_url }}" class="card-img-top" style="height: 12rem;" alt="{{ i.name }}">
           <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
-              <p class="card-text">{{ i.activity_type }}</p>
-              <p class="card-text">{{ i.time }}</p>
+              <p class="card-text">Tipo da atividade: {{ i.activity_type }}</p>
+              <p class="card-text">Tempo da atividade: {{ i.time }}</p>
           </div>
         </div>
       </a>
       {% endfor %}
+      
       <div class="container bootdey">
       <div class="col-md-12 bootstrap snippets">
       <div class="panel">
          <div class="panel-body">
+            {% if user %}
             <textarea class="form-control" rows="2" id="user-input" placeholder="What are you thinking?"></textarea>
             <div class="mar-top clearfix">
-               <button class="btn btn-sm btn-primary pull-right" type="submit" onclick="addComment()" style="margin-top: 15px ;"><i class="fa fa-pencil fa-fw"></i> Share</button>
+               <button class="btn btn-sm btn-primary pull-right" type="submit" id="comment-button" onclick="addComment()" style="margin-top: 15px ;"><i class="fa fa-pencil fa-fw"></i> Share</button>
             </div>
+            {% endif %}
          </div>
       </div>
       <div class="panel">
-      <script>
-         function increaseLikes(counter) {
-          var likeCount = document.getElementById("like-count-" + counter);
-          var currentLikes = parseInt(likeCount.innerHTML);
-          likeCount.innerHTML = currentLikes + 1;
-         }
-      </script>
       <div class="panel-body">
       <!-- Newsfeed Content -->
       <!--===================================================-->
       <div class="media-block">
       <!-- Comments -->
       <div id="comments-container">
+         {% for i in comments %}
          <div class="media-block">
-            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+            <a class="media-left"><img class="img-circle img-sm" alt="Profile Picture" src="https://source.boringavatars.com/beam/25/{{ i.author }}"></a>
             <div class="media-body">
                <div class="mar-btm">
-                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Bobby Marz</a>
-                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - 7 min ago</p>
+                  <a class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">{{ i.author }}</a>
+                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web</p>
                </div>
-               <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-               <div class="pad-ver">
-                  <div class="btn-group">
-                     <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(2)"><i class="fa fa-thumbs-up"></i> <span id="like-count-2">0</span></a>
-                     <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(2)"><i class="fa fa-thumbs-down"></i></a>
-                  </div>
-                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-               </div>
+               <p>{{ i.text }}</p>
                <hr>
             </div>
          </div>
-         <div class="media-block">
-            <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar3.png">
-            </a>
-            <div class="media-body">
-               <div class="mar-btm">
-                  <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lucy Moon</a>
-                  <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web - 2 min ago</p>
-               </div>
-               <p>Duis autem vel eum iriure dolor in hendrerit in vulputate ?</p>
-               <div class="pad-ver">
-                  <div class="btn-group">
-                     <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(3)"><i class="fa fa-thumbs-up"></i> <span id="like-count-3">0</span></a>
-                     <a class="btn btn-sm btn-default btn-hover-danger"  id="dislike-btn" onclick="decreaseLikes(3)"><i class="fa fa-thumbs-down"></i></a>
-                  </div>
-                  <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-               </div>
-               <hr>
-            </div>
-         </div>
+         {% endfor %}
       </div>
-      <script>
-         function decreaseLikes(id) {
-           var count = document.getElementById("like-count-" + id);
-           var currentCount = parseInt(count.innerHTML);
-           count.innerHTML = currentCount - 1;
-         }
-         
+      <script>         
          function addComment() {
            var userInput = document.getElementById("user-input").value;
            if (userInput !== "") {
              var commentsContainer = document.getElementById("comments-container");
              var newComment = `
                <div class="media-block">
-                 <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="https://bootdey.com/img/Content/avatar/avatar2.png"></a>
+                 <a class="media-left"><img class="img-circle img-sm" alt="Profile Picture" src="https://source.boringavatars.com/beam/25/{{ user.usuario.username }}"></a>
                  <div class="media-body">
                    <div class="mar-btm">
-                     <a href="#" class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">Lisa D.</a>
-                     <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-mobile fa-lg"></i> - From Mobile - just now</p>
+                     <a class="btn-link text-semibold media-heading box-inline" style="padding-left: 10px;">{{ user.usuario.username }}</a>
+                     <p class="text-muted text-sm" style="padding-left: 10px;"><i class="fa fa-globe fa-lg"></i> - From Web</p>
                    </div>
                    <p>${userInput}</p>
-                   <div class="pad-ver">
-                     <div class="btn-group">
-                       <a class="btn btn-sm btn-default btn-hover-success" id="like-btn" onclick="increaseLikes(4)"><i class="fa fa-thumbs-up"></i> <span id="like-count-4">0</span></a>
-                       <a class="btn btn-sm btn-default btn-hover-danger" href="#" id="dislike-btn" onclick="decreaseLikes(4)"><i class="fa fa-thumbs-down"></i></a>
-                     </div>
-                     <a class="btn btn-sm btn-default btn-hover-primary" href="#">Comment</a>
-                   </div>
                    <hr>
                  </div>
                </div>
              `;
              commentsContainer.insertAdjacentHTML("afterbegin", newComment);
-             document.getElementById("user-input").value = "";
            }
          }
       </script>

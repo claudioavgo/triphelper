@@ -26,7 +26,6 @@ def requer_autenticacao(f):
 
 @requer_autenticacao
 def index(request, user):
-    print(user)
     countries_list = countries()
 
     cities_list = []
@@ -69,18 +68,13 @@ def top(request, user):
     }
     return render(request, 'top.html', context)
 
-# Favorite Places Page
-@requer_autenticacao
-def favoritePlaces(request, user):
-    context = {
-        'user': user,
-    }
-    return render(request, 'favorite.html', context)
-
 # Destination Page
 @requer_autenticacao
-@cache_page(60 * 60)
+#@cache_page(60 * 60)
 def destination(request, country_iso, city, user):
+
+    comments = Place.objects.get(city=city)
+
     if country_iso == "TS" and city == "Teste":
         context = {
             "content": False, 
@@ -95,11 +89,13 @@ def destination(request, country_iso, city, user):
         context = {
             "content": touristAttractions(city, country_iso),
             "country": getCountryByIso(country_iso), 
-            "city": city, 
+            "city": city,
             "iso": str(country_iso).lower(),
             "plug": plugType(country_iso),
             "info": countryInformations(country_iso),
-            "user": user
+            "user": user,
+            "favPlaces": user.getFavPlaces if user else [],
+            "comments": comments.comments.all()
         }
 
     return render(request, 'destination.html', context)
@@ -147,8 +143,6 @@ def logoutPage(request):
 
 @requer_autenticacao
 def account(request, user):
-    #usr = Perfil.objects.get(user)
-
     context = {
         'user': user,
         'fav': Perfil.objects.get(usuario=user.usuario).favPlaces.all()
@@ -167,9 +161,9 @@ def likeControlAPI(request, user):
 
     if str(type).lower() == "like":
 
-        fp = FavoritePlace.objects.get(city=city)
-
-        if not fp:
+        try:
+            fp = FavoritePlace.objects.get(city=city)
+        except:
             fp = FavoritePlace.objects.create(city=city, country=country, iso2=iso2)
 
         real_user.favPlaces.add(fp)
@@ -179,5 +173,31 @@ def likeControlAPI(request, user):
         real_user.favPlaces.remove(fp)
         
     context = {'city': city, 'country': country, 'iso2': iso2, 'type': type}
+
+    return JsonResponse(context)
+
+
+@requer_autenticacao
+def commentAPI(request, user):
+    
+    country = request.GET['country']
+    city = request.GET['city']
+    comment = request.GET['comment']
+
+    print(user)
+
+    real_user = Perfil.objects.get(usuario=user.usuario)
+
+    if comment:
+        cmmt = Comment.objects.create(text=comment, author=user.usuario)
+
+        try:
+            p = Place.objects.get(country=country, city=city)
+        except:
+            p = Place.objects.create(country=country, city=city)
+        
+        p.comments.add(cmmt)
+
+    context = {}
 
     return JsonResponse(context)

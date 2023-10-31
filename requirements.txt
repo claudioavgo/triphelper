@@ -2,7 +2,9 @@ deep-translator
 python-dotenv
 whitenoise
 requests
+psycopg2
+schedule
 Django
 resend
-schedule
 redis
+selenium
