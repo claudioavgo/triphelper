@@ -58,10 +58,13 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 # Requisitos entrega 03
 
 ## > Screencast protótipo Lo-Fi - Entrega 03
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/sE_j8LJLO2g)
 
 ## > Screencast - Entrega 03
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/4wpidyujF6s)
 
 ## > Screencast build e deployment - Entrega 03
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/AKtspzB9w0o)
 
 ## > Testes de Sistema (E2E) Automatizados - Entrega 03
 
@@ -72,10 +75,11 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 
 
 ## > Issue/Bug Tracker - Entrega 03
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/187f2f3a-1a71-45fa-ba0e-2b2612ba79c0)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/f3da0b48-5f98-4566-86af-104bc4c74b49)
 
 ## > Quadro da Sprint do Jira - Entrega 03
-
-![image](https://github.com/claudioavgo/triphelper/assets/124815014/384054f1-8004-477f-b28b-519213eb4a3b)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/4054b490-c0a4-4958-aa88-8598318eaad8)
 
 ## > Relatos de Pair Programming - Entrega 03
 ### Relato da terceira sprint
