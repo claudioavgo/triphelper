@@ -81,9 +81,6 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ## > Quadro da Sprint do Jira - Entrega 03
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/4054b490-c0a4-4958-aa88-8598318eaad8)
 
-
-![image](https://github.com/claudioavgo/triphelper/assets/124815014/384054f1-8004-477f-b28b-519213eb4a3b)
-
 ## > Relatos de Pair Programming - Entrega 03
 ### Relato da terceira sprint
 Nós demos continuidade ao uso do pair programming durante a terceira sprint. Optamos por continuar nossa comunicação através do Discord, mas, dessa vez, fizemos uso de uma extensão criada pela Microsoft que permite o desenvolvimento colaborativo em tempo real: o Visual Studio Live Share. Devido ao uso dessa extensão, conseguimos desenvolver de forma mais rápida as histórias selecionadas e fazer uma espécie de "rodízio" entre as duplas, já que a extensão fornecia mais dinamismo para o desenvolvimento da nossa aplicação. O uso do pair programming foi essencial para garantir a qualidade das entregas e fortaleceu o trabalho em equipe.
