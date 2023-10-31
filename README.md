@@ -58,7 +58,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 # Requisitos entrega 03
 
 ## > Screencast protótipo Lo-Fi - Entrega 03
-[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)]([https://youtu.be/sE_j8LJLO2g)
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/sE_j8LJLO2g)
 
 ## > Screencast - Entrega 03
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/4wpidyujF6s)
