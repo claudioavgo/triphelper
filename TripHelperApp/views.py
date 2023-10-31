@@ -73,7 +73,12 @@ def top(request, user):
 #@cache_page(60 * 60)
 def destination(request, country_iso, city, user):
 
-    comments = Place.objects.get(city=city)
+    country_ = getCountryByIso(country_iso)
+
+    try:
+        place = Place.objects.get(city=city)
+    except:
+        place = Place.objects.create(city=city, country=country_)
 
     if country_iso == "TS" and city == "Teste":
         context = {
@@ -88,14 +93,14 @@ def destination(request, country_iso, city, user):
     else:
         context = {
             "content": touristAttractions(city, country_iso),
-            "country": getCountryByIso(country_iso), 
+            "country": country_, 
             "city": city,
             "iso": str(country_iso).lower(),
             "plug": plugType(country_iso),
             "info": countryInformations(country_iso),
             "user": user,
             "favPlaces": user.getFavPlaces if user else [],
-            "comments": comments.comments.all()
+            "comments": place.comments.all()
         }
 
     return render(request, 'destination.html', context)

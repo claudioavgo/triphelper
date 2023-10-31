@@ -210,12 +210,9 @@ class FavoriteCases(unittest.TestCase):
         ####################################
         ####################################
 
-        unfav_buttons = driver.find_elements(By.XPATH, '//button[@class="dislike-button"]')
+        unfav_buttons = driver.find_element(By.XPATH, '//*[@id="like"]')
 
-        for button in unfav_buttons:
-            if button.is_displayed():
-                button.click()
-                break
+        unfav_buttons.click()
 
         ####################################
         ####################################
