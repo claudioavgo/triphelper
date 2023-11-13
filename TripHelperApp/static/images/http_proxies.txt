@@ -1,3 +1,20 @@
-2_24
-2_09
-1_25
+Ana
+Carlos
+Felipe
+Frederico
+Jessica
+Julia
+Luana
+Maria
+Beatriz
+João
+Mariane
+Mateus
+Ricardo
+Tiago
+
+Amigo do Habay:
+Frederico
+
+
+|| (temp_num == max_num && n->ordem < ordem_winner)
