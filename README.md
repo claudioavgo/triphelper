@@ -67,6 +67,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/AKtspzB9w0o)
 
 ## > Testes de Sistema (E2E) Automatizados - Entrega 03
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://drive.google.com/file/d/12OyDjF8BbGyOV1F0yS4UoujIIDwz0Y6v/view?usp=sharing)
 
 ## > Diagrama de atividades do sistema - Entrega 03
 
