@@ -87,28 +87,6 @@ def touristAttractions(city, country):
             return attractions
         else:
             return []
-        
-# def touristAttractions(city, country):
-    
-#     ch = cache.get(city)
-
-#     if ch:
-#         print("cached")
-#         return ch
-#     else:
-#         url = f"https://places-api-5dim.onrender.com/places?city={city}&country={country}"
-        
-#         req  = requests.get(url)
-        
-#         attractions = json.loads(req.text)
-
-#         if req.status_code == 200:
-
-#             cache.set(city, attractions, None)
-
-#             return attractions
-#         else:
-#             return []
 
 def getMorePlaceInfo(xid):
     url_info = f"https://api.opentripmap.com/0.1/en/places/xid/{xid}?apikey={apiKey}"

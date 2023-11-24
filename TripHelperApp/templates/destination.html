@@ -174,13 +174,13 @@
         <h1>No attractions :/</h1>
       {% endif %}
       {% for i in content.places %}
-      <a href="{{ i.url }}">
+      <a href="https://www.getyourguide.com{{ i.url }}">
         <div class="card" style="height: fit-content;width: 20rem;">
-          <img src="{{ i.img_url }}" class="card-img-top" style="height: 12rem;" alt="{{ i.name }}">
+          <img src="{{ i.photos.0.urls.2.url}}" class="card-img-top" style="height: 12rem;" alt="{{ i.title }}">
           <div class="card-body">
-              <h5 class="card-title">{{ i.name }}</h5>
-              <p class="card-text">Tipo da atividade: {{ i.activity_type }}</p>
-              <p class="card-text">Tempo da atividade: {{ i.time }}</p>
+              <h5 class="card-title">{{ i.title }}</h5>
+              <p class="card-text">Activity Type: {{ i.activityType.key }}</p>
+              <p class="card-text">Activity Spend Time: {{ i.attributes.0.label }}</p>
           </div>
         </div>
       </a>

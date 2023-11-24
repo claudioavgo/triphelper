@@ -1,51 +1,625 @@
 {
+    "Puente Alto": {
+        "success": false
+    },
+    "Aldeia": {
+        "success": true,
+        "places": [
+            {
+                "id": 502415,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "guidedTour",
+                    "label": "Guided tour"
+                },
+                "title": "Ubatuba - Viv\u00eancia Aldeia Ind\u00edgena Boa Vista",
+                "url": "/sao-paulo-l384/vivencia-aldeia-indigena-boa-vista-t502415/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 63.61,
+                    "formattedStartingPrice": "$63.61",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 63.61,
+                    "formattedBasePrice": "$63.61",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "10 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-25T09:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 10,
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/fc3fb7b3e155ef6e.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/fc3fb7b3e155ef6e.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/fc3fb7b3e155ef6e.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/fc3fb7b3e155ef6e.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "5 hours"
+                    },
+                    {
+                        "type": "smallGroup",
+                        "label": "Small group"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 384,
+                    "name": "S\u00e3o Paulo",
+                    "urlPath": "/sao-paulo-l384/"
+                },
+                "coordinates": {
+                    "latitude": -23.4383873,
+                    "longitude": -45.0702601
+                },
+                "abstract": "Vivenciar as tradi\u00e7\u00f5es e a identidade dos ind\u00edgenas da Aldeia Boa Vista."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    },
     "Recife": {
         "success": true,
         "places": [
             {
-                "name": "From Recife : Carneiros Beach",
-                "img_url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/132.jpg",
-                "activity_type": "Day trip",
-                "time": "8 hours",
-                "url": "https://www.getyourguide.com/recife-l1836/carneiros-beach-t494174/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 494174,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "From Recife : Carneiros Beach",
+                "url": "/recife-l1836/carneiros-beach-t494174/",
+                "reviewStatistics": {
+                    "quantity": 3,
+                    "rating": 3.3333332538604736
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 31.17,
+                    "formattedStartingPrice": "$31.17",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 31.17,
+                    "formattedBasePrice": "$31.17",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T06:30:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "8 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1317303,
+                    "longitude": -34.902409
+                },
+                "abstract": "-It combines all the attributes of a paradise beach: coconut trees, clear sand and transparent green sea.\n\n-Enjoy the day on an incredible beach.\n\n-Photograph the diversity of fish shoals"
             },
             {
-                "name": "City Tour Recife & Olinda",
-                "img_url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/132.jpg",
-                "activity_type": "Day trip",
-                "time": "7 hours",
-                "url": "https://www.getyourguide.com/recife-l1836/city-tour-recife-olinda-t469508/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 490712,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "From Recife: Tour Olinda with Recife Antigo",
+                "url": "/recife-l1836/tour-olinda-with-recife-antigo-departing-from-recife-t490712/",
+                "reviewStatistics": {
+                    "quantity": 3,
+                    "rating": 3.3333332538604736
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 28.2,
+                    "formattedStartingPrice": "$28.20",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 28.2,
+                    "formattedBasePrice": "$28.20",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T09:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "7 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1317303,
+                    "longitude": -34.902409
+                },
+                "abstract": "Take a guided day trip from Boa Viagem or Piedade to explore UNESCO-listed Olinda's historic churches and landmarks, Recife Antigo's vibrant streets, and the Handicraft Center of Pernambuco."
             },
             {
-                "name": "Dois Irm\u00e3os Zoo: Wildlife Adventure with Comfortable transfe",
-                "img_url": "https://cdn.getyourguide.com/img/tour/db498ee9376a68ba.png/132.jpg",
-                "activity_type": "Adventure",
-                "time": "2 hours",
-                "url": "https://www.getyourguide.com/recife-l1836/dois-irmaos-zoo-wildlife-adventure-with-comfortable-transfe-t528271/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 469508,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "Recife: City Tour Recife & Olinda",
+                "url": "/recife-l1836/city-tour-recife-olinda-t469508/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 26,
+                    "formattedStartingPrice": "$26",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 26,
+                    "formattedBasePrice": "$26",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T08:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "7 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1801557,
+                    "longitude": -34.9203383
+                },
+                "abstract": "Immerse yourself in the enchanting beauty of Olinda, one of the most breathtaking colonial cities that exudes a magical charm. We'll also venture into the vibrant Recife Antigo neighborhood."
             },
             {
-                "name": "Explore the Heart of Recife: Capibaribe River Tour",
-                "img_url": "https://cdn.getyourguide.com/img/tour/6074c089ea5de310.png/132.jpg",
-                "activity_type": "Private tour",
-                "time": "2 hours",
-                "url": "https://www.getyourguide.com/recife-l1836/explore-the-heart-of-recife-capibaribe-river-tour-t519821/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 526281,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Recife: Brazil eSIM Roaming Mobile Data Plan",
+                "url": "/recife-l1836/recife-brazil-esim-roaming-mobile-data-plan-t526281/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 15,
+                    "formattedStartingPrice": "$15",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 15,
+                    "formattedBasePrice": "$15",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-24T00:00:00+08:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-24"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "7 - 30 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.133302799999997,
+                    "longitude": -34.917548
+                },
+                "abstract": "Scan a QR code for instant access to the local high-speed data network with your eSIM- compatible device no matter where you are and when it is. Benefit from reasonable pricing, a reliable network, and support."
             },
             {
-                "name": "Recife Boat Tour with Transfers",
-                "img_url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/132.jpg",
-                "activity_type": "Water activity",
-                "time": "1 hour",
-                "url": "https://www.getyourguide.com/recife-l1836/recife-boat-tour-with-transfers-t70315/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 70305,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "privateTour",
+                    "label": "Private tour"
+                },
+                "title": "Olinda City Tour and Instituto Ricardo Brennand",
+                "url": "/recife-l1836/city-tour-in-olinda-with-instituto-ricardo-brennand-t70305/",
+                "reviewStatistics": {
+                    "quantity": 5,
+                    "rating": 4.599999904632568
+                },
+                "category": "dayTrip",
+                "categoryLabel": "Day trip",
+                "price": {
+                    "startingPrice": 94,
+                    "formattedStartingPrice": "$94",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 94,
+                    "formattedBasePrice": "$94",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "17 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-25T09:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 17,
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "6 hours"
+                    },
+                    {
+                        "type": "audioguide",
+                        "label": "Optional audio guide"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.131730300000001,
+                    "longitude": -34.902409000000034
+                },
+                "abstract": "Explore one of the best-preserved colonial cities in Brazil on a 5-hour guided tour of Olinda from Recife. See landmark attractions with a guide, including the panoramic lift of the Caixa da Agua no Alto da S\u00e9, the Ricardo Brennard Museum and more."
             },
             {
-                "name": "Recife Cultural with Brennand Castle",
-                "img_url": "https://cdn.getyourguide.com/img/tour/64b6b5ae4ae5a.jpeg/132.jpg",
-                "activity_type": "Day trip",
-                "time": "7 hours",
-                "url": "https://www.getyourguide.com/recife-l1836/recife-cultural-with-brennand-castle-t490795/?ranking_uuid=2bcf9a2c-b3d4-46cb-a70a-a35276e1f399"
+                "id": 70315,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": "Recife Boat Tour with Transfers",
+                "url": "/recife-l1836/recife-boat-tour-with-transfers-t70315/",
+                "reviewStatistics": {
+                    "quantity": 6,
+                    "rating": 4
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 72,
+                    "formattedStartingPrice": "$72",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 72,
+                    "formattedBasePrice": "$72",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "17 spots left today",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-24T10:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_today",
+                        "spots": 17,
+                        "date": "2023-11-24"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "1 hour"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 4h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1316848,
+                    "longitude": -34.9021774
+                },
+                "abstract": "Cruise along the Capibaribe River in Recife and experience the \"Brazilian Venice\" by water. Ride to Santo Antonio, Recife Antigo and Boa Vista islands passing bridges and colonial buildings. Discover where the Portuguese founded the city."
             }
         ],
         "tried": 0,
+<<<<<<< HEAD
         "blocks": 16
     },
     "Rio de Janeiro": {
@@ -6536,6 +7110,8 @@
             }
         ],
         "tried": 0,
+=======
+>>>>>>> c8977fe25fe66630c20793e202f3f335cc038e3a
         "blocks": 6
     }
 }
