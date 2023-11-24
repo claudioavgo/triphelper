@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'TripHelper.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'th',
+        'NAME': 'postgre_xsuv',
         'USER': 'adminth',
-        'PASSWORD': 'ADWaATH123!',
-        'HOST': 'triphelperdb.postgres.database.azure.com', 
+        'PASSWORD': 'ewj2uOFLrZ1QqCUCxcb2X88OrH5uSAk6',
+        'HOST': 'dpg-cl3drvot3kic73db8nn0-a.oregon-postgres.render.com', 
         'PORT': '5432',
     }
 }
