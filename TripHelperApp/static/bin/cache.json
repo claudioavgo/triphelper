@@ -1874,5 +1874,4668 @@
     },
     "Manzini": {
         "success": false
+    },
+    "Gitarama": {
+        "success": false
+    },
+    "Pocatky": {
+        "success": false
+    },
+    "Shefa": {
+        "success": true,
+        "places": [
+            {
+                "name": "Port Vila: Small Group Half-Day River Kayaking Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5d897feeb8d2c.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "4 hours",
+                "url": "https://www.getyourguide.com/port-vila-l32388/port-vila-small-group-half-day-river-kayaking-tour-t305353/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            },
+            {
+                "name": "Efate Round Island Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/648b6f2a94ab7.jpeg/132.jpg",
+                "activity_type": "Day trip",
+                "time": "7 hours",
+                "url": "https://www.getyourguide.com/port-vila-l32388/efate-round-island-tour-t476290/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            },
+            {
+                "name": "Port Vila: Vanuatu eSIM Roaming Mobile Data Plan",
+                "img_url": "https://cdn.getyourguide.com/img/tour/34d1d0c8b422b6be.jpeg/132.jpg",
+                "activity_type": "Other experience",
+                "time": "7 - 30 days",
+                "url": "https://www.getyourguide.com/port-vila-l32388/port-vila-vanuatu-esim-roaming-mobile-data-plan-t514873/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            },
+            {
+                "name": "Port Vila: Adventure Quad Tour in the Jungle",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6455904037ec2.jpeg/132.jpg",
+                "activity_type": "Adventure",
+                "time": "1 hour",
+                "url": "https://www.getyourguide.com/port-vila-l32388/adventure-quad-t457563/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            },
+            {
+                "name": "Mele Bay, Port Vila: Vanuatu Jungle Zipline",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6382ce94d5c84.jpeg/132.jpg",
+                "activity_type": "Adventure",
+                "time": "3.5 hours",
+                "url": "https://www.getyourguide.com/port-vila-l32388/mele-bay-port-vila-vanuatu-jungle-zipline-t297650/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            },
+            {
+                "name": "Port Vila: Jungle Walk and Suspension Skybridge",
+                "img_url": "https://cdn.getyourguide.com/img/tour/637ad2c520d87.jpeg/132.jpg",
+                "activity_type": "Adventure",
+                "time": "1 day",
+                "url": "https://www.getyourguide.com/port-vila-l32388/port-vila-jungle-walk-and-suspension-skybridge-t434844/?ranking_uuid=d6fbaf29-80fb-43e0-9bcf-16dee1fe3283"
+            }
+        ],
+        "tried": 1,
+        "blocks": 16
+    },
+    "Goyave": {
+        "success": true,
+        "places": [
+            {
+                "name": "Mauritius Dolphin Encounter and Geographic Marvels Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/58000840aa1df.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "8 hours",
+                "url": "https://www.getyourguide.com/chamarel-l2088/dolphins-and-mauritius-volcanic-wonders-tour-t74662/?ranking_uuid=7669289a-fdef-4621-ae1c-ed5f0f7cbcce"
+            },
+            {
+                "name": "Private Full Package Best Sites w/ Transport Tickets & Lunch",
+                "img_url": "https://cdn.getyourguide.com/img/tour/645ce6e115d2d.jpeg/132.jpg",
+                "activity_type": "Private tour",
+                "time": "8 hours",
+                "url": "https://www.getyourguide.com/belle-mare-l182652/unveiling-the-natural-beautiesmarvels-of-southwest-mtius-t460568/?ranking_uuid=7669289a-fdef-4621-ae1c-ed5f0f7cbcce"
+            }
+        ],
+        "tried": 0,
+        "blocks": 2
+    },
+    "Guantian": {
+        "success": false
+    },
+    "Toliara": {
+        "success": false
+    },
+    "Basseterre": {
+        "success": true,
+        "places": [
+            {
+                "name": "St. Kitts 4-Hour Sail & Snorkel with Open Bar & Lunch",
+                "img_url": "https://cdn.getyourguide.com/img/tour/51265a16a7b4c.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "4 hours",
+                "url": "https://www.getyourguide.com/basseterre-l1462/st-kitts-half-day-sail-and-snorkel-with-open-bar-t31881/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            },
+            {
+                "name": "Saint Kitts: Nevis Getaway to Pinney\u2019s Beach by Boat",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5d260f1114b1b.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "5 hours",
+                "url": "https://www.getyourguide.com/basseterre-l1462/saint-kitts-nevis-getaway-to-pinney-s-beach-by-boat-t273367/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            },
+            {
+                "name": "St. Kitts: Top Sights Guided Van or Open-Air Safari Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/088f86caf960b187.jpeg/132.jpg",
+                "activity_type": "Adventure",
+                "time": "2.5 hours",
+                "url": "https://www.getyourguide.com/saint-kitts-and-nevis-l169164/st-kitts-top-sights-guided-van-or-open-air-safari-tour-t419685/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            },
+            {
+                "name": "From Port Zante: Beach Break to Cockleshell Beach",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5d24d2a9a76e7.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "3.5 - 6 hours",
+                "url": "https://www.getyourguide.com/basseterre-l1462/from-port-zante-beach-break-to-cockleshell-beach-t272892/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            },
+            {
+                "name": "St. Kitts: Nevis Island Tour and Beach Time with Lunch",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5d4f632ef3e16.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "5 hours",
+                "url": "https://www.getyourguide.com/basseterre-l1462/st-kitts-nevis-island-tour-and-beach-time-with-lunch-t286765/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            },
+            {
+                "name": "St Kitts Mini Speedboat and Snorkel Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/57ba35a5ee0e3.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "3 hours",
+                "url": "https://www.getyourguide.com/basseterre-l1462/st-kitts-mini-speedboat-and-snorkel-adventure-t71623/?ranking_uuid=3c686230-3fa7-43c7-ad78-a7902c614485"
+            }
+        ],
+        "tried": 3,
+        "blocks": 16
+    },
+    "Coamo": {
+        "success": false
+    },
+    "Relizane": {
+        "success": false
+    },
+    "Chimaltenango": {
+        "success": false
+    },
+    "Quthing": {
+        "success": false
+    },
+    "Baruun-Urt": {
+        "success": false
+    },
+    "San Alberto": {
+        "success": true,
+        "places": [
+            {
+                "name": "Salento: Quind\u00edo Magical Towns Private Tour with Local Lunch",
+                "img_url": "https://cdn.getyourguide.com/img/tour/5dcc1ec802fbc.jpeg/132.jpg",
+                "activity_type": "Day trip",
+                "time": "9 hours",
+                "url": "https://www.getyourguide.com/salento-colombia-l32675/salento-quindio-magical-towns-private-tour-with-local-lunch-t326966/"
+            }
+        ],
+        "tried": 4,
+        "blocks": 1
+    },
+    "Stockholm": {
+        "success": true,
+        "places": [
+            {
+                "name": "Stockholm: The Mystery of Banksy Exhibition Entry Ticket",
+                "img_url": "https://cdn.getyourguide.com/img/tour/b283d07e1e720463.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "1.5 hours",
+                "url": "https://www.getyourguide.com/stockholm-l50/stockholm-the-mystery-of-banksy-exhibition-entry-ticket-t509380/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            },
+            {
+                "name": "Stockholm: City Archipelago Sightseeing Cruise with Guide",
+                "img_url": "https://cdn.getyourguide.com/img/tour/df211dcae059f998.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "2.5 hours",
+                "url": "https://www.getyourguide.com/stockholm-l50/stockholm-archipelago-sightseeing-tour-t33191/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            },
+            {
+                "name": "Essential Tour of Stockholm: Gamla Stan",
+                "img_url": "https://cdn.getyourguide.com/img/tour/ebb116e877fe1c4f.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "2.5 hours",
+                "url": "https://www.getyourguide.com/stockholm-l50/essential-tour-of-stockholm-gamla-stan-2-t554363/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            },
+            {
+                "name": "Stockholm: ABBA The Museum Entrance Ticket",
+                "img_url": "https://cdn.getyourguide.com/img/tour/52316c9891559d2d.jpeg/132.jpg",
+                "activity_type": "Entry ticket",
+                "time": "2 hours",
+                "url": "https://www.getyourguide.com/stockholm-l50/abba-the-museum-stockholm-walk-in-dance-out-t91851/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            },
+            {
+                "name": "Stockholm: 1.5-Hour Ghost Walk and Historical Tour",
+                "img_url": "https://cdn.getyourguide.com/img/tour/6ae664e18f0a4303.jpeg/132.jpg",
+                "activity_type": "Guided tour",
+                "time": "1 day",
+                "url": "https://www.getyourguide.com/stockholm-l50/stockholm-90-minute-ghost-walk-historical-tour-t249222/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            },
+            {
+                "name": "Stockholm: Land and Water Tour by Amphibious Bus",
+                "img_url": "https://cdn.getyourguide.com/img/tour/7d8eb966f699c7f7.jpeg/132.jpg",
+                "activity_type": "Water activity",
+                "time": "1 hour",
+                "url": "https://www.getyourguide.com/stockholm-l50/stockholm-by-land-and-water-on-the-amphibious-bus-tour-t191642/?ranking_uuid=650f8f8d-eb86-4e3d-932c-faa43e5cffcf"
+            }
+        ],
+        "tried": 1,
+        "blocks": 16
+    },
+    "Vienna": {
+        "success": true,
+        "places": [
+            {
+                "url": "https://www.google.com/maps/place/Kunst+Haus+Wien.+Museum+Hundertwasser/@48.211076,16.3932861,17z/data=!3m1!4b1!4m6!3m5!1s0x476d070d9333bfcd:0x735c50f62b1674f0!8m2!3d48.211076!4d16.3932861!16s%2Fm%2F0crdv1l?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 6,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.15171862287971,16.567956512356254,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1517186,16.5679565,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "Kunst Haus Wien. Museum Hundertwasser",
+                "subTitle": "Kunst Haus Wien - Museum Hundertwasser",
+                "description": "Former furniture factory with paintings, graphic works & designs by Friedensreich Hundertwasser.",
+                "price": null,
+                "categoryName": "Art museum",
+                "address": "Untere Wei\u00dfgerberstra\u00dfe 13, 1030 Wien, Austria",
+                "neighborhood": "Landstra\u00dfe",
+                "street": "Untere Wei\u00dfgerberstra\u00dfe 13",
+                "city": "Vienna",
+                "postalCode": "1030",
+                "state": null,
+                "countryCode": "AT",
+                "website": "https://www.kunsthauswien.com/",
+                "phone": "+43 1 7120491",
+                "phoneUnformatted": "+4317120491",
+                "claimThisBusiness": false,
+                "location": {
+                    "lat": 48.211076,
+                    "lng": 16.3932861
+                },
+                "locatedIn": null,
+                "plusCode": "696V+C8 Vienna, Austria",
+                "menu": null,
+                "totalScore": 4.6,
+                "permanentlyClosed": false,
+                "temporarilyClosed": true,
+                "placeId": "ChIJzb8zkw0HbUcR8HQWK_ZQXHM",
+                "categories": [
+                    "Art museum",
+                    "Tourist attraction"
+                ],
+                "cid": "8312608030434161904",
+                "reviewsCount": 7552,
+                "reviewsDistribution": {
+                    "oneStar": 86,
+                    "twoStar": 98,
+                    "threeStar": 488,
+                    "fourStar": 1650,
+                    "fiveStar": 5230
+                },
+                "imagesCount": 20963,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Videos",
+                    "By owner",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:23:56.059Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "openingHours": [],
+                "peopleAlsoSearch": [
+                    {
+                        "category": "People also search for",
+                        "title": "Hundertwasser House",
+                        "reviewsCount": 18496,
+                        "totalScore": 4.4
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Kunsthistorisches Museum Wien",
+                        "reviewsCount": 24051,
+                        "totalScore": 4.8
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Hundertwasser Village",
+                        "reviewsCount": 4223,
+                        "totalScore": 4.4
+                    }
+                ],
+                "placesTags": [
+                    {
+                        "title": "Food & Drink",
+                        "count": 1
+                    }
+                ],
+                "reviewsTags": [
+                    {
+                        "title": "friedensreich hundertwasser",
+                        "count": 141
+                    },
+                    {
+                        "title": "visit",
+                        "count": 76
+                    },
+                    {
+                        "title": "gaudi",
+                        "count": 52
+                    },
+                    {
+                        "title": "facade",
+                        "count": 24
+                    },
+                    {
+                        "title": "philosophy",
+                        "count": 23
+                    },
+                    {
+                        "title": "straight lines",
+                        "count": 20
+                    },
+                    {
+                        "title": "soil",
+                        "count": 13
+                    },
+                    {
+                        "title": "spiral",
+                        "count": 8
+                    },
+                    {
+                        "title": "street photography",
+                        "count": 6
+                    },
+                    {
+                        "title": "residential building",
+                        "count": 6
+                    }
+                ],
+                "additionalInfo": {
+                    "Highlights": [
+                        {
+                            "Live performances": true
+                        }
+                    ],
+                    "Accessibility": [
+                        {
+                            "Wheelchair accessible elevator": true
+                        },
+                        {
+                            "Wheelchair accessible entrance": true
+                        },
+                        {
+                            "Wheelchair accessible parking lot": true
+                        },
+                        {
+                            "Wheelchair accessible restroom": true
+                        }
+                    ],
+                    "Amenities": [
+                        {
+                            "Restaurant": true
+                        },
+                        {
+                            "Restroom": true
+                        },
+                        {
+                            "Wi-Fi": true
+                        },
+                        {
+                            "Free Wi-Fi": true
+                        }
+                    ],
+                    "Crowd": [
+                        {
+                            "Family-friendly": true
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": {
+                    "question": "Anyone knows when they plan to reopen?\n",
+                    "answer": "Ithink next year but you can search in internet regards",
+                    "askDate": "a month ago",
+                    "askedBy": {
+                        "name": "Janusz Ratecki",
+                        "url": "https://www.google.com/maps/contrib/117492213455393470065"
+                    },
+                    "answerDate": "a month ago",
+                    "answeredBy": {
+                        "name": "Ignazio Roppolo",
+                        "url": "https://www.google.com/maps/contrib/109375369620123599217"
+                    }
+                },
+                "updatesFromCustomers": {
+                    "text": "Unusual\nVienna",
+                    "language": "en",
+                    "postDate": "5 months ago",
+                    "postedBy": {
+                        "name": "Emiliana Lanfranchi",
+                        "url": "https://www.google.com/maps/contrib/109020564398832098800?hl=en-US",
+                        "title": "Local Guide",
+                        "totalReviews": 9
+                    },
+                    "media": []
+                },
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "url": "https://www.google.com/maps/place/Augarten/@48.2261111,16.3766669,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07ae7c92925d:0xa0e730ea1f204b9b!8m2!3d48.2261111!4d16.3766669!16s%2Fm%2F0406psn?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 4,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.15171862287971,16.25985474668238,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1517186,16.2598547,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "Augarten",
+                "subTitle": null,
+                "description": "Baroque-style park with a royal palace, 5 kids' play areas, sporting facilities & cultural events.",
+                "price": null,
+                "categoryName": "Park",
+                "address": "1020 Vienna, Austria",
+                "neighborhood": "Leopoldstadt",
+                "street": null,
+                "city": "Vienna",
+                "postalCode": "1020",
+                "state": null,
+                "countryCode": "AT",
+                "website": "https://www.bundesgaerten.at/augarten/Augarten-.html",
+                "phone": null,
+                "phoneUnformatted": null,
+                "claimThisBusiness": true,
+                "location": {
+                    "lat": 48.2261111,
+                    "lng": 16.3766669
+                },
+                "locatedIn": null,
+                "plusCode": "69GG+CM Vienna, Austria",
+                "menu": null,
+                "totalScore": 4.6,
+                "permanentlyClosed": false,
+                "temporarilyClosed": false,
+                "placeId": "ChIJXZKSfK4HbUcRm0sgH-ow56A",
+                "categories": [
+                    "Park",
+                    "Tourist attraction"
+                ],
+                "cid": "11594289547791322011",
+                "reviewsCount": 9213,
+                "reviewsDistribution": {
+                    "oneStar": 96,
+                    "twoStar": 89,
+                    "threeStar": 498,
+                    "fourStar": 1859,
+                    "fiveStar": 6671
+                },
+                "imagesCount": 20537,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Videos",
+                    "Flak tower",
+                    "Flakturm VII G-Turm",
+                    "Schmidtean Votive Cross",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:24:01.158Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "popularTimesLiveText": "Less busy than usual",
+                "popularTimesLivePercent": 3,
+                "popularTimesHistogram": {
+                    "Su": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 28
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 61
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 69
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 81
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 90
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 94
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 87
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Mo": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 33
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 42
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 59
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 68
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 73
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Tu": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 17
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 25
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 33
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 44
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 49
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 56
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 75
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 80
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 79
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "We": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 47
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 72
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 79
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 82
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 75
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Th": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 33
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 47
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 53
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 72
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 83
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 91
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 88
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Fr": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 20
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 30
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 48
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 53
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 58
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 74
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 91
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 88
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Sa": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 8
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 50
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 82
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 94
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 100
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 97
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ]
+                },
+                "openingHours": [
+                    {
+                        "day": "Monday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Tuesday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Thursday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Friday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Saturday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    },
+                    {
+                        "day": "Sunday",
+                        "hours": "7\u202fAM to 5:30\u202fPM"
+                    }
+                ],
+                "peopleAlsoSearch": [
+                    {
+                        "category": "People also search for",
+                        "title": "Augarten Haupttor",
+                        "reviewsCount": 164,
+                        "totalScore": 4.5
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Volksgarten",
+                        "reviewsCount": 18161,
+                        "totalScore": 4.5
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Hundezone Augarten",
+                        "reviewsCount": 134,
+                        "totalScore": 4
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "City Farm Augarten",
+                        "reviewsCount": 16,
+                        "totalScore": 4.9
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Augartenspitz",
+                        "reviewsCount": 22,
+                        "totalScore": 4.5
+                    }
+                ],
+                "placesTags": [
+                    {
+                        "title": "Parks",
+                        "count": 12
+                    },
+                    {
+                        "title": "Food & Drink",
+                        "count": 3
+                    },
+                    {
+                        "title": "Shopping",
+                        "count": 1
+                    },
+                    {
+                        "title": "Lodging",
+                        "count": 1
+                    },
+                    {
+                        "title": "Culture",
+                        "count": 7
+                    },
+                    {
+                        "title": "Other",
+                        "count": 14
+                    }
+                ],
+                "reviewsTags": [
+                    {
+                        "title": "towers",
+                        "count": 89
+                    },
+                    {
+                        "title": "ww2",
+                        "count": 85
+                    },
+                    {
+                        "title": "meadow",
+                        "count": 49
+                    },
+                    {
+                        "title": "air defense",
+                        "count": 44
+                    },
+                    {
+                        "title": "bunker",
+                        "count": 29
+                    },
+                    {
+                        "title": "porcelain",
+                        "count": 26
+                    },
+                    {
+                        "title": "harvest festival",
+                        "count": 11
+                    },
+                    {
+                        "title": "outdoor cinema",
+                        "count": 9
+                    },
+                    {
+                        "title": "manufactory",
+                        "count": 9
+                    },
+                    {
+                        "title": "baroque garden",
+                        "count": 5
+                    }
+                ],
+                "additionalInfo": {
+                    "Accessibility": [
+                        {
+                            "Wheelchair accessible entrance": true
+                        },
+                        {
+                            "Wheelchair accessible parking lot": true
+                        }
+                    ],
+                    "Activities": [
+                        {
+                            "Hiking": true
+                        }
+                    ],
+                    "Amenities": [
+                        {
+                            "Dogs allowed": true
+                        },
+                        {
+                            "Picnic tables": true
+                        },
+                        {
+                            "Public restroom": true
+                        },
+                        {
+                            "Slides": true
+                        },
+                        {
+                            "Swings": true
+                        },
+                        {
+                            "Volleyball court": true
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        },
+                        {
+                            "Good for kids birthday": true
+                        },
+                        {
+                            "Kid-friendly hikes": true
+                        },
+                        {
+                            "Playground": true
+                        }
+                    ],
+                    "Pets": [
+                        {
+                            "Dog park": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": {
+                    "question": "(Translated by Google) The park is open now\n\n(Original)\n\u05d4\u05e4\u05d0\u05e8\u05e7 \u05e4\u05ea\u05d5\u05d7 \u05e2\u05db\u05e9\u05d9\u05d5",
+                    "answer": "(Translated by Google) Hebrew words very comfortable for some residents of the 2nd district (native)\n\n(Original)\nHebr\u00e4ische W\u00f6rter f\u00fcr manche Bewohner des 2. Bezirks sehr angenehm (Muttersprache) ",
+                    "askDate": "4 years ago",
+                    "askedBy": {
+                        "name": "\u05e4\u05d0\u05dc\u05e2 \u05d4\u05e0\u05d9\u05d2. fole henig",
+                        "url": "https://www.google.com/maps/contrib/112887821663156642005"
+                    },
+                    "answerDate": "4 years ago",
+                    "answeredBy": {
+                        "name": "David Leitha",
+                        "url": "https://www.google.com/maps/contrib/108642933106536438451"
+                    }
+                },
+                "updatesFromCustomers": {
+                    "text": "Blitz und Donner",
+                    "language": "de",
+                    "postDate": "2 months ago",
+                    "postedBy": {
+                        "name": "Andreas Raunigg",
+                        "url": "https://www.google.com/maps/contrib/103674667477748909217?hl=en-US",
+                        "title": "Local Guide",
+                        "totalReviews": 8
+                    },
+                    "media": [
+                        {
+                            "link": "https://lh3.googleusercontent.com/ggms/AF1QipMYzKJmhyNYft9Jn3qTVNX-qp4D2hBOO6fcGXyf=m18",
+                            "postDate": "2 months ago"
+                        },
+                        {
+                            "link": "https://lh3.googleusercontent.com/ggms/AF1QipN4bfmc3SpIfW0aWMcAVkOdIXLR1xOSmzVTE4x1=m18",
+                            "postDate": "2 months ago"
+                        },
+                        {
+                            "link": "https://lh3.googleusercontent.com/ggms/AF1QipMOcCtlTgUdnzAXq13AQVaJp2DC6THxsykjjImR=m18",
+                            "postDate": "2 months ago"
+                        }
+                    ]
+                },
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "url": "https://www.google.com/maps/place/Stadtpark/@48.2047335,16.3796601,17z/data=!3m1!4b1!4m6!3m5!1s0x476d0775d3324143:0xbf209e4513aec145!8m2!3d48.2047335!4d16.3796601!16zL20vMDR6Y3g5?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 3,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.15171862287971,16.25985474668238,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1517186,16.2598547,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "Stadtpark",
+                "subTitle": null,
+                "description": "English-style, 19th-century public park with a river, ornate bridges & gilded Johann Strauss statue.",
+                "price": null,
+                "categoryName": "City park",
+                "address": "Parkring 1, 1010 Wien, Austria",
+                "neighborhood": "Innere Stadt",
+                "street": "Parkring 1",
+                "city": "Vienna",
+                "postalCode": "1010",
+                "state": null,
+                "countryCode": "AT",
+                "website": "https://www.wien.gv.at/umwelt/parks/anlagen/stadtpark.html",
+                "phone": "+43 1 40008042",
+                "phoneUnformatted": "+43140008042",
+                "claimThisBusiness": true,
+                "location": {
+                    "lat": 48.2047335,
+                    "lng": 16.3796601
+                },
+                "locatedIn": null,
+                "plusCode": "693H+VV Vienna, Austria",
+                "menu": null,
+                "totalScore": 4.6,
+                "permanentlyClosed": false,
+                "temporarilyClosed": false,
+                "placeId": "ChIJQ0Ey03UHbUcRRcGuE0WeIL8",
+                "categories": [
+                    "City park",
+                    "Park",
+                    "Tourist attraction"
+                ],
+                "cid": "13772181680019128645",
+                "reviewsCount": 26954,
+                "reviewsDistribution": {
+                    "oneStar": 179,
+                    "twoStar": 173,
+                    "threeStar": 1340,
+                    "fourStar": 5990,
+                    "fiveStar": 19272
+                },
+                "imagesCount": 89131,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Videos",
+                    "Johann Strau\u00df monument",
+                    "Schubert-Monument",
+                    "Kursalon H\u00fcbner",
+                    "Donauweibchen-Brunnen",
+                    "Emil Jakob Schindler monument",
+                    "Franz-Leh\u00e1r-Denkmal",
+                    "Park",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:24:10.562Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "popularTimesLiveText": "Less busy than usual",
+                "popularTimesLivePercent": 7,
+                "popularTimesHistogram": {
+                    "Su": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 7
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 29
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 45
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 75
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 91
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 91
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 85
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 72
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 56
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 42
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 30
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 20
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 11
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 5
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 2
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 1
+                        }
+                    ],
+                    "Mo": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 2
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 5
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 14
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 21
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 30
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 49
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 57
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 43
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 26
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 17
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 10
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 5
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 1
+                        }
+                    ],
+                    "Tu": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 6
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 10
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 22
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 32
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 50
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 73
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 72
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 43
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 32
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 4
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 1
+                        }
+                    ],
+                    "We": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 6
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 15
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 23
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 45
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 61
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 68
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 69
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 67
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 63
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 28
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 4
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 2
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 1
+                        }
+                    ],
+                    "Th": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 5
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 23
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 57
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 69
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 75
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 81
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 83
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 82
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 77
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 68
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 56
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 26
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 14
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 7
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 4
+                        }
+                    ],
+                    "Fr": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 1
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 6
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 11
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 24
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 57
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 67
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 74
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 80
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 85
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 79
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 72
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 63
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 24
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 14
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 7
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 2
+                        }
+                    ],
+                    "Sa": [
+                        {
+                            "hour": 4,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 5,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 3
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 6
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 11
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 21
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 68
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 82
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 94
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 100
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 99
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 94
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 83
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 71
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 53
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 49
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 0,
+                            "occupancyPercent": 29
+                        },
+                        {
+                            "hour": 1,
+                            "occupancyPercent": 17
+                        },
+                        {
+                            "hour": 2,
+                            "occupancyPercent": 9
+                        },
+                        {
+                            "hour": 3,
+                            "occupancyPercent": 4
+                        }
+                    ]
+                },
+                "openingHours": [
+                    {
+                        "day": "Monday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Tuesday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Thursday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Friday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Saturday",
+                        "hours": "Open 24 hours"
+                    },
+                    {
+                        "day": "Sunday",
+                        "hours": "Open 24 hours"
+                    }
+                ],
+                "peopleAlsoSearch": [
+                    {
+                        "category": "People also search for",
+                        "title": "Volksgarten",
+                        "reviewsCount": 18161,
+                        "totalScore": 4.5
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "\u00d6ffentlicher Park",
+                        "reviewsCount": 7,
+                        "totalScore": 4.7
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Burggarten",
+                        "reviewsCount": 10885,
+                        "totalScore": 4.7
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Wasserfall Stadt Park",
+                        "reviewsCount": 15,
+                        "totalScore": 4.3
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Park",
+                        "reviewsCount": 18,
+                        "totalScore": 4.1
+                    }
+                ],
+                "placesTags": [
+                    {
+                        "title": "Parks",
+                        "count": 4
+                    },
+                    {
+                        "title": "Attractions",
+                        "count": 1
+                    },
+                    {
+                        "title": "Food & Drink",
+                        "count": 7
+                    },
+                    {
+                        "title": "Shopping",
+                        "count": 2
+                    },
+                    {
+                        "title": "Lodging",
+                        "count": 1
+                    },
+                    {
+                        "title": "Culture",
+                        "count": 1
+                    },
+                    {
+                        "title": "Other",
+                        "count": 13
+                    }
+                ],
+                "reviewsTags": [
+                    {
+                        "title": "statues",
+                        "count": 282
+                    },
+                    {
+                        "title": "meadow",
+                        "count": 68
+                    },
+                    {
+                        "title": "composers",
+                        "count": 47
+                    },
+                    {
+                        "title": "canal",
+                        "count": 44
+                    },
+                    {
+                        "title": "fl\u00e2neur",
+                        "count": 26
+                    },
+                    {
+                        "title": "mozart",
+                        "count": 24
+                    },
+                    {
+                        "title": "palace",
+                        "count": 21
+                    },
+                    {
+                        "title": "anatinae",
+                        "count": 14
+                    },
+                    {
+                        "title": "frostbite",
+                        "count": 10
+                    }
+                ],
+                "additionalInfo": {
+                    "Accessibility": [
+                        {
+                            "Wheelchair accessible entrance": true
+                        },
+                        {
+                            "Wheelchair accessible parking lot": true
+                        }
+                    ],
+                    "Activities": [
+                        {
+                            "Hiking": true
+                        }
+                    ],
+                    "Amenities": [
+                        {
+                            "Basketball court": true
+                        },
+                        {
+                            "Dogs allowed": true
+                        },
+                        {
+                            "Public restroom": true
+                        },
+                        {
+                            "Skateboarding area": true
+                        },
+                        {
+                            "Slides": true
+                        },
+                        {
+                            "Swings": true
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        },
+                        {
+                            "Kid-friendly hikes": true
+                        },
+                        {
+                            "Playground": true
+                        }
+                    ],
+                    "Pets": [
+                        {
+                            "Dog park": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": {
+                    "question": "(Translated by Google) Are dogs allowed in the park?\n\n(Original)\nD\u00fcrfen in den park Hunde rein? ",
+                    "answer": "(Translated by Google) Dogs are officially forbidden in the city park\n\n(Original)\nOffiziell sind Hunde im Stadtpark verboten",
+                    "askDate": "4 years ago",
+                    "askedBy": {
+                        "name": "Annemarie Fr\u00fchbei\u00df",
+                        "url": "https://www.google.com/maps/contrib/104300799384763342450"
+                    },
+                    "answerDate": "4 years ago",
+                    "answeredBy": {
+                        "name": "Vladimir Bulzan",
+                        "url": "https://www.google.com/maps/contrib/105765426578308364187"
+                    }
+                },
+                "updatesFromCustomers": {
+                    "text": "Huzur dolu bir yer insan\u0131n i\u00e7i rahatl\u0131yor",
+                    "language": "tr",
+                    "postDate": "a month ago",
+                    "postedBy": {
+                        "name": "Mehmet Soner Doksar",
+                        "url": "https://www.google.com/maps/contrib/112540633431230050731?hl=en-US",
+                        "title": "Local Guide",
+                        "totalReviews": 46
+                    },
+                    "media": []
+                },
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "url": "https://www.google.com/maps/place/Danube+Tower/@48.2403447,16.4098739,17z/data=!3m1!4b1!4m6!3m5!1s0x476d06f6a9a48b3b:0x2cd0bab263e7514b!8m2!3d48.2403447!4d16.4098739!16zL20vMDJuXzA1?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 2,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.15171862287971,16.25985474668238,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1517186,16.2598547,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "Danube Tower",
+                "subTitle": "Donauturm",
+                "description": "Iconic tower opened in 1964, with open-air & covered observation terraces, a restaurant & a cafe.",
+                "price": null,
+                "categoryName": "Observation deck",
+                "address": "Donauturmplatz 1, 1220 Wien, Austria",
+                "neighborhood": "Donaustadt",
+                "street": "Donauturmplatz 1",
+                "city": "Vienna",
+                "postalCode": "1220",
+                "state": null,
+                "countryCode": "AT",
+                "website": "https://www.donauturm.at/",
+                "phone": "+43 1 2633572",
+                "phoneUnformatted": "+4312633572",
+                "claimThisBusiness": false,
+                "location": {
+                    "lat": 48.2403447,
+                    "lng": 16.4098739
+                },
+                "locatedIn": "Donaupark",
+                "plusCode": "6CR5+4W Vienna, Austria",
+                "menu": null,
+                "totalScore": 4.5,
+                "permanentlyClosed": false,
+                "temporarilyClosed": false,
+                "placeId": "ChIJO4ukqfYGbUcRS1HnY7K60Cw",
+                "categories": [
+                    "Observation deck",
+                    "Park",
+                    "Tourist attraction"
+                ],
+                "cid": "3229286208167694667",
+                "reviewsCount": 14105,
+                "reviewsDistribution": {
+                    "oneStar": 324,
+                    "twoStar": 248,
+                    "threeStar": 841,
+                    "fourStar": 2835,
+                    "fiveStar": 9857
+                },
+                "imagesCount": 31255,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Videos",
+                    "Korea Kulturhaus Wien",
+                    "By owner",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:24:20.637Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "popularTimesLiveText": "Less busy than usual",
+                "popularTimesLivePercent": 2,
+                "popularTimesHistogram": {
+                    "Su": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 38
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 68
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 79
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 90
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 98
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 100
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 92
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 78
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 57
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 20
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 10
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Mo": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 20
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 31
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 38
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 33
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 26
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 19
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 12
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 7
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Tu": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 22
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 28
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 32
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 32
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 23
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 14
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 8
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "We": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 24
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 32
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 38
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 41
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 44
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 45
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 33
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 25
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 19
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 13
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 8
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Th": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 26
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 34
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 40
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 43
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 47
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 49
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 48
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 43
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 26
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 18
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 10
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Fr": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 23
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 31
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 42
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 50
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 52
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 53
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 49
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 45
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 27
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Sa": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 48
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 58
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 76
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 88
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 76
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 65
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 36
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 21
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ]
+                },
+                "openingHours": [
+                    {
+                        "day": "Monday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Tuesday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Thursday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Friday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Saturday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    },
+                    {
+                        "day": "Sunday",
+                        "hours": "10\u202fAM to 10:30\u202fPM"
+                    }
+                ],
+                "peopleAlsoSearch": [
+                    {
+                        "category": "People also search for",
+                        "title": "Stephansdom Nordturm",
+                        "reviewsCount": 382,
+                        "totalScore": 4.6
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Statuen im Donaupark",
+                        "reviewsCount": 19,
+                        "totalScore": 4.7
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Donauturm",
+                        "reviewsCount": 9,
+                        "totalScore": 4.4
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Donauinsel Endpunkt",
+                        "reviewsCount": 434,
+                        "totalScore": 4.7
+                    }
+                ],
+                "placesTags": [],
+                "reviewsTags": [
+                    {
+                        "title": "cafe",
+                        "count": 692
+                    },
+                    {
+                        "title": "ticket",
+                        "count": 116
+                    },
+                    {
+                        "title": "reservation",
+                        "count": 111
+                    },
+                    {
+                        "title": "rotating restaurant",
+                        "count": 107
+                    },
+                    {
+                        "title": "brunch",
+                        "count": 87
+                    },
+                    {
+                        "title": "discount",
+                        "count": 48
+                    },
+                    {
+                        "title": "metro",
+                        "count": 34
+                    },
+                    {
+                        "title": "height",
+                        "count": 21
+                    },
+                    {
+                        "title": "elevator operator",
+                        "count": 20
+                    },
+                    {
+                        "title": "1964",
+                        "count": 18
+                    }
+                ],
+                "additionalInfo": {
+                    "Accessibility": [
+                        {
+                            "Wheelchair accessible entrance": true
+                        },
+                        {
+                            "Wheelchair accessible parking lot": true
+                        },
+                        {
+                            "Wheelchair accessible restroom": true
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": {
+                    "question": "Is the tower open tommorow",
+                    "answer": "Yes since today.",
+                    "askDate": "5 years ago",
+                    "askedBy": {
+                        "name": "Wasmiya Alqenaie",
+                        "url": "https://www.google.com/maps/contrib/107511529169882508437"
+                    },
+                    "answerDate": "5 years ago",
+                    "answeredBy": {
+                        "name": "Uwe Gro\u00dflaub",
+                        "url": "https://www.google.com/maps/contrib/108040911982056508065"
+                    }
+                },
+                "updatesFromCustomers": {
+                    "text": "The Danube tower is one of the best places in Vienna. Best place for boosing and chit chatting . Finally that's the must visit place in Vienna.",
+                    "language": "en",
+                    "postDate": "3 months ago",
+                    "postedBy": {
+                        "name": "prakhyath deshpande",
+                        "url": "https://www.google.com/maps/contrib/118119237557651271000?hl=en-US",
+                        "title": "11 reviews",
+                        "totalReviews": null
+                    },
+                    "media": []
+                },
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "url": "https://www.google.com/maps/place/Hofburg/@48.2056578,16.3647803,17z/data=!3m1!4b1!4m6!3m5!1s0x476d0799bf2006df:0x8685168014c4425f!8m2!3d48.2056578!4d16.3647803!16zL20vMDVrc2d6?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 1,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.15171862287971,16.25985474668238,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1517186,16.2598547,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "Hofburg",
+                "subTitle": null,
+                "description": "Habsburg palace complex with ornate, baroque interiors, imperial apartments & a silver museum.",
+                "price": null,
+                "categoryName": "Historical place",
+                "address": "1010 Vienna, Austria",
+                "neighborhood": "Innere Stadt",
+                "street": null,
+                "city": "Vienna",
+                "postalCode": "1010",
+                "state": null,
+                "countryCode": "AT",
+                "website": "https://www.wien.info/de/sightseeing/imperiales/hofburg-wien",
+                "phone": null,
+                "phoneUnformatted": null,
+                "claimThisBusiness": false,
+                "location": {
+                    "lat": 48.2056578,
+                    "lng": 16.3647803
+                },
+                "locatedIn": null,
+                "plusCode": "6947+7W Vienna, Austria",
+                "menu": null,
+                "totalScore": 4.7,
+                "permanentlyClosed": false,
+                "temporarilyClosed": false,
+                "placeId": "ChIJ3wYgv5kHbUcRX0LEFIAWhYY",
+                "categories": [
+                    "Historical place",
+                    "Historical landmark",
+                    "History museum",
+                    "Museum",
+                    "Tourist attraction"
+                ],
+                "cid": "9693178512344891999",
+                "reviewsCount": 44802,
+                "reviewsDistribution": {
+                    "oneStar": 339,
+                    "twoStar": 354,
+                    "threeStar": 1893,
+                    "fourStar": 8949,
+                    "fiveStar": 33267
+                },
+                "imagesCount": 230300,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Videos",
+                    "Sisi Museum",
+                    "Power at Sea - Rudolf Weyr",
+                    "Heldenplatz",
+                    "Swiss gate",
+                    "Spanish Riding School",
+                    "Stallburg",
+                    "Imperial Treasury Vienna",
+                    "Austrian National Library",
+                    "Outer Castle Gate",
+                    "By owner",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:24:22.034Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "popularTimesLiveText": "Less busy than usual",
+                "popularTimesLivePercent": 4,
+                "popularTimesHistogram": {
+                    "Su": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 16
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 59
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 76
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 83
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 81
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 77
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 69
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 56
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 39
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Mo": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 15
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 29
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 45
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 59
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 58
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 56
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 51
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 42
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 30
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Tu": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 17
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 53
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 64
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 62
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 59
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 55
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 47
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "We": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 19
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 64
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 64
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 60
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 57
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 52
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 43
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 31
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Th": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 22
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 46
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 73
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 93
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 100
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 98
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 93
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 84
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 44
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Fr": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 17
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 35
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 71
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 66
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 54
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 37
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ],
+                    "Sa": [
+                        {
+                            "hour": 6,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 7,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 8,
+                            "occupancyPercent": 13
+                        },
+                        {
+                            "hour": 9,
+                            "occupancyPercent": 30
+                        },
+                        {
+                            "hour": 10,
+                            "occupancyPercent": 52
+                        },
+                        {
+                            "hour": 11,
+                            "occupancyPercent": 70
+                        },
+                        {
+                            "hour": 12,
+                            "occupancyPercent": 79
+                        },
+                        {
+                            "hour": 13,
+                            "occupancyPercent": 80
+                        },
+                        {
+                            "hour": 14,
+                            "occupancyPercent": 80
+                        },
+                        {
+                            "hour": 15,
+                            "occupancyPercent": 75
+                        },
+                        {
+                            "hour": 16,
+                            "occupancyPercent": 63
+                        },
+                        {
+                            "hour": 17,
+                            "occupancyPercent": 47
+                        },
+                        {
+                            "hour": 18,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 19,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 20,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 21,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 22,
+                            "occupancyPercent": 0
+                        },
+                        {
+                            "hour": 23,
+                            "occupancyPercent": 0
+                        }
+                    ]
+                },
+                "openingHours": [
+                    {
+                        "day": "Monday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Tuesday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Wednesday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Thursday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Friday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Saturday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    },
+                    {
+                        "day": "Sunday",
+                        "hours": "8\u202fAM to 6\u202fPM"
+                    }
+                ],
+                "peopleAlsoSearch": [
+                    {
+                        "category": "People also search for",
+                        "title": "Neue Burg - Teil der Wiener Hofburg",
+                        "reviewsCount": 2210,
+                        "totalScore": 4.7
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Innerer Burghof Hofburg Wien",
+                        "reviewsCount": 73,
+                        "totalScore": 4.8
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Haus der Geschichte \u00d6sterreich",
+                        "reviewsCount": 424,
+                        "totalScore": 4.2
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Hetzendorf Palace",
+                        "reviewsCount": 205,
+                        "totalScore": 4.5
+                    },
+                    {
+                        "category": "People also search for",
+                        "title": "Sch\u00f6nbrunn Palace",
+                        "reviewsCount": 138280,
+                        "totalScore": 4.7
+                    }
+                ],
+                "placesTags": [
+                    {
+                        "title": "Food & Drink",
+                        "count": 2
+                    },
+                    {
+                        "title": "Other",
+                        "count": 6
+                    }
+                ],
+                "reviewsTags": [
+                    {
+                        "title": "sisi",
+                        "count": 1177
+                    },
+                    {
+                        "title": "audio guide",
+                        "count": 571
+                    },
+                    {
+                        "title": "hapsburg",
+                        "count": 340
+                    },
+                    {
+                        "title": "silver ware",
+                        "count": 197
+                    },
+                    {
+                        "title": "sch\u00f6nbrunn palace",
+                        "count": 190
+                    },
+                    {
+                        "title": "franz joseph i",
+                        "count": 151
+                    },
+                    {
+                        "title": "primary residence",
+                        "count": 67
+                    },
+                    {
+                        "title": "national library",
+                        "count": 37
+                    },
+                    {
+                        "title": "president of germany",
+                        "count": 25
+                    },
+                    {
+                        "title": "horse drawn",
+                        "count": 21
+                    }
+                ],
+                "additionalInfo": {
+                    "Accessibility": [
+                        {
+                            "Wheelchair accessible entrance": true
+                        },
+                        {
+                            "Wheelchair accessible parking lot": true
+                        },
+                        {
+                            "Wheelchair accessible restroom": true
+                        }
+                    ],
+                    "Planning": [
+                        {
+                            "Getting tickets in advance recommended": true
+                        }
+                    ],
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": {
+                    "question": "(Translated by Google) Is there a ticket to visit the Sissi museum only? How much does it cost? Thank you\n\n(Original)\nEsiste un biglietto per visitare solo il museo di Sissi? Quanto costa? Grazie",
+                    "answer": "(Translated by Google) The ticket is unique and with this you visit the silverware museum, the Sissi museum and the royal apartments. The cost is 13.90 euros for adults and 8.20 euros for children, it is possible to make a family ticket. I recommend going in, it's worth it.\n\n(Original)\nIl biglietto \u00e8 unico e con questo si visita il museo delle argenterie, il museo di Sissi e gli appartamenti reali. Il costo \u00e8 di 13.90 euro per gli adulti e 8.20 euro i bimbi, possibile fare biglietto famiglia. Consiglio di entrare, vale la pena.",
+                    "askDate": "5 years ago",
+                    "askedBy": {
+                        "name": "Michele e Chiara Vitiello",
+                        "url": "https://www.google.com/maps/contrib/112887177696914409403"
+                    },
+                    "answerDate": "4 years ago",
+                    "answeredBy": {
+                        "name": "Eugenia Gavina",
+                        "url": "https://www.google.com/maps/contrib/106277131778426964629"
+                    }
+                },
+                "updatesFromCustomers": {
+                    "text": "Ingresso principale",
+                    "language": "it",
+                    "postDate": "3 days ago",
+                    "postedBy": {
+                        "name": "Lucrezia Cestari",
+                        "url": "https://www.google.com/maps/contrib/112209947437876975794?hl=en-US",
+                        "title": "Local Guide",
+                        "totalReviews": 38
+                    },
+                    "media": []
+                },
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "url": "https://www.google.com/maps/place/catedral+de+viena/@48.2080419,16.3728251,17z/data=!3m1!4b1!4m6!3m5!1s0x476d07e4240104f7:0x1ca5dad0da036fa1!8m2!3d48.2080419!4d16.3728251!16s%2Fg%2F11y1jgwr66?hl=en&entry=ttu",
+                "searchString": "Pontos tur\u00edsticos",
+                "rank": 4,
+                "searchPageUrl": "https://www.google.com/maps/search/Pontos%20tur%C3%ADsticos/@48.12886434717295,16.362555335240337,15z?hl=en",
+                "searchPageLoadedUrl": "https://www.google.com/maps/search/Pontos+tur%C3%ADsticos/@48.1288643,16.3625553,15z?hl=en&entry=ttu",
+                "isAdvertisement": false,
+                "title": "catedral de viena",
+                "subTitle": null,
+                "description": null,
+                "price": null,
+                "categoryName": "Tourist attraction",
+                "address": "Stephansplatz 3, 1010 Wien, Austria",
+                "neighborhood": "Innere Stadt",
+                "street": "Stephansplatz 3",
+                "city": "Vienna",
+                "postalCode": "1010",
+                "state": null,
+                "countryCode": "AT",
+                "website": null,
+                "phone": null,
+                "phoneUnformatted": null,
+                "claimThisBusiness": true,
+                "location": {
+                    "lat": 48.2080419,
+                    "lng": 16.3728251
+                },
+                "locatedIn": null,
+                "plusCode": "695F+64 Vienna, Austria",
+                "menu": null,
+                "totalScore": 5,
+                "permanentlyClosed": false,
+                "temporarilyClosed": false,
+                "placeId": "ChIJ9wQBJOQHbUcRoW8D2tDapRw",
+                "categories": [
+                    "Tourist attraction"
+                ],
+                "cid": "2064296594764951457",
+                "reviewsCount": 2,
+                "reviewsDistribution": {
+                    "oneStar": 0,
+                    "twoStar": 0,
+                    "threeStar": 0,
+                    "fourStar": 0,
+                    "fiveStar": 2
+                },
+                "imagesCount": 9,
+                "imageCategories": [
+                    "All",
+                    "Latest",
+                    "Street View & 360\u00b0"
+                ],
+                "scrapedAt": "2023-11-24T15:27:40.074Z",
+                "reserveTableUrl": null,
+                "googleFoodUrl": null,
+                "hotelStars": null,
+                "hotelDescription": null,
+                "checkInDate": null,
+                "checkOutDate": null,
+                "similarHotelsNearby": null,
+                "hotelReviewSummary": null,
+                "hotelAds": [],
+                "openingHours": [],
+                "peopleAlsoSearch": [],
+                "placesTags": [],
+                "reviewsTags": [],
+                "additionalInfo": {
+                    "Children": [
+                        {
+                            "Good for kids": true
+                        }
+                    ]
+                },
+                "gasPrices": [],
+                "questionsAndAnswers": null,
+                "updatesFromCustomers": null,
+                "webResults": [],
+                "orderBy": [],
+                "imageUrls": [],
+                "reviews": []
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.28884427712029,16.499489453317615,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:17)\n    at async PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:9)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:13)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/YLrDY7LimJXeLCF.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/YLrDY7LimJXeLCF.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.22028145,16.499489453317615,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/i5nUyRQvq7jOWru.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/i5nUyRQvq7jOWru.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.22028145,16.533722982836935,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/IkdqMRc5wv5VCaO.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/IkdqMRc5wv5VCaO.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.243135725706765,16.465255923798296,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/K2fttybtBJw8eGk.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/K2fttybtBJw8eGk.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.22028145,16.2940882762017,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/f7lEzA9iysSTRTB.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/f7lEzA9iysSTRTB.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.243135725706765,16.22562121716306,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/0cKXrn7YW9cluQE.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/0cKXrn7YW9cluQE.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.31169855282705,16.396788864759657,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/4zUREZtGQ4Bh9m6.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/4zUREZtGQ4Bh9m6.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.15171862287971,16.465255923798296,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/bhZlEPxsyFBuZyB.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/bhZlEPxsyFBuZyB.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.12886434717295,16.431022394278976,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/NZrSsXxXBLObNra.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/NZrSsXxXBLObNra.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.19742717429324,16.396788864759657,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/6qflxV2N4PYEa59.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/6qflxV2N4PYEa59.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.26599000141353,16.499489453317615,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/LeJueF3O2wZl9s2.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/LeJueF3O2wZl9s2.png"
+                }
+            },
+            {
+                "#url": "https://www.google.com/maps/search/Pontos tur\u00edsticos/@48.22028145,16.431022394278976,15z",
+                "#succeeded": false,
+                "#errors": [
+                    "Error: [SEARCH][Pontos tur\u00edsticos]: Reached limit of max crawled places for this search term, skipping all next requests in the queue for this search (this might take a while, don't mind the errors). [Draining request queue]\n    at PuppeteerCrawler.preNavigationHooks (file:///home/myuser/dist/places_crawler.js:59:27)\n    at PuppeteerCrawler._executeHooks (/home/myuser/node_modules/@crawlee/basic/internals/basic-crawler.js:908:23)\n    at PuppeteerCrawler._handleNavigation (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:280:20)\n    at PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/browser/internals/browser-crawler.js:227:24)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async PuppeteerCrawler._runRequestHandler (/home/myuser/node_modules/@crawlee/puppeteer/internals/puppeteer-crawler.js:110:9)\n    at async wrap (/home/myuser/node_modules/@apify/timeout/index.js:52:21)"
+                ],
+                "#debugFiles": {
+                    "html": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/T1hF2ztrwT7JQVF.html",
+                    "screen": "https://api.apify.com/v2/key-value-stores/72SZDVPGWSacZeGgr/records/T1hF2ztrwT7JQVF.png"
+                }
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    },
+    "Adamstown": {
+        "success": false
+    },
+    "Annaba": {
+        "success": true,
+        "places": [
+            {
+                "id": 433696,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "transfer",
+                    "label": "Transfer"
+                },
+                "title": "Private Algiers Airport transfers to/from Annaba city",
+                "url": "/algiers-l179835/annaba-private-1-way-transfer-tofrom-algiers-airport-t433696/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "category": "transfer",
+                "categoryLabel": "Transfer",
+                "price": {
+                    "startingPrice": 388.28,
+                    "formattedStartingPrice": "$388.28",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "group",
+                    "priceCategoryLabel": "per group up to 3",
+                    "basePrice": 388.28,
+                    "formattedBasePrice": "$388.28",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T14:50:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/76303b35be3aa7d6.png/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/76303b35be3aa7d6.png/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/76303b35be3aa7d6.png/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/76303b35be3aa7d6.png/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "1 day"
+                    },
+                    {
+                        "type": "private",
+                        "label": "Private group"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 179835,
+                    "name": "Algiers",
+                    "urlPath": "/algiers-l179835/"
+                },
+                "coordinates": {
+                    "latitude": 36.9142081,
+                    "longitude": 7.742667300000001
+                },
+                "abstract": "Book a private 1-way private transfer from Algiers International Airport to your accommodation in Annaba province or visa versa. Choose which size of vehicle you want, then hop in and enjoy the ride."
+            },
+            {
+                "id": 518160,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Annaba: Algeria eSIM Roaming Mobile Data Plan",
+                "url": "/annaba-l153384/annaba-algeria-esim-roaming-mobile-data-plan-t518160/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 10,
+                    "formattedStartingPrice": "$10",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 10,
+                    "formattedBasePrice": "$10",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-24T00:00:00+08:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-24"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/cffe7cb51b0fa734.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/cffe7cb51b0fa734.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/cffe7cb51b0fa734.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/cffe7cb51b0fa734.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "7 - 30 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 153384,
+                    "name": "Annaba",
+                    "urlPath": "/annaba-l153384/"
+                },
+                "coordinates": {
+                    "latitude": 36.8241923,
+                    "longitude": 7.821313399999998
+                },
+                "abstract": "Scan a QR code for instant access to the local high-speed data network with your eSIM- compatible device no matter where you are and when it is. Benefit from reasonable pricing, a reliable network, and support."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    },
+    "Abbeville": {
+        "success": false
+    },
+    "Acapulco": {
+        "success": true,
+        "places": [
+            {
+                "id": 437103,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "*6 Hr All The Attractions Cruise Terminal Pickup & Drop Off",
+                "url": "/acapulco-l307/6hrs-shore-excursion-with-cruise-ship-terminal-pick-up-t437103/",
+                "reviewStatistics": {
+                    "quantity": 6,
+                    "rating": 4.666666507720947
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 62.55,
+                    "formattedStartingPrice": "$62.55",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "discountPercentage": "Save up to 10%",
+                    "basePrice": 69.5,
+                    "formattedBasePrice": "$69.50",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 10
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-24T08:30:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/63937ae2946e5.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63937ae2946e5.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63937ae2946e5.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63937ae2946e5.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "6 hours"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 30min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.848795305197388,
+                    "longitude": -99.90124637909851
+                },
+                "abstract": "Experience Acapulco at its best on a guided shore excursion tour. Get to know Acapulco better and deeper as you explore a local market, see the Chapel of Peace, and visit La Quebrada."
+            },
+            {
+                "id": 67730,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": "*4-Hour Roqueta Island Snorkeling and/or Paddle Boarding",
+                "url": "/acapulco-l307/4-hour-acapulco-bay-area-snorkeling-tour-with-lunch-t67730/",
+                "reviewStatistics": {
+                    "quantity": 14,
+                    "rating": 4.9285712242126465
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 70.65,
+                    "formattedStartingPrice": "$70.65",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "discountPercentage": "Save up to 10%",
+                    "basePrice": 78.5,
+                    "formattedBasePrice": "$78.50",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 10
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T10:00:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5759e0357fd30.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5759e0357fd30.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5759e0357fd30.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5759e0357fd30.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "4 - 5 hours"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "smallGroup",
+                        "label": "Small group"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 30min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.8562861,
+                    "longitude": -99.866519
+                },
+                "abstract": "Enjoy a beach break at Caleta beach and experience one hour of Paddle Boarding and/or snorkeling at the Island of La Roqueta with your own instructor before savoring a delicious Mexican lunch."
+            },
+            {
+                "id": 67748,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": "*4 Hours Shore Excursion With Cruise Ship Terminal Pick Up.",
+                "url": "/acapulco-l307/acapulco-4-hour-shore-excursion-t67748/",
+                "reviewStatistics": {
+                    "quantity": 5,
+                    "rating": 4.199999809265137
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 51.75,
+                    "formattedStartingPrice": "$51.75",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "discountPercentage": "Save up to 10%",
+                    "basePrice": 57.5,
+                    "formattedBasePrice": "$57.50",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 10
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-24T10:00:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5ce573c3812cf.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5ce573c3812cf.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5ce573c3812cf.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5ce573c3812cf.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "4 hours"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "smallGroup",
+                        "label": "Small group"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 30min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.7795884,
+                    "longitude": -99.8012333
+                },
+                "abstract": "If you are visiting Acapulco on a cruise this tour is for you. Admire the famous divers of La Quebrada, see old and new Acapulco, the Chapel of Peace, and many more sights on this shore excursion."
+            },
+            {
+                "id": 53466,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": "Acapulco: Acarey Catamaran Cruise with Party",
+                "url": "/acapulco-l307/afternoon-boat-trip-on-the-acarey-t53466/",
+                "reviewStatistics": {
+                    "quantity": 5,
+                    "rating": 4
+                },
+                "category": "cruise",
+                "categoryLabel": "Water activity",
+                "price": {
+                    "startingPrice": 38,
+                    "formattedStartingPrice": "$38",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 38,
+                    "formattedBasePrice": "$38",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 5/1/24",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2024-05-01T16:30:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2024-05-01"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5547f57622460.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5547f57622460.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5547f57622460.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5547f57622460.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "2.5 hours"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.8478106,
+                    "longitude": -99.9078197
+                },
+                "abstract": "Enjoy Acapulco Bay in the best way, choose between an afternoon or night tour. Take part in a party on board, dance to live music, and have some drinks, all while enjoying spectacular views."
+            },
+            {
+                "id": 116155,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": ".Acapulco History Cultural Tour & Cliff Divers Show w/Lunch",
+                "url": "/acapulco-l307/acapulco-historical-tour-and-spectacular-cliff-divers-show-t116155/",
+                "reviewStatistics": {
+                    "quantity": 4,
+                    "rating": 4.5
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 77.39,
+                    "formattedStartingPrice": "$77.39",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "discountPercentage": "Save up to 10%",
+                    "basePrice": 85.99,
+                    "formattedBasePrice": "$85.99",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 10
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T09:30:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/597371791681f.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/597371791681f.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/597371791681f.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/597371791681f.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "6 hours"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "smallGroup",
+                        "label": "Small group"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 45min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.7795884,
+                    "longitude": -99.80123329999999
+                },
+                "abstract": "Take a guided tour of historical Acapulco. You'll see the fortress showcasing the area's complete history, the Diego Rivera mural and visit the cathedral, amongst others. Finish the tour by watching the spectacular Cliff Divers Show and have lunch."
+            },
+            {
+                "id": 73664,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": ".Baby Turtle Release, Lagoon Boat Ride, and Crocodile Farm",
+                "url": "/acapulco-l307/baby-turtle-release-jungle-tour-boat-ride-lunch-drink-t73664/",
+                "reviewStatistics": {
+                    "quantity": 2,
+                    "rating": 5
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 79.19,
+                    "formattedStartingPrice": "$79.19",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "discountPercentage": "Save up to 10%",
+                    "basePrice": 87.99,
+                    "formattedBasePrice": "$87.99",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 10
+                },
+                "availability": {
+                    "message": "14 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-25T10:00:00-06:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 14,
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/57e5f169b4226.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/57e5f169b4226.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/57e5f169b4226.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/57e5f169b4226.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "5 - 6 hours"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "smallGroup",
+                        "label": "Small group"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 30min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 307,
+                    "name": "Acapulco",
+                    "urlPath": "/acapulco-l307/"
+                },
+                "coordinates": {
+                    "latitude": 16.7795884,
+                    "longitude": -99.80123329999999
+                },
+                "abstract": "This tour is a must for nature lovers. Drive along the coast admiring mango and coconut plantations, learn about the lifestyle of the locals and visit a crocodile farma. Upon arriving at Tres Palos Lagoon, you'll board a private motorboat."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
     }
 }

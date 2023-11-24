@@ -60,7 +60,6 @@ def about(request, user):
     return render(request, 'about.html', context)
 
 # Top Page
-@cache_page(60 * 60)
 @requer_autenticacao
 def top(request, user):
     context = {
