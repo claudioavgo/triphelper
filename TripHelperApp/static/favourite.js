@@ -21,7 +21,7 @@ async function like(iso2, country, city) {
 
 try {
     const like_element = document.getElementById("like");
-    const heart = document.querySelector('[fill]');
+    const heart = document.querySelector('#likeFav');
     if (heart.getAttribute('fill') == "gray") {
         like_element.addEventListener("click", (e) => {
             const iso2 = window.location.href.split("/")[4];
