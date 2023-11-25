@@ -18,6 +18,7 @@ def requer_autenticacao(f):
             username = request.user
 
             usr = Perfil.objects.get(usuario=User.objects.get(username=username))
+            usr.getFavPlaces
         else:
             usr = None
 
@@ -166,14 +167,14 @@ def likeControlAPI(request, user):
     if str(type).lower() == "like":
 
         try:
-            fp = FavoritePlace.objects.get(city=city)
+            fp = FavouritePlace.objects.get(city=city)
         except:
-            fp = FavoritePlace.objects.create(city=city, country=country, iso2=iso2)
+            fp = FavouritePlace.objects.create(city=city, country=country, iso2=iso2)
 
         real_user.favPlaces.add(fp)
 
     else:
-        fp = FavoritePlace.objects.get(city=city)
+        fp = FavouritePlace.objects.get(city=city)
         real_user.favPlaces.remove(fp)
         
     context = {'city': city, 'country': country, 'iso2': iso2, 'type': type}
