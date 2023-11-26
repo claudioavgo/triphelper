@@ -1,20 +1,14 @@
-import os
 import json
 import random
 import resend
 import requests
 from dotenv import load_dotenv
-from django.conf import settings
-import schedule
-from django.core.mail import send_mail
-from deep_translator import GoogleTranslator
 from django.core.cache import cache
 
 load_dotenv()
 
 resend.api_key = "re_fcxxQ6Sw_87NSeQksyKyXouMsyR8YVUzE"
 apiKey = "5ae2e3f221c38a28845f05b6b4a3b5bf3698002c3857a171f8a470c1"
-
 
 
 def countries():

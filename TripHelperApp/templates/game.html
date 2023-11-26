@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% load static %}
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f30e.svg"
+			type="image/x-icon" />
+		<link rel="stylesheet" href="{% static 'style.css' %}" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous" />
+		<!-- Dependencies -->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+			crossorigin="anonymous"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+			crossorigin="anonymous"></script>
+		<!-- Bootstrap 4 Autocomplete -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap-4-autocomplete/dist/bootstrap-4-autocomplete.min.js"
+			crossorigin="anonymous"></script>
+		<!-- D3.js and TopoJSON CDN -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+		<!-- Include datamaps.world.min.js -->
+		<script src="https://datamaps.github.io/scripts/0.4.4/datamaps.world.min.js"></script>
+		<title>TripHelper</title>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<script src="https://unpkg.com/mapillary-js@4.1.2/dist/mapillary.js"></script>
+		<link
+			href="https://unpkg.com/mapillary-js@4.1.2/dist/mapillary.css"
+			rel="stylesheet" />
+		<!-- Adicione esta linha dentro da tag head -->
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</head>
+	<body>
+		<style>
+			#mapillary-container {
+				width: 100%;
+				height: 400px;
+			}
+			* {
+				margin: 0;
+			}
+			#map {
+				position: fixed;
+				right: 60px; /* Margem direita */
+				bottom: 80px; /* Margem inferior */
+				height: 15rem;
+				width: 30rem;
+				border-radius: 0.2rem;
+				border-color: black;
+				border-width: 10px;
+			}
+
+			.btn-guess {
+				background-color: #4caf50; /* Green */
+				padding: 15px 32px;
+				width: 30rem;
+				position: fixed;
+				z-index: 999;
+				right: 60px;
+				bottom: 20px;
+				border-radius: 0.2rem;
+				border: 1px solid white;
+				color: white;
+				opacity: 30%;
+			}
+
+			.btn-guess:hover {
+				cursor: not-allowed;
+			}
+
+			.btn-back {
+				position: fixed;
+				z-index: 1000;
+				left: 20px;
+				top: 20px;
+			}
+
+			.btn-back:hover {
+				cursor: pointer;
+			}
+		</style>
+
+		<button id="subimit_guess" class="btn-guess" onclick="subimitGuess()">
+			Subimit guess
+		</button>
+
+		<a href="/intro/game">
+			<button type="button" class="btn-back btn btn-primary">
+				Back to the website
+			</button>
+		</a>
+		<div id="mly" style="width: 100vw; height: 100vh"></div>
+		<div id="map" style="height: 15rem; width: 30rem"></div>
+
+		<script src="https://www.mapillary.com/jsapi/mapillary.js"></script>
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+			crossorigin="anonymous"></script>
+		<script>
+			var map = L.map("map").setView([0, 0], 2);
+			var marker;
+			var countryLayer;
+
+			possibilidades_de_paises = [
+				{
+					isoCode: "fr", 
+					imageId: "127604999388306" 
+				},
+				{ 
+					isoCode: "br", 
+					imageId: "127604999388306"
+				},
+				{
+					isoCode: "jp",
+					imageId: "681740259195253",
+				},
+				{
+					isoCode: "jp",
+					imageId: "240417058349972",
+				},
+				{
+					isoCode: "fr",
+					imageId: "309452727364730",
+				},
+				{
+					isoCode: "fr",
+					imageId: "492051265344113",
+				},
+				{
+					isoCode: "fr",
+					imageId: "221034109788293",
+				},
+				{
+					isoCode: "va",
+					imageId: "510775796969463",
+				},
+				{
+					isoCode: "it",
+					imageId: "1848402525324050",
+				},
+				{
+					isoCode: "it",
+					imageId: "219006399597297",
+				},
+				{
+					isoCode: "jp",
+					imageId: "240417058349972",
+				},
+			];
+
+			let rodada = possibilidades_de_paises[Math.floor(Math.random() * possibilidades_de_paises.length)];
+
+			let choosedCountry = null;
+
+			const guessButton = document.getElementById("subimit_guess");
+
+			var { Viewer } = mapillary;
+
+			var viewer = new Viewer({
+				accessToken: "MLY|6967495876665728|4528a0a2441729c0327577aeb10a82ae",
+				container: "mly", // the ID of our container defined in the HTML body
+				imageId: rodada.imageId,
+				component: {
+					cover: false,
+					keyboard: true,
+					direction: true,
+					sequence: false,
+					imagePlane: {
+						marker: {
+							visible: false,
+						},
+					},
+				},
+			});
+
+			function subimitGuess() {
+				if (choosedCountry != null) {
+					if (choosedCountry == rodada.isoCode) {
+						alert("Parabéns, você acertou!");
+						rodada = possibilidades_de_paises[Math.floor(Math.random() * possibilidades_de_paises.length)];
+						var viewer = new Viewer({
+							accessToken:
+								"MLY|6967495876665728|4528a0a2441729c0327577aeb10a82ae",
+							container: "mly", // the ID of our container defined in the HTML body
+							imageId: rodada.imageId,
+							component: {
+								cover: false,
+								keyboard: true,
+								direction: true,
+								sequence: false,
+								imagePlane: {
+									marker: {
+										visible: false,
+									},
+								},
+							},
+						});
+					} else {
+						alert("Você errou, tente novamente!");
+					}
+				}
+			}
+
+			L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
+				map
+			);
+
+			map.on("click", async function (e) {
+				console.log(e.latlng);
+				removeMarker(); // Remove o marcador anterior
+				addMarker(e.latlng); // Adiciona um novo marcador
+				drawCountryOutline(e.latlng);
+			});
+
+			async function getCountryName(latlng) {
+				const response = await fetch(
+					`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latlng.lat}&lon=${latlng.lng}`
+				);
+				const data = await response.json();
+				return data.address.country_code;
+			}
+
+			function addMarker(latlng) {
+				marker = L.marker(latlng).addTo(map);
+			}
+
+			function removeMarker() {
+				if (marker) {
+					map.removeLayer(marker);
+				}
+				removeCountryOutline();
+			}
+
+			async function drawCountryOutline(latlng) {
+				try {
+					const isoCode = await getCountryName(latlng);
+					const response = await axios.get(
+						`https://nominatim.openstreetmap.org/search?country=${isoCode}&polygon_geojson=1&format=json`
+					);
+					const countryGeoJSON = response.data[0].geojson;
+					if (countryLayer) {
+						map.removeLayer(countryLayer);
+					}
+					countryLayer = L.geoJSON(countryGeoJSON).addTo(map);
+					choosedCountry = isoCode;
+
+					// Enable the guess button
+					guessButton.style.opacity = "1";
+					guessButton.style.cursor = "pointer";
+					guessButton.disabled = false;
+				} catch (error) {
+					choosedCountry = null;
+
+					// Disable the guess button
+					guessButton.style.opacity = "0.3";
+					guessButton.style.cursor = "not-allowed";
+					guessButton.disabled = true;
+				}
+			}
+
+			function removeCountryOutline() {
+				if (countryLayer) {
+					map.removeLayer(countryLayer);
+				}
+			}
+		</script>
+	</body>
+</html>

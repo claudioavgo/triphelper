@@ -1,1 +1,612 @@
-{}
+{
+    "Kula": {
+        "success": false
+    },
+    "Koktem": {
+        "success": false
+    },
+    "Nuuk": {
+        "success": true,
+        "places": [
+            {
+                "id": 491660,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Nuuk Self Guided Sherlock Holmes Murder Mystery Game",
+                "url": "/nuuk-l32638/nuuk-sherlock-holmes-murder-mystery-game-t491660/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 21.84,
+                    "formattedStartingPrice": "$21.84",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "group",
+                    "priceCategoryLabel": "per group up to 4",
+                    "basePrice": 21.84,
+                    "formattedBasePrice": "$21.84",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T00:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "365 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 32638,
+                    "name": "Nuuk",
+                    "urlPath": "/nuuk-l32638/"
+                },
+                "coordinates": {
+                    "latitude": 64.1779176,
+                    "longitude": -51.7387172
+                },
+                "abstract": "Solve the murder of Balthazar! A fun activity to do when visiting a city with your family or as a couple. 'Sherlock Holmes' is filled with brain teasers, puzzles, hilarious phototasks & British humor."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    },
+    "Recife": {
+        "success": true,
+        "places": [
+            {
+                "id": 494174,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "From Recife : Carneiros Beach",
+                "url": "/recife-l1836/carneiros-beach-t494174/",
+                "reviewStatistics": {
+                    "quantity": 3,
+                    "rating": 3.3333332538604736
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 31.18,
+                    "formattedStartingPrice": "$31.18",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 31.18,
+                    "formattedBasePrice": "$31.18",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T06:30:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64c0247fced77.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "8 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1317303,
+                    "longitude": -34.902409
+                },
+                "abstract": "-It combines all the attributes of a paradise beach: coconut trees, clear sand and transparent green sea.\n\n-Enjoy the day on an incredible beach.\n\n-Photograph the diversity of fish shoals"
+            },
+            {
+                "id": 490712,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "From Recife: Tour Olinda with Recife Antigo",
+                "url": "/recife-l1836/tour-olinda-with-recife-antigo-departing-from-recife-t490712/",
+                "reviewStatistics": {
+                    "quantity": 3,
+                    "rating": 3.3333332538604736
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 28.21,
+                    "formattedStartingPrice": "$28.21",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 28.21,
+                    "formattedBasePrice": "$28.21",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "16 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-26T09:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 16,
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64b6afcb9c474.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "7 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1317303,
+                    "longitude": -34.902409
+                },
+                "abstract": "Take a guided day trip from Boa Viagem or Piedade to explore UNESCO-listed Olinda's historic churches and landmarks, Recife Antigo's vibrant streets, and the Handicraft Center of Pernambuco."
+            },
+            {
+                "id": 469508,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "dayTrip",
+                    "label": "Day trip"
+                },
+                "title": "Recife: City Tour Recife & Olinda",
+                "url": "/recife-l1836/city-tour-recife-olinda-t469508/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 26,
+                    "formattedStartingPrice": "$26",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 26,
+                    "formattedBasePrice": "$26",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T08:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/6477a1c0e6423.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "7 hours"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1801557,
+                    "longitude": -34.9203383
+                },
+                "abstract": "Immerse yourself in the enchanting beauty of Olinda, one of the most breathtaking colonial cities that exudes a magical charm. We'll also venture into the vibrant Recife Antigo neighborhood."
+            },
+            {
+                "id": 526281,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Recife: Brazil eSIM Roaming Mobile Data Plan",
+                "url": "/recife-l1836/recife-brazil-esim-roaming-mobile-data-plan-t526281/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 15,
+                    "formattedStartingPrice": "$15",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 15,
+                    "formattedBasePrice": "$15",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T00:00:00+08:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/856e2421eeac9375.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "7 - 30 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.133302799999997,
+                    "longitude": -34.917548
+                },
+                "abstract": "Scan a QR code for instant access to the local high-speed data network with your eSIM- compatible device no matter where you are and when it is. Benefit from reasonable pricing, a reliable network, and support."
+            },
+            {
+                "id": 70305,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "privateTour",
+                    "label": "Private tour"
+                },
+                "title": "Olinda City Tour and Instituto Ricardo Brennand",
+                "url": "/recife-l1836/city-tour-in-olinda-with-instituto-ricardo-brennand-t70305/",
+                "reviewStatistics": {
+                    "quantity": 5,
+                    "rating": 4.599999904632568
+                },
+                "category": "dayTrip",
+                "categoryLabel": "Day trip",
+                "price": {
+                    "startingPrice": 94,
+                    "formattedStartingPrice": "$94",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 94,
+                    "formattedBasePrice": "$94",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Next available on 11/26/23",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-26T09:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798e32193b51.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "6 hours"
+                    },
+                    {
+                        "type": "audioguide",
+                        "label": "Optional audio guide"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.131730300000001,
+                    "longitude": -34.902409000000034
+                },
+                "abstract": "Explore one of the best-preserved colonial cities in Brazil on a 5-hour guided tour of Olinda from Recife. See landmark attractions with a guide, including the panoramic lift of the Caixa da Agua no Alto da S\u00e9, the Ricardo Brennard Museum and more."
+            },
+            {
+                "id": 70315,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "waterActivity",
+                    "label": "Water activity"
+                },
+                "title": "Recife Boat Tour with Transfers",
+                "url": "/recife-l1836/recife-boat-tour-with-transfers-t70315/",
+                "reviewStatistics": {
+                    "quantity": 6,
+                    "rating": 4
+                },
+                "category": "guidedTour",
+                "categoryLabel": "Guided tour",
+                "price": {
+                    "startingPrice": 72,
+                    "formattedStartingPrice": "$72",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 72,
+                    "formattedBasePrice": "$72",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "13 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-25T10:00:00-03:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 13,
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5798fdd03b729.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "1 hour"
+                    },
+                    {
+                        "type": "skipTheLine",
+                        "label": "Skip the line"
+                    },
+                    {
+                        "type": "transportationIncluded",
+                        "label": "Pickup available"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 4h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1836,
+                    "name": "Recife",
+                    "urlPath": "/recife-l1836/"
+                },
+                "coordinates": {
+                    "latitude": -8.1316848,
+                    "longitude": -34.9021774
+                },
+                "abstract": "Cruise along the Capibaribe River in Recife and experience the \"Brazilian Venice\" by water. Ride to Santo Antonio, Recife Antigo and Boa Vista islands passing bridges and colonial buildings. Discover where the Portuguese founded the city."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    }
+}

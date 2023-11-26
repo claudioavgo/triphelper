@@ -13,5 +13,7 @@ urlpatterns = [
     path("about", views.about, name="about"),
     path("", views.index, name="index"),
     path("top", views.top, name="top"),
-    path("account/", views.account, name="account")
+    path("account/", views.account, name="account"),
+    path("intro/game/", views.intro_game, name="account"),
+    path("game/", views.game, name="account"),
 ]
