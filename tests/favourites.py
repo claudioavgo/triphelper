@@ -6,7 +6,7 @@ import unittest
 from bin.destination import *
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-class FavoriteCases(unittest.TestCase):
+class FavouriteCases(unittest.TestCase):
     base_url="http://127.0.0.1:8000/"
 
     def setUp(self):

@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-aer^xfe3#*6__7wj2(_!#a0v)d4fe-5)3zaxp80s^o*)gdda-m
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','triphelperai.azurewebsites.net']
+ALLOWED_HOSTS = ['127.0.0.1','triphelperai.azurewebsites.net', 'localhost']
 CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net','https://*.127.0.0.1', 'http://127.0.0.1']
 
 # Application definition

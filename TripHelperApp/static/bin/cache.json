@@ -1,4 +1,95 @@
 {
+    "Kula": {
+        "success": false
+    },
+    "Koktem": {
+        "success": false
+    },
+    "Nuuk": {
+        "success": true,
+        "places": [
+            {
+                "id": 491660,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Nuuk Self Guided Sherlock Holmes Murder Mystery Game",
+                "url": "/nuuk-l32638/nuuk-sherlock-holmes-murder-mystery-game-t491660/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 21.84,
+                    "formattedStartingPrice": "$21.84",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "group",
+                    "priceCategoryLabel": "per group up to 4",
+                    "basePrice": 21.84,
+                    "formattedBasePrice": "$21.84",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-25T00:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-25"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/51290e8966c34a3c.png/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "365 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 32638,
+                    "name": "Nuuk",
+                    "urlPath": "/nuuk-l32638/"
+                },
+                "coordinates": {
+                    "latitude": 64.1779176,
+                    "longitude": -51.7387172
+                },
+                "abstract": "Solve the murder of Balthazar! A fun activity to do when visiting a city with your family or as a couple. 'Sherlock Holmes' is filled with brain teasers, puzzles, hilarious phototasks & British humor."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
+    },
     "Recife": {
         "success": true,
         "places": [
@@ -114,11 +205,12 @@
                     "unformattedDiscountPercentage": 0
                 },
                 "availability": {
-                    "message": "Next available on 11/26/23",
-                    "type": "neutral",
+                    "message": "16 spots left tomorrow",
+                    "type": "urgent",
                     "nextAvailableDateTime": "2023-11-26T09:00:00-03:00",
                     "metadata": {
-                        "pattern": "pActivityCardBanner available from_%1",
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 16,
                         "date": "2023-11-26"
                     }
                 },
@@ -286,10 +378,10 @@
                 "availability": {
                     "message": "Available today and tomorrow",
                     "type": "positive",
-                    "nextAvailableDateTime": "2023-11-24T00:00:00+08:00",
+                    "nextAvailableDateTime": "2023-11-25T00:00:00+08:00",
                     "metadata": {
                         "pattern": "pActivityCardBanner available today_tomorrow",
-                        "date": "2023-11-24"
+                        "date": "2023-11-25"
                     }
                 },
                 "photos": [
@@ -364,12 +456,12 @@
                     "unformattedDiscountPercentage": 0
                 },
                 "availability": {
-                    "message": "Available this Saturday",
+                    "message": "Next available on 11/26/23",
                     "type": "neutral",
-                    "nextAvailableDateTime": "2023-11-25T09:00:00-03:00",
+                    "nextAvailableDateTime": "2023-11-26T09:00:00-03:00",
                     "metadata": {
-                        "pattern": "pActivityCardBanner available from_day_%s",
-                        "date": "2023-11-25"
+                        "pattern": "pActivityCardBanner available from_%1",
+                        "date": "2023-11-26"
                     }
                 },
                 "photos": [
@@ -452,13 +544,13 @@
                     "unformattedDiscountPercentage": 0
                 },
                 "availability": {
-                    "message": "17 spots left tomorrow",
+                    "message": "13 spots left tomorrow",
                     "type": "urgent",
-                    "nextAvailableDateTime": "2023-11-24T10:00:00-03:00",
+                    "nextAvailableDateTime": "2023-11-25T10:00:00-03:00",
                     "metadata": {
                         "pattern": "pActivityCardBanner available %1_spots_tomorrow",
-                        "spots": 17,
-                        "date": "2023-11-25"
+                        "spots": 13,
+                        "date": "2023-11-26"
                     }
                 },
                 "photos": [
@@ -516,107 +608,5 @@
         ],
         "tried": 0,
         "blocks": 6
-    },
-    "Salgueiro": {
-        "success": true,
-        "places": [
-            {
-                "id": 425301,
-                "type": "supplier_activity",
-                "activityType": {
-                    "key": "guidedTour",
-                    "label": "Guided tour"
-                },
-                "title": "Rio: Salgueiro Samba School Rehearsal Admission w/ Transfer",
-                "url": "/rio-de-janeiro-l9/rio-salgueiro-samba-school-rehearsal-admission-w-transfer-t425301/",
-                "reviewStatistics": {
-                    "quantity": 1,
-                    "rating": 5
-                },
-                "category": "guidedTour",
-                "categoryLabel": "Guided tour",
-                "price": {
-                    "startingPrice": 80,
-                    "formattedStartingPrice": "$80",
-                    "currency": "USD",
-                    "currencySymbol": "$",
-                    "priceCategory": "individual",
-                    "priceCategoryLabel": "per person",
-                    "basePrice": 80,
-                    "formattedBasePrice": "$80",
-                    "unformattedBookingFee": 0,
-                    "unformattedDiscountPercentage": 0
-                },
-                "availability": {
-                    "message": "Available today",
-                    "type": "positive",
-                    "nextAvailableDateTime": "2023-11-25T20:00:00-03:00",
-                    "metadata": {
-                        "pattern": "pActivityCardBanner available today",
-                        "date": "2023-11-25"
-                    }
-                },
-                "photos": [
-                    {
-                        "url": "https://cdn.getyourguide.com/img/tour/62d031ab23495.jpeg/{format_id}.jpg",
-                        "urls": [
-                            {
-                                "url": "https://cdn.getyourguide.com/img/tour/62d031ab23495.jpeg/53.jpg",
-                                "size": "thumb"
-                            },
-                            {
-                                "url": "https://cdn.getyourguide.com/img/tour/62d031ab23495.jpeg/159.jpg",
-                                "size": "medium"
-                            },
-                            {
-                                "url": "https://cdn.getyourguide.com/img/tour/62d031ab23495.jpeg/146.jpg",
-                                "size": "mobile"
-                            }
-                        ]
-                    }
-                ],
-                "attributes": [
-                    {
-                        "type": "duration",
-                        "label": "5 hours"
-                    },
-                    {
-                        "type": "skipTheLine",
-                        "label": "Skip the line"
-                    },
-                    {
-                        "type": "transportationIncluded",
-                        "label": "Pickup available"
-                    },
-                    {
-                        "type": "freeCancellation",
-                        "label": "Free cancellation"
-                    },
-                    {
-                        "type": "cutOffTime",
-                        "label": "Must book at least 8h in advance"
-                    },
-                    {
-                        "type": "locallyUnique",
-                        "label": "Locally unique"
-                    }
-                ],
-                "primaryLocation": {
-                    "id": 9,
-                    "name": "Rio de Janeiro",
-                    "urlPath": "/rio-de-janeiro-l9/"
-                },
-                "coordinates": {
-                    "latitude": -22.9694417,
-                    "longitude": -43.1868448
-                },
-                "abstract": "Experience the magic and energy of the Rio de Janeiro Carnival before it takes place. Enjoy access to a Salgueiro Samba School rehearsal and witness a Bateria performance, with live music and dancers."
-            }
-        ],
-        "tried": 0,
-        "blocks": 6
-    },
-    "login": {
-        "success": false
     }
 }
