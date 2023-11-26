@@ -247,15 +247,6 @@
 
 			async function drawCountryOutline(latlng) {
 				try {
-					const isoCode = await getCountryName(latlng);
-					const response = await axios.get(
-						`https://nominatim.openstreetmap.org/search?country=${isoCode}&polygon_geojson=1&format=json`
-					);
-					const countryGeoJSON = response.data[0].geojson;
-					if (countryLayer) {
-						map.removeLayer(countryLayer);
-					}
-					countryLayer = L.geoJSON(countryGeoJSON).addTo(map);
 					choosedCountry = isoCode;
 
 					// Enable the guess button
@@ -269,12 +260,6 @@
 					guessButton.style.opacity = "0.3";
 					guessButton.style.cursor = "not-allowed";
 					guessButton.disabled = true;
-				}
-			}
-
-			function removeCountryOutline() {
-				if (countryLayer) {
-					map.removeLayer(countryLayer);
 				}
 			}
 		</script>
