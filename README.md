@@ -95,23 +95,22 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 # Requisitos entrega 04
 
 ## > Screencast protótipo Lo-Fi - Entrega 04
-[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
+[![Veja o vídeo]
 
 ## > Screencast - Entrega 04
-[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/6pqEQJ49ES4)
+[![Veja o vídeo]
 
 ## > Diagrama de atividades do sistema - Entrega 04
-![image](https://github.com/claudioavgo/triphelper/assets/132563707/0934dbf9-b578-4ef2-81bb-36da5153c688)
+![image]
 
 ## > Issue/Bug Tracker - Entrega 04
-![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
-![image](https://github.com/claudioavgo/triphelper/assets/132784629/c6d761d8-f20b-4f45-a4cc-a41b335e9f11)
-
+![image]
+![image]
 ## > Quadro da Sprint do Jira - Entrega 04
-![image](https://github.com/claudioavgo/triphelper/assets/64589027/89af3d2b-a470-4715-8e55-36f5ef5ee172)
+![image]
 
 ## > Quadro Backlog do Jira - Entrega 04
-![image](https://github.com/claudioavgo/triphelper/assets/64589027/763766ea-63c4-43dd-8709-6396cb8dee1c)
+![image]
 
 
 ## > Relatos de Pair Programming - Entrega 04
