@@ -92,6 +92,39 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 
 ![](https://i.imgur.com/waxVImv.png)
 
+# Requisitos entrega 04
+
+## > Screencast protótipo Lo-Fi - Entrega 04
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/dgQ1SL6Yii4)
+
+## > Screencast - Entrega 04
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/6pqEQJ49ES4)
+
+## > Diagrama de atividades do sistema - Entrega 04
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/0934dbf9-b578-4ef2-81bb-36da5153c688)
+
+## > Issue/Bug Tracker - Entrega 04
+![image](https://github.com/claudioavgo/triphelper/assets/132784629/184935d9-651e-4ae3-b036-6aad885df62b)
+![image](https://github.com/claudioavgo/triphelper/assets/132784629/c6d761d8-f20b-4f45-a4cc-a41b335e9f11)
+
+## > Quadro da Sprint do Jira - Entrega 04
+![image](https://github.com/claudioavgo/triphelper/assets/64589027/89af3d2b-a470-4715-8e55-36f5ef5ee172)
+
+## > Quadro Backlog do Jira - Entrega 04
+![image](https://github.com/claudioavgo/triphelper/assets/64589027/763766ea-63c4-43dd-8709-6396cb8dee1c)
+
+
+## > Relatos de Pair Programming - Entrega 04
+### Relato do uso de pair programming
+Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
+<h3>Pares principais da quarta sprint</h3>
+<p><b>Cláudio Alves e Leonardo Cardoso:</b> </p>
+<p><b>Gabriel Lima e Ian Neves:</b> </p>
+<p><b>Artur Souto e Guilherme Cardozo:</b></p>
+
+![](https://i.imgur.com/waxVImv.png)
+
+
 # Desenvolvimento
 Clone o repositório, instale as dependências e inicie a aplicação
 

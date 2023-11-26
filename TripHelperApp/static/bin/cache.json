@@ -608,5 +608,504 @@
         ],
         "tried": 0,
         "blocks": 6
+    },
+    "Falciano": {
+        "success": false
+    },
+    "San Marino": {
+        "success": true,
+        "places": [
+            {
+                "id": 346481,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "privateTour",
+                    "label": "Private tour"
+                },
+                "title": "San Marino: Historical Center Private Tour",
+                "url": "/san-marino-l1506/san-marino-historical-center-private-tour-cable-car-ride-t346481/",
+                "reviewStatistics": {
+                    "quantity": 17,
+                    "rating": 4.941176414489746
+                },
+                "category": "privateTour",
+                "categoryLabel": "Private tour",
+                "price": {
+                    "startingPrice": 142.3,
+                    "formattedStartingPrice": "$142.30",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "group",
+                    "priceCategoryLabel": "per group up to 3",
+                    "basePrice": 142.3,
+                    "formattedBasePrice": "$142.30",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available this Tuesday",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-28T10:30:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_day_%s",
+                        "date": "2023-11-28"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5e011ec375d1a.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5e011ec375d1a.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5e011ec375d1a.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5e011ec375d1a.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "1.5 hours"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 24h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1506,
+                    "name": "San Marino",
+                    "urlPath": "/san-marino-l1506/"
+                },
+                "coordinates": {
+                    "latitude": 43.93524049999999,
+                    "longitude": 12.4468124
+                },
+                "abstract": "Discover the wonders of San Marino on a private walking tour. Learn the legends of this ancient republic, see iconic landmarks, and admire views across the Adriatic Sea."
+            },
+            {
+                "id": 429582,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "San Marino: Audio Guide Historic Walking Tour",
+                "url": "/san-marino-l1506/san-marino-audio-guide-historic-walking-tour-t429582/",
+                "reviewStatistics": {
+                    "quantity": 22,
+                    "rating": 4.545454502105713
+                },
+                "price": {
+                    "startingPrice": 6.99,
+                    "formattedStartingPrice": "$6.99",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 6.99,
+                    "formattedBasePrice": "$6.99",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-26T00:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/630f3008c7739.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/630f3008c7739.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/630f3008c7739.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/630f3008c7739.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "45 minutes"
+                    },
+                    {
+                        "type": "audioguide",
+                        "label": "Optional audio guide"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1506,
+                    "name": "San Marino",
+                    "urlPath": "/san-marino-l1506/"
+                },
+                "coordinates": {
+                    "latitude": 43.93524049999999,
+                    "longitude": 12.4468124
+                },
+                "abstract": "Explore the historic city of San Marino with an audio guide tour on your phone. Make your way through charming streets and enter Piazza della Liberta to see the outside of the Basilica of San Marino."
+            },
+            {
+                "id": 446715,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Siena: City Highlights Self-Guided Walking Audio Tour",
+                "url": "/siena-l435/from-siena-s-golden-age-to-glory-a-self-guided-audio-tour-t446715/",
+                "reviewStatistics": {
+                    "quantity": 14,
+                    "rating": 4.4285712242126465
+                },
+                "price": {
+                    "startingPrice": 6.99,
+                    "formattedStartingPrice": "$6.99",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 6.99,
+                    "formattedBasePrice": "$6.99",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-26T00:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-26"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/63f5b485c8e1f.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63f5b485c8e1f.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63f5b485c8e1f.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/63f5b485c8e1f.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "75 minutes"
+                    },
+                    {
+                        "type": "audioguide",
+                        "label": "Optional audio guide"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 435,
+                    "name": "Siena",
+                    "urlPath": "/siena-l435/"
+                },
+                "coordinates": {
+                    "latitude": 43.31842049999999,
+                    "longitude": 11.3316911
+                },
+                "abstract": "Stroll through cobbled stone streets and explore Sienna on a self-guided audio tour. Pass by the Piazza del Campo, Town Hall, the main square, and more with the magic of GPS playback."
+            },
+            {
+                "id": 469167,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "cityCard",
+                    "label": "City card"
+                },
+                "title": "San Marino: Museum Pass 1 Ticket for 7 State Museums",
+                "url": "/san-marino-l1506/san-marino-museum-pass-t469167/",
+                "reviewStatistics": {
+                    "quantity": 18,
+                    "rating": 3.944444417953491
+                },
+                "category": "cityCard",
+                "categoryLabel": "City card",
+                "price": {
+                    "startingPrice": 10.95,
+                    "formattedStartingPrice": "$10.95",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 10.95,
+                    "formattedBasePrice": "$10.95",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-26T09:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available tomorrow",
+                        "date": "2023-11-27"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/64775210322c2.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64775210322c2.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64775210322c2.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/64775210322c2.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "1 day"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 1506,
+                    "name": "San Marino",
+                    "urlPath": "/san-marino-l1506/"
+                },
+                "coordinates": {
+                    "latitude": 43.935458,
+                    "longitude": 12.4492958
+                },
+                "abstract": "Explore the treasures of San Marino, the oldest republic in the world, and get access to 7 state museums with 1 ticket. Visit Palazzo Publico, State Museum, Pinacoteca San Francesco, and much more."
+            },
+            {
+                "id": 417723,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "entryTicket",
+                    "label": "Entry ticket"
+                },
+                "title": "Emilia-Romagna: Euroterme Resort thermal pool Ticket",
+                "url": "/bagno-di-romagna-l173798/emilia-romagna-roseo-euroterme-wellness-resort-ticket-t417723/",
+                "reviewStatistics": {
+                    "quantity": 1,
+                    "rating": 1
+                },
+                "category": "entryTicket",
+                "categoryLabel": "Entry ticket",
+                "price": {
+                    "startingPrice": 137.92,
+                    "formattedStartingPrice": "$137.92",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 137.92,
+                    "formattedBasePrice": "$137.92",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "20 spots left tomorrow",
+                    "type": "urgent",
+                    "nextAvailableDateTime": "2023-11-27T10:00:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available %1_spots_tomorrow",
+                        "spots": 20,
+                        "date": "2023-11-27"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/62c6ac77f0d7d.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/62c6ac77f0d7d.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/62c6ac77f0d7d.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/62c6ac77f0d7d.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "validity",
+                        "label": "1 day"
+                    },
+                    {
+                        "type": "bestseller",
+                        "label": "Bestseller"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 173798,
+                    "name": "Bagno di Romagna",
+                    "urlPath": "/bagno-di-romagna-l173798/"
+                },
+                "coordinates": {
+                    "latitude": 43.83262790000001,
+                    "longitude": 11.9577607
+                },
+                "abstract": "Choose among the 3 options a day dedicated to total relaxation.\nThe R\u00f2seo Euroterme Wellness Resort hotel is the ideal choice to get rid of stress and enjoy a sweet and well-deserved rest."
+            },
+            {
+                "id": 507991,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "privateTour",
+                    "label": "Private tour"
+                },
+                "title": "San Marino: Private City Tour + Wonder Welcome KIT",
+                "url": "/san-marino-l169169/san-marino-private-city-tour-wonder-welcome-kit-t507991/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "category": "privateTour",
+                "categoryLabel": "Private tour",
+                "price": {
+                    "startingPrice": 125.88,
+                    "formattedStartingPrice": "$125.88",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "group",
+                    "priceCategoryLabel": "per group up to 5",
+                    "basePrice": 125.88,
+                    "formattedBasePrice": "$125.88",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available this Wednesday",
+                    "type": "neutral",
+                    "nextAvailableDateTime": "2023-11-29T00:30:00+01:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available from_day_%s",
+                        "date": "2023-11-29"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/5be1f6313dd96fec.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5be1f6313dd96fec.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5be1f6313dd96fec.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/5be1f6313dd96fec.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "1 hour"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 10h in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 169169,
+                    "name": "San Marino",
+                    "urlPath": "/san-marino-l169169/"
+                },
+                "coordinates": {
+                    "latitude": 43.93524049999999,
+                    "longitude": 12.4468124
+                },
+                "abstract": "Through the characteristic small streets of the Historic Center of San Marino, making you discover hidden glimpses, accompanied by stories and anecdotes, surrounded by breathtaking views."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
     }
 }
