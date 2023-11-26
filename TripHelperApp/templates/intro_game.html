@@ -111,6 +111,12 @@
 							</ul>
 						</li>
 					</ul>
+					
+					<div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+						<button type="button" class="btn btn-primary" onclick="changeFontSize(1)">A+</button>
+						<button type="button" class="btn btn-primary" onclick="changeFontSize(-1)">A-</button>
+					</div>
+
 					<div class="form-check form-switch">
 						<input
 							onclick="themeSwitch()"
@@ -290,4 +296,28 @@
 			localStorage.setItem("theme", switchElement.checked ? "light" : "dark");
 		}
 	</script>
+	<script>
+		// Função para aumentar ou diminuir o tamanho da fonte
+		function changeFontSize(sizeDifference) {
+			// Obtém todos os elementos de texto na página
+			var textElements = document.querySelectorAll('body *');
+		
+			// Itera sobre os elementos de texto e ajusta o tamanho da fonte
+			textElements.forEach(function(element) {
+				var currentFontSize = parseFloat(window.getComputedStyle(element).fontSize);
+		
+				// Calcula o novo tamanho da fonte
+				var newFontSize = currentFontSize + sizeDifference;
+		
+				// Limita o tamanho mínimo da fonte em 15
+				newFontSize = Math.max(newFontSize, 15);
+		
+				// Limita o tamanho máximo da fonte em 42
+				newFontSize = Math.min(newFontSize, 40);
+		
+				// Define o novo tamanho da fonte no elemento
+				element.style.fontSize = newFontSize + "px";
+			});
+		}
+	</script>    
 </html>
