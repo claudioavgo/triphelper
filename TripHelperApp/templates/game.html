@@ -120,10 +120,6 @@
 					isoCode: "fr", 
 					imageId: "127604999388306" 
 				},
-				{ 
-					isoCode: "br", 
-					imageId: "127604999388306"
-				},
 				{
 					isoCode: "jp",
 					imageId: "681740259195253",
@@ -190,7 +186,7 @@
 			function subimitGuess() {
 				if (choosedCountry != null) {
 					if (choosedCountry == rodada.isoCode) {
-						alert("Parabéns, você acertou!");
+						alert("Congratulations, you got it!");
 						rodada = possibilidades_de_paises[Math.floor(Math.random() * possibilidades_de_paises.length)];
 						var viewer = new Viewer({
 							accessToken:
@@ -210,7 +206,7 @@
 							},
 						});
 					} else {
-						alert("Você errou, tente novamente!");
+						alert("You missed, try again!");
 					}
 				}
 			}
