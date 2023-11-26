@@ -190,7 +190,7 @@
 			function subimitGuess() {
 				if (choosedCountry != null) {
 					if (choosedCountry == rodada.isoCode) {
-						alert("Congratulations, you got it!");
+						alert("Parabéns, você acertou!");
 						rodada = possibilidades_de_paises[Math.floor(Math.random() * possibilidades_de_paises.length)];
 						var viewer = new Viewer({
 							accessToken:
@@ -210,7 +210,7 @@
 							},
 						});
 					} else {
-						alert("You missed, try again!");
+						alert("Você errou, tente novamente!");
 					}
 				}
 			}
@@ -247,6 +247,7 @@
 
 			async function drawCountryOutline(latlng) {
 				try {
+					const isoCode = await getCountryName(latlng);
 					choosedCountry = isoCode;
 
 					// Enable the guess button
@@ -260,6 +261,12 @@
 					guessButton.style.opacity = "0.3";
 					guessButton.style.cursor = "not-allowed";
 					guessButton.disabled = true;
+				}
+			}
+
+			function removeCountryOutline() {
+				if (countryLayer) {
+					map.removeLayer(countryLayer);
 				}
 			}
 		</script>
