@@ -101,7 +101,8 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 [![Veja o vídeo]
 
 ## > Diagrama de atividades do sistema - Entrega 04
-![image]
+![image](https://github.com/claudioavgo/triphelper/assets/132784629/ac932ba5-f2f0-49c7-b5b8-3b806c7e5f75)
+(Clique na foto para uma melhor visualização)
 
 ## > Issue/Bug Tracker - Entrega 04
 ![image]
