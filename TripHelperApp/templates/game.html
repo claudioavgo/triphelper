@@ -120,10 +120,6 @@
 					isoCode: "fr", 
 					imageId: "127604999388306" 
 				},
-				{ 
-					isoCode: "br", 
-					imageId: "127604999388306"
-				},
 				{
 					isoCode: "jp",
 					imageId: "681740259195253",
@@ -190,7 +186,7 @@
 			function subimitGuess() {
 				if (choosedCountry != null) {
 					if (choosedCountry == rodada.isoCode) {
-						alert("Parabéns, você acertou!");
+						alert("Congratulations, you got it!");
 						rodada = possibilidades_de_paises[Math.floor(Math.random() * possibilidades_de_paises.length)];
 						var viewer = new Viewer({
 							accessToken:
@@ -210,7 +206,7 @@
 							},
 						});
 					} else {
-						alert("Você errou, tente novamente!");
+						alert("You missed, try again!");
 					}
 				}
 			}
@@ -220,7 +216,9 @@
 			);
 
 			map.on("click", async function (e) {
-				console.log(e.latlng);
+				guessButton.style.opacity = "0.3";
+				guessButton.style.cursor = "not-allowed";
+				guessButton.disabled = true;
 				removeMarker(); // Remove o marcador anterior
 				addMarker(e.latlng); // Adiciona um novo marcador
 				drawCountryOutline(e.latlng);
@@ -248,14 +246,6 @@
 			async function drawCountryOutline(latlng) {
 				try {
 					const isoCode = await getCountryName(latlng);
-					const response = await axios.get(
-						`https://nominatim.openstreetmap.org/search?country=${isoCode}&polygon_geojson=1&format=json`
-					);
-					const countryGeoJSON = response.data[0].geojson;
-					if (countryLayer) {
-						map.removeLayer(countryLayer);
-					}
-					countryLayer = L.geoJSON(countryGeoJSON).addTo(map);
 					choosedCountry = isoCode;
 
 					// Enable the guess button

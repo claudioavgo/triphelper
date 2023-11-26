@@ -92,6 +92,38 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 
 ![](https://i.imgur.com/waxVImv.png)
 
+# Requisitos entrega 04
+
+## > Screencast protótipo Lo-Fi - Entrega 04
+[![Veja o vídeo]
+
+## > Screencast - Entrega 04
+[![Veja o vídeo]
+
+## > Diagrama de atividades do sistema - Entrega 04
+![image]
+
+## > Issue/Bug Tracker - Entrega 04
+![image]
+![image]
+## > Quadro da Sprint do Jira - Entrega 04
+![image]
+
+## > Quadro Backlog do Jira - Entrega 04
+![image]
+
+
+## > Relatos de Pair Programming - Entrega 04
+### Relato do uso de pair programming
+Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
+<h3>Pares principais da quarta sprint</h3>
+<p><b>Cláudio Alves e Leonardo Cardoso:</b> </p>
+<p><b>Gabriel Lima e Ian Neves:</b> </p>
+<p><b>Artur Souto e Guilherme Cardozo:</b></p>
+
+![](https://i.imgur.com/waxVImv.png)
+
+
 # Desenvolvimento
 Clone o repositório, instale as dependências e inicie a aplicação
 
