@@ -205,3 +205,17 @@ def commentAPI(request, user):
     context = {}
 
     return JsonResponse(context)
+
+@requer_autenticacao
+def intro_game(request, user):
+    context = {
+        'user': user,
+    }
+    return render(request, 'intro_game.html', context=context)
+
+@requer_autenticacao
+def game(request, user):
+    context = {
+        'user': user,
+    }
+    return render(request, 'game.html', context=context)
