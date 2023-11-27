@@ -123,9 +123,10 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 ### Relato do uso de pair programming
 Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
 <h3>Pares principais da quarta sprint</h3>
-<p><b>Cláudio Alves e Leonardo Cardoso:</b> </p>
-<p><b>Gabriel Lima e Ian Nunes:</b> </p>
-<p><b>Artur Souto e Guilherme Cardozo:</b></p>
+<p><b>Cláudio Alves e Leonardo Cardoso:</b> Cláudio, com sua forte experiência em back-end e front-end, desempenhou um papel vital na criação de uma base sólida e eficiente. A capacidade de alternar entre camadas técnicas desempenha um papel importante na integração coesa da aplicação. Além disso, Cláudio e Leonardo foram responsáveis ​​pela implementação de novas funcionalidades, A dupla também foi responsável por introduzir o jogo de adivinhação de países no aplicativo Também torna isso divertido para os usuários. Eles também estão envolvidos na integração com a API DataMaps, o que torna o aplicativo rico em recursos geográficos. Enquanto isso, Leonardo focou no front-end, aprimorando a experiência visual do app com uma interface atrativa e funcional.</p>
+<p><b>Gabriel Lima e Ian Nunes:</b> Gabriel, que desempenhou um papel central no desenvolvimento do sistema de tamanho de fonte, demonstrou aptidões excepcionais tanto no front quanto no back-end. A sua contribuição foi crucial para a implementação de uma funcionalidade que impacta diretamente na experiência do usuário. A dupla de desenvolvedores também é responsável por introduzir os modos claro e escuro no aplicativo oferece aos usuários opções de personalização de imagens. Enquanto isso, Ian se concentrou em otimizar o backend, melhorando os processos existentes e garantindo a eficiência operacional da aplicação.
+</p>
+<p><b>Artur Souto e Guilherme Cardozo:</b>Artur Souto e Guilherme Cardoso concentram seus esforços no fortalecimento da integração e eficiência de sistemas globais. Guilherme é especialista em desenvolvimento front-end. Usar sua criatividade e aptidões para melhorar a interface do usuário. É especialmente excelente no uso dos modos claro e escuro. como o aumento do tamanho da fonte proporcionando assim uma experiência personalizada aos usuários.</p>
 
 ![](https://i.imgur.com/waxVImv.png)
 
