@@ -1789,5 +1789,100 @@
     },
     "Nyala": {
         "success": false
+    },
+    "Hadar `Am": {
+        "success": false
+    },
+    "Goma": {
+        "success": false
+    },
+    "Barrigada Village": {
+        "success": true,
+        "places": [
+            {
+                "id": 542329,
+                "type": "supplier_activity",
+                "activityType": {
+                    "key": "other",
+                    "label": "Other experience"
+                },
+                "title": "Guam eSIM | Super Fast Data Plans to get connected",
+                "url": "/barrigada-l151106/guam-esim-super-fast-data-plans-to-get-connected-t542329/",
+                "reviewStatistics": {
+                    "quantity": 0,
+                    "rating": 0
+                },
+                "price": {
+                    "startingPrice": 28.36,
+                    "formattedStartingPrice": "$28.36",
+                    "currency": "USD",
+                    "currencySymbol": "$",
+                    "priceCategory": "individual",
+                    "priceCategoryLabel": "per person",
+                    "basePrice": 28.36,
+                    "formattedBasePrice": "$28.36",
+                    "unformattedBookingFee": 0,
+                    "unformattedDiscountPercentage": 0
+                },
+                "availability": {
+                    "message": "Available today and tomorrow",
+                    "type": "positive",
+                    "nextAvailableDateTime": "2023-11-27T01:00:00+10:00",
+                    "metadata": {
+                        "pattern": "pActivityCardBanner available today_tomorrow",
+                        "date": "2023-11-27"
+                    }
+                },
+                "photos": [
+                    {
+                        "url": "https://cdn.getyourguide.com/img/tour/2e228b4fe74c2486.jpeg/{format_id}.jpg",
+                        "urls": [
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/2e228b4fe74c2486.jpeg/53.jpg",
+                                "size": "thumb"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/2e228b4fe74c2486.jpeg/159.jpg",
+                                "size": "medium"
+                            },
+                            {
+                                "url": "https://cdn.getyourguide.com/img/tour/2e228b4fe74c2486.jpeg/146.jpg",
+                                "size": "mobile"
+                            }
+                        ]
+                    }
+                ],
+                "attributes": [
+                    {
+                        "type": "duration",
+                        "label": "8 - 30 days"
+                    },
+                    {
+                        "type": "freeCancellation",
+                        "label": "Free cancellation"
+                    },
+                    {
+                        "type": "newActivity",
+                        "label": "New activity"
+                    },
+                    {
+                        "type": "cutOffTime",
+                        "label": "Must book at least 1h30min in advance"
+                    }
+                ],
+                "primaryLocation": {
+                    "id": 151106,
+                    "name": "Barrigada",
+                    "urlPath": "/barrigada-l151106/"
+                },
+                "coordinates": {
+                    "latitude": 13.4856449,
+                    "longitude": 144.8001378
+                },
+                "abstract": "Explore Guam with eSIM data plans that offer seamless connectivity and the convenience of a phone number. Simply scan the QR code for instant activation and enjoy full data speeds during your stay."
+            }
+        ],
+        "tried": 0,
+        "blocks": 6
     }
 }

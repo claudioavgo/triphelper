@@ -44,12 +44,12 @@ Sua viagem começa aqui!
 
 
 ## > Relatos de Pair Programming - Entrega 02
-### Relato da segunda sprint
+### Relato da primeira sprint
 Utilizamos o pair programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que, o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, e que além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
-<h3>Pares principais da segunda sprint</h3>
+<h3>Pares principais da primeira sprint</h3>
 <p><b>Cláudio Alves e Guilherme Cardozo:</b> Cláudio e Guilherme optaram pelo uso do pair programming devido à várias vantagens, entre elas o aprendizado compartilhado, onde os dois programadores podem se ajudar no desenvolvimento e passar conhecimento entre eles.</p>
 <p><b>Gabriel Lima e Leonardo Cardoso:</b> Gabriel e Leonardo usaram essa técnica a fim obter maior foco no desenvolvimento do Trip Helper, evitando distrações e aumentando a produtividade da dupla, resultando em um tempo de desenvolvimento menor.</p>
-<p><b>Artur Souto e Ian Nunes:</b> Arthur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
+<p><b>Artur Souto e Ian Nunes:</b> Artur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
 
 Além disso, para que todos estivessem à par do progresso da aplicação, fizemos reuniões assincronas durante todo o processo do segundo sprint. Com a necessidade da terceira entrega, optaremos pela troca das duplas, com o intuito de que todos da equipe interajam entre si.
 
@@ -83,10 +83,10 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/4054b490-c0a4-4958-aa88-8598318eaad8)
 
 ## > Relatos de Pair Programming - Entrega 03
-### Relato da terceira sprint
+### Relato da segunda sprint
 Nós demos continuidade ao uso do pair programming durante a terceira sprint. Optamos por continuar nossa comunicação através do Discord, mas, dessa vez, fizemos uso de uma extensão criada pela Microsoft que permite o desenvolvimento colaborativo em tempo real: o Visual Studio Live Share. Devido ao uso dessa extensão, conseguimos desenvolver de forma mais rápida as histórias selecionadas e fazer uma espécie de "rodízio" entre as duplas, já que a extensão fornecia mais dinamismo para o desenvolvimento da nossa aplicação. O uso do pair programming foi essencial para garantir a qualidade das entregas e fortaleceu o trabalho em equipe.
-<h3>Pares principais da terceira sprint</h3>
-<p><b>Cláudio Alves e Ian Neves:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
+<h3>Pares principais da segunda sprint</h3>
+<p><b>Cláudio Alves e Ian Nunes:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
 <p><b>Gabriel Lima e Guilherme Cardozo:</b> Gabriel e Guilherme focaram no desenvolvimento de um sistema de comentários (front-end e um pouco do backend) e na integração com a API DataMaps.</p>
 <p><b>Artur Souto e Leonardo Cardoso:</b> Artur e Leonardo focaram no desenvolvimento front-end da aplicação, no que diz respeito ao sistema de favoritos e parte dos comentários.</p>
 
@@ -95,32 +95,39 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 # Requisitos entrega 04
 
 ## > Screencast protótipo Lo-Fi - Entrega 04
-[![Veja o vídeo]
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=dP-_OuyO_Zo&ab_channel=CxS)
 
 ## > Screencast - Entrega 04
-[![Veja o vídeo]
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=J1SvC3eE8us)
+
+## > Screencast build e deployment - Entrega 04
+
+## > Testes de Sistema (E2E) Automatizados - Entrega 04
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=Qd35nrUn13o&ab_channel=CxS)
 
 ## > Diagrama de atividades do sistema - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/ac932ba5-f2f0-49c7-b5b8-3b806c7e5f75)
 (Clique na foto para uma melhor visualização)
 
 ## > Issue/Bug Tracker - Entrega 04
-![image]
-![image]
-## > Quadro da Sprint do Jira - Entrega 04
-![image]
 
-## > Quadro Backlog do Jira - Entrega 04
-![image]
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/3260c519-3abd-4618-a342-fc83cce24dae)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/e1760010-97f2-436c-b63e-da980fc317e9)
+
+## > Quadro da Sprint do Jira - Entrega 04
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/1c0dedfd-bb32-4d5a-8fae-9f47e30059e2)
+
+
 
 
 ## > Relatos de Pair Programming - Entrega 04
-### Relato do uso de pair programming
+### Relato da terceira sprint
 Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
-<h3>Pares principais da quarta sprint</h3>
-<p><b>Cláudio Alves e Leonardo Cardoso:</b> </p>
-<p><b>Gabriel Lima e Ian Neves:</b> </p>
-<p><b>Artur Souto e Guilherme Cardozo:</b></p>
+<h3>Pares principais da terceira sprint</h3>
+<p><b>Cláudio Alves e Leonardo Cardoso:</b> Cláudio, com sua forte experiência em back-end e front-end, desempenhou um papel vital na criação de uma base sólida e eficiente. Além disso, Cláudio e Leonardo foram responsáveis ​​pela implementação da funcionalidade do jogo de adivinhação de países no aplicativo que torna a aplicação divertida para os usuários. Enquanto isso, Leonardo focou no front-end, aprimorando a experiência visual do app com uma interface atrativa e funcional.</p>
+<p><b>Gabriel Lima e Ian Nunes:</b> Gabriel demonstrou aptidões excepcionais tanto no front quanto no back-end. Enquanto isso, Ian se concentrou em otimizar o backend, melhorando os processos existentes e garantindo a eficiência operacional da aplicação.
+</p>
+<p><b>Artur Souto e Guilherme Cardozo:</b> Artur Souto e Guilherme Cardozo concentram seus esforços no fortalecimento da integração e eficiência de sistemas globais. Eles usaram suas aptidões para melhorar a interface do usuário. A dupla de desenvolvedores também é responsável por introduzir os modos claro e escuro, além de opções de alterar o tamanho da fotne.</p>
 
 ![](https://i.imgur.com/waxVImv.png)
 
@@ -160,7 +167,7 @@ Instale as dependencias usando "pip install -r ./requirements.txt"
 </a>
 <p><a href="https://github.com/claudioavgo">Cláudio Alves</a> - cago@cesar.school 📩</p>
 <p><a href="https://github.com/GabrielLimaSC">Gabriel Lima</a> - glsc@cesar.school 📩</p>
-<p><a href="https://github.com/leooghub">Leonardo Cardoso</a> - lccg@cesar.school 📩</p> 
+<p><a href="https://github.com/leooghub">Leonardo Guedes</a> - lccg@cesar.school 📩</p> 
 <p><a href="https://github.com/cardozoguilherme">Guilherme Cardozo</a> - gccm@cesar.school 📩</p>
 <p><a href="https://github.com/ianbnunes">Ian Nunes</a> - ibn@cesar.school 📩</p>
 <p><a href="https://github.com/artursouto">Artur Souto</a> - asmpm@cesar.school 📩</p>
