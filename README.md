@@ -86,7 +86,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ### Relato da terceira sprint
 Nós demos continuidade ao uso do pair programming durante a terceira sprint. Optamos por continuar nossa comunicação através do Discord, mas, dessa vez, fizemos uso de uma extensão criada pela Microsoft que permite o desenvolvimento colaborativo em tempo real: o Visual Studio Live Share. Devido ao uso dessa extensão, conseguimos desenvolver de forma mais rápida as histórias selecionadas e fazer uma espécie de "rodízio" entre as duplas, já que a extensão fornecia mais dinamismo para o desenvolvimento da nossa aplicação. O uso do pair programming foi essencial para garantir a qualidade das entregas e fortaleceu o trabalho em equipe.
 <h3>Pares principais da terceira sprint</h3>
-<p><b>Cláudio Alves e Ian Neves:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
+<p><b>Cláudio Alves e Ian Nunes:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
 <p><b>Gabriel Lima e Guilherme Cardozo:</b> Gabriel e Guilherme focaram no desenvolvimento de um sistema de comentários (front-end e um pouco do backend) e na integração com a API DataMaps.</p>
 <p><b>Artur Souto e Leonardo Cardoso:</b> Artur e Leonardo focaram no desenvolvimento front-end da aplicação, no que diz respeito ao sistema de favoritos e parte dos comentários.</p>
 
@@ -124,7 +124,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
 <h3>Pares principais da quarta sprint</h3>
 <p><b>Cláudio Alves e Leonardo Cardoso:</b> </p>
-<p><b>Gabriel Lima e Ian Neves:</b> </p>
+<p><b>Gabriel Lima e Ian Nunes:</b> </p>
 <p><b>Artur Souto e Guilherme Cardozo:</b></p>
 
 ![](https://i.imgur.com/waxVImv.png)
