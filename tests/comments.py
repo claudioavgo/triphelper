@@ -19,8 +19,6 @@ class CommentCases(unittest.TestCase):
 
         self.driver.implicitly_wait(10)
         
-    # Casos de teste
-    # Para skipar um test use isso antes da função -> @unittest.skip(reason="Test")
     def test_no_fav_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -33,18 +31,6 @@ class CommentCases(unittest.TestCase):
         login_btn = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/a/button')
 
         login_btn.click()
-
-        # Escrevendo usuário e senha
-
-        # Login
-
-        # email_input = driver.find_element(By.XPATH,'//*[@id="exampleInputEmail1"]')
-        # email_input.send_keys("a@email.com")
-        # psw_input = driver.find_element(By.XPATH,'//*[@id="exampleInputPassword1"]')
-        # psw_input.send_keys("1")
-
-        # driver.find_element(By.XPATH,'/html/body/form/button').click()
-
 
         driver.find_element(By.XPATH, '/html/body/form/div[3]/p/a').click()
 
@@ -75,8 +61,6 @@ class CommentCases(unittest.TestCase):
         favs = driver.find_elements(By.CLASS_NAME,'card')
 
         self.assertEqual(len(favs), 0)
-
-        # Final dos casos de teste
 
     def test_comment_new_place_on_new_account(self):
         driver=self.driver

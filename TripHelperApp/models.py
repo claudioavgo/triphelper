@@ -13,7 +13,7 @@ class FavouritePlace(models.Model):
 class Comment(models.Model):
     text = models.TextField()
     likes = models.IntegerField(default=0)
-    author = models.CharField(default="Nenhum", null=True, blank=True)
+    author = models.CharField(default="Nenhum", null=True, blank=True, max_length=256)
     id =  models.AutoField(primary_key=True)
 
     def like(self):

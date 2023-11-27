@@ -1,11 +1,18 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+import os
 
 class HomePageCases(unittest.TestCase):
-    base_url="https://triphelpercompany.azurewebsites.net"
+    base_url="http://localhost:8000"
 
     def setUp(self):
+        # print("Deletando o banco de dados SQLite")
+
+        # os.system("rm db.sqlite3")
+        # os.system("python manage.py makemigrations")
+        # os.system("python manage.py migrate")
+
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.driver=webdriver.Chrome(options=options)

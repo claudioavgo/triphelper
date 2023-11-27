@@ -2,6 +2,7 @@ import random
 import string
 import time
 import unittest
+import os
 
 from bin.destination import *
 from selenium import webdriver
