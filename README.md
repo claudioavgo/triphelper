@@ -44,7 +44,7 @@ Sua viagem começa aqui!
 
 
 ## > Relatos de Pair Programming - Entrega 02
-### Relato da segunda sprint
+### Relato da primeira sprint
 Utilizamos o pair programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que, o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, e que além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
 <h3>Pares principais da segunda sprint</h3>
 <p><b>Cláudio Alves e Guilherme Cardozo:</b> Cláudio e Guilherme optaram pelo uso do pair programming devido à várias vantagens, entre elas o aprendizado compartilhado, onde os dois programadores podem se ajudar no desenvolvimento e passar conhecimento entre eles.</p>
@@ -83,7 +83,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/4054b490-c0a4-4958-aa88-8598318eaad8)
 
 ## > Relatos de Pair Programming - Entrega 03
-### Relato da terceira sprint
+### Relato da segunda sprint
 Nós demos continuidade ao uso do pair programming durante a terceira sprint. Optamos por continuar nossa comunicação através do Discord, mas, dessa vez, fizemos uso de uma extensão criada pela Microsoft que permite o desenvolvimento colaborativo em tempo real: o Visual Studio Live Share. Devido ao uso dessa extensão, conseguimos desenvolver de forma mais rápida as histórias selecionadas e fazer uma espécie de "rodízio" entre as duplas, já que a extensão fornecia mais dinamismo para o desenvolvimento da nossa aplicação. O uso do pair programming foi essencial para garantir a qualidade das entregas e fortaleceu o trabalho em equipe.
 <h3>Pares principais da terceira sprint</h3>
 <p><b>Cláudio Alves e Ian Nunes:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
@@ -122,7 +122,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 ## > Relatos de Pair Programming - Entrega 04
 ### Relato do uso de pair programming
 Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
-<h3>Pares principais da quarta sprint</h3>
+<h3>Pares principais da terceira sprint</h3>
 <p><b>Cláudio Alves e Leonardo Cardoso:</b> Cláudio, com sua forte experiência em back-end e front-end, desempenhou um papel vital na criação de uma base sólida e eficiente. A capacidade de alternar entre camadas técnicas desempenha um papel importante na integração coesa da aplicação. Além disso, Cláudio e Leonardo foram responsáveis ​​pela implementação de novas funcionalidades, A dupla também foi responsável por introduzir o jogo de adivinhação de países no aplicativo Também torna isso divertido para os usuários. Eles também estão envolvidos na integração com a API DataMaps, o que torna o aplicativo rico em recursos geográficos. Enquanto isso, Leonardo focou no front-end, aprimorando a experiência visual do app com uma interface atrativa e funcional.</p>
 <p><b>Gabriel Lima e Ian Nunes:</b> Gabriel, que desempenhou um papel central no desenvolvimento do sistema de tamanho de fonte, demonstrou aptidões excepcionais tanto no front quanto no back-end. A sua contribuição foi crucial para a implementação de uma funcionalidade que impacta diretamente na experiência do usuário. A dupla de desenvolvedores também é responsável por introduzir os modos claro e escuro no aplicativo oferece aos usuários opções de personalização de imagens. Enquanto isso, Ian se concentrou em otimizar o backend, melhorando os processos existentes e garantindo a eficiência operacional da aplicação.
 </p>
