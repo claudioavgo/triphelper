@@ -98,15 +98,17 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 [![Veja o vídeo]
 
 ## > Screencast - Entrega 04
-[![Veja o vídeo]
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=J1SvC3eE8us)
 
 ## > Diagrama de atividades do sistema - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/ac932ba5-f2f0-49c7-b5b8-3b806c7e5f75)
 (Clique na foto para uma melhor visualização)
 
 ## > Issue/Bug Tracker - Entrega 04
-![image]
-![image]
+
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/3260c519-3abd-4618-a342-fc83cce24dae)
+![image](https://github.com/claudioavgo/triphelper/assets/132563707/e1760010-97f2-436c-b63e-da980fc317e9)
+
 ## > Quadro da Sprint do Jira - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/1c0dedfd-bb32-4d5a-8fae-9f47e30059e2)
 
