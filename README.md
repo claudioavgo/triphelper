@@ -49,7 +49,7 @@ Utilizamos o pair programming durante o desenvolvimento do TripHelper. Fizemos a
 <h3>Pares principais da segunda sprint</h3>
 <p><b>Cláudio Alves e Guilherme Cardozo:</b> Cláudio e Guilherme optaram pelo uso do pair programming devido à várias vantagens, entre elas o aprendizado compartilhado, onde os dois programadores podem se ajudar no desenvolvimento e passar conhecimento entre eles.</p>
 <p><b>Gabriel Lima e Leonardo Cardoso:</b> Gabriel e Leonardo usaram essa técnica a fim obter maior foco no desenvolvimento do Trip Helper, evitando distrações e aumentando a produtividade da dupla, resultando em um tempo de desenvolvimento menor.</p>
-<p><b>Artur Souto e Ian Nunes:</b> Arthur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
+<p><b>Artur Souto e Ian Nunes:</b> Artur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
 
 Além disso, para que todos estivessem à par do progresso da aplicação, fizemos reuniões assincronas durante todo o processo do segundo sprint. Com a necessidade da terceira entrega, optaremos pela troca das duplas, com o intuito de que todos da equipe interajam entre si.
 
