@@ -46,7 +46,7 @@ jobs:
         run: |
           python manage.py migrate
           sleep 2
-          python manage.py runserver
+          python manage.py runserver &
           sleep 2
           python manage.py test
 
