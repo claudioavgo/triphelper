@@ -100,6 +100,10 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 ## > Screencast - Entrega 04
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=J1SvC3eE8us)
 
+## > Screencast build e deployment - Entrega 04
+
+## > Testes de Sistema (E2E) Automatizados - Entrega 04
+
 ## > Diagrama de atividades do sistema - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/ac932ba5-f2f0-49c7-b5b8-3b806c7e5f75)
 (Clique na foto para uma melhor visualização)
