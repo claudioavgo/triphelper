@@ -120,7 +120,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 
 
 ## > Relatos de Pair Programming - Entrega 04
-### Relato do uso de pair programming
+### Relato da terceira sprint
 Continuamos utilizando método de pair programming durante a quarta sprint. Mantemos a comunicação pelo discord e alem de manter o uso da extensão Live Share citada no último relato. Como de costume fizemos o "rodízio" dos pares, para que todos os membros tenham interação, com o uso deste metodo vimos uma grande desempenho das duplas, já o pair programming nos ajuda de diversas formas a evitar os bloqueios criativos.
 <h3>Pares principais da terceira sprint</h3>
 <p><b>Cláudio Alves e Leonardo Cardoso:</b> Cláudio, com sua forte experiência em back-end e front-end, desempenhou um papel vital na criação de uma base sólida e eficiente. A capacidade de alternar entre camadas técnicas desempenha um papel importante na integração coesa da aplicação. Além disso, Cláudio e Leonardo foram responsáveis ​​pela implementação de novas funcionalidades, A dupla também foi responsável por introduzir o jogo de adivinhação de países no aplicativo Também torna isso divertido para os usuários. Eles também estão envolvidos na integração com a API DataMaps, o que torna o aplicativo rico em recursos geográficos. Enquanto isso, Leonardo focou no front-end, aprimorando a experiência visual do app com uma interface atrativa e funcional.</p>
