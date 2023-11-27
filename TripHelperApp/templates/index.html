@@ -97,8 +97,8 @@
                </ul>
                
                <div style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
-                  <button type="button" class="btn btn-primary" onclick="changeFontSize(1)">A+</button>
-                  <button type="button" class="btn btn-primary" onclick="changeFontSize(-1)">A-</button>
+                  <button id="increase_font" type="button" class="btn btn-primary" onclick="changeFontSize(1)">A+</button>
+                  <button id="decrease_font" type="button" class="btn btn-primary" onclick="changeFontSize(-1)">A-</button>
                </div>
               
                <div class="form-check form-switch" style="display: flex;justify-items: center;align-items:center">
@@ -140,7 +140,7 @@
       </nav>
       <container class="d-flex justify-content-center" style="margin-top: 10rem">
          <div>
-            <h1 style="color: #3D45FB;">“Life's a journey, not a destination.”</h1>
+            <h1 id="web_title" style="color: #3D45FB;">“Life's a journey, not a destination.”</h1>
             <div>
                <h5
                   class="d-flex justify-content-left"
