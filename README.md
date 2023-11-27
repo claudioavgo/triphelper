@@ -46,7 +46,7 @@ Sua viagem começa aqui!
 ## > Relatos de Pair Programming - Entrega 02
 ### Relato da primeira sprint
 Utilizamos o pair programming durante o desenvolvimento do TripHelper. Fizemos através do Discord, onde o driver compartilhava a tela para o navigator. Nossa experiência foi incrível, sem sombra de dúvidas foi essencial para o progresso do nosso projeto. Também, tentamos utilizar uma extensão do visual code studio, chamada Duckly, mas não obtivemos sucesso devido a falta de conhecimento sobre a ferramenta. Não podemos esquecer, que, o pair programming ajudou imensamente em momentos de limitação criativa de um dos indivíduos, e que além disso, ele foi primordial para compartilhar conhecimento entre os integrantes.
-<h3>Pares principais da segunda sprint</h3>
+<h3>Pares principais da primeira sprint</h3>
 <p><b>Cláudio Alves e Guilherme Cardozo:</b> Cláudio e Guilherme optaram pelo uso do pair programming devido à várias vantagens, entre elas o aprendizado compartilhado, onde os dois programadores podem se ajudar no desenvolvimento e passar conhecimento entre eles.</p>
 <p><b>Gabriel Lima e Leonardo Cardoso:</b> Gabriel e Leonardo usaram essa técnica a fim obter maior foco no desenvolvimento do Trip Helper, evitando distrações e aumentando a produtividade da dupla, resultando em um tempo de desenvolvimento menor.</p>
 <p><b>Artur Souto e Ian Nunes:</b> Artur e Ian decidiram usar o pair programming pois assim poderiam tomar decisões de design juntos, além de ambos terem voz nas decisões, com o objetivo de que o resultado final do produto seja o melhor possivel.</p>
@@ -85,7 +85,7 @@ Além disso, para que todos estivessem à par do progresso da aplicação, fizem
 ## > Relatos de Pair Programming - Entrega 03
 ### Relato da segunda sprint
 Nós demos continuidade ao uso do pair programming durante a terceira sprint. Optamos por continuar nossa comunicação através do Discord, mas, dessa vez, fizemos uso de uma extensão criada pela Microsoft que permite o desenvolvimento colaborativo em tempo real: o Visual Studio Live Share. Devido ao uso dessa extensão, conseguimos desenvolver de forma mais rápida as histórias selecionadas e fazer uma espécie de "rodízio" entre as duplas, já que a extensão fornecia mais dinamismo para o desenvolvimento da nossa aplicação. O uso do pair programming foi essencial para garantir a qualidade das entregas e fortaleceu o trabalho em equipe.
-<h3>Pares principais da terceira sprint</h3>
+<h3>Pares principais da segunda sprint</h3>
 <p><b>Cláudio Alves e Ian Nunes:</b> Cláudio e Ian focaram no desenvolvimento backend da nossa aplicação, realizando integrações com uma API própria e otimizando o processo já criado.</p>
 <p><b>Gabriel Lima e Guilherme Cardozo:</b> Gabriel e Guilherme focaram no desenvolvimento de um sistema de comentários (front-end e um pouco do backend) e na integração com a API DataMaps.</p>
 <p><b>Artur Souto e Leonardo Cardoso:</b> Artur e Leonardo focaram no desenvolvimento front-end da aplicação, no que diz respeito ao sistema de favoritos e parte dos comentários.</p>
