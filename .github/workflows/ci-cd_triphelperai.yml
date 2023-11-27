@@ -21,6 +21,14 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: '3.11'
+          
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Download Chrome (Tests)
+        run: |
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo apt install ./google-chrome-stable_current_amd64.deb
 
       - name: Create and start virtual environment
         run: |
@@ -35,7 +43,12 @@ jobs:
         run: zip release.zip ./* -r
 
       - name: Running tests cases
-        run: python manage.py test
+        run: |
+          python manage.py migrate
+          sleep 2
+          python manage.py runserver
+          sleep 2
+          python manage.py test
 
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v3
