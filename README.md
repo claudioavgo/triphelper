@@ -95,7 +95,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 # Requisitos entrega 04
 
 ## > Screencast protótipo Lo-Fi - Entrega 04
-[![Veja o vídeo]
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=dP-_OuyO_Zo&ab_channel=CxS)
 
 ## > Screencast - Entrega 04
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=J1SvC3eE8us)
@@ -103,6 +103,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 ## > Screencast build e deployment - Entrega 04
 
 ## > Testes de Sistema (E2E) Automatizados - Entrega 04
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=Qd35nrUn13o&ab_channel=CxS)
 
 ## > Diagrama de atividades do sistema - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132784629/ac932ba5-f2f0-49c7-b5b8-3b806c7e5f75)
