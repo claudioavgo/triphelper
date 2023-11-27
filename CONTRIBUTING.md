@@ -50,7 +50,7 @@ Antes de fazer um _pull request_ certifique-se de que o seu código está limpo 
 # Enviando uma contribuição
 - Faça um _fork_ do projeto.
 - Crie uma _branch_ com as suas modificações `git checkout -b exemplo`.
-- Faça _commit_ das suas alterações `git commit -m 'Implementação do exemplo`
+- Faça _commit_ das suas alterações `git commit -m 'Implementação do exemplo'`
 - Faça um _push_ na sua _branch_ `git push origin exemplo`.
 - Faça um _pull request_ com suas alterações.
 
