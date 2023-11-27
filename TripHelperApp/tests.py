@@ -7,7 +7,7 @@ import string
 import random
 import time
 
-# Create your tests here.
+# Tests here.
 
 class app_health(TestCase):
 
@@ -154,7 +154,7 @@ class fav_test(TestCase):
         heart = driver.find_element(By.XPATH, "//*[@id='like']/svg/g")
 
         self.assertEqual(heart.get_attribute("fill"), "red")
-    
+
     def test_unfav_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -212,14 +212,14 @@ class fav_test(TestCase):
         see_attractions.click()
 
         fav_action = driver.find_element(By.XPATH, '//*[@id="like"]')
-        
+
         #time.sleep(1)
 
         fav_action.click()
 
         #time.sleep(1)
 
-        profile = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/button') 
+        profile = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/button')
 
         profile.click()
 
@@ -244,19 +244,19 @@ class fav_test(TestCase):
         ####################################
         ####################################
         ####################################
-        
+
         favs_next = driver.find_elements(By.CLASS_NAME,'card')
 
         self.assertLess(len(favs_prev), len(favs_next))
 
 class comment_test(TestCase):
-    base_url="http://127.0.0.1:8000/"
 
     def setUp(self):
+        self.base_url = "http://localhost:8000"
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.driver=webdriver.Chrome(options=options)
-        
+
         self.driver.maximize_window()
 
         self.driver.implicitly_wait(10)
@@ -334,22 +334,83 @@ class comment_test(TestCase):
 
         self.assertIn('Que belo lugar!', comments_treated)
 
-class font_test(TestCase):
-    base_url="http://127.0.0.1:8000/"
 
+class AccessibilityTest(TestCase):
     def setUp(self):
+        self.base_url = "http://localhost:8000"
+
         options = webdriver.ChromeOptions()
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
-        self.driver=webdriver.Chrome(options=options)
-        
+        self.driver = webdriver.Chrome(options=options)
+
         self.driver.maximize_window()
 
         self.driver.implicitly_wait(10)
 
-    def test_comment_new_place_on_new_account(self):
-        driver=self.driver
+    def test_font_up(self):
+        driver = self.driver
         driver.get(self.base_url)
-        driver.implicitly_wait(2)
 
-        login_btn = driver.find_element(By.XPATH, '//*[@id="navbarSupportedContent"]/div/div/a/button')
-        login_btn.click()
+        try:
+            for i in range(1, random.randint(2, 20)):
+                login_btn = driver.find_element(
+                    By.XPATH, '//*[@id="increase_font"]')
+                login_btn.click()
+            passou = True
+        except:
+            passou = False
+
+        self.assertTrue(passou)
+
+    def test_font_down(self):
+        driver = self.driver
+        driver.get(self.base_url)
+
+        try:
+            for i in range(1, random.randint(2, 20)):
+                login_btn = driver.find_element(
+                    By.XPATH, '//*[@id="decrease_font"]')
+                login_btn.click()
+            passou = True
+        except:
+            passou = False
+
+        self.assertTrue(passou)
+
+    def test_font_up_down(self):
+        driver = self.driver
+        driver.get(self.base_url)
+
+        try:
+            for i in range(1, random.randint(2, 20)):
+                driver.find_element(By.XPATH, '//*[@id="increase_font"]').click()
+
+            for i in range(1, random.randint(2, 20)):
+                driver.find_element(By.XPATH, '//*[@id="decrease_font"]').click()
+
+            passou = True
+        except:
+            passou = False
+        
+        self.assertTrue(passou)
+
+class switch_mode_test(TestCase):
+    base_url = "http://127.0.0.1:8000/"
+
+    def setUp(self):
+        options = webdriver.ChromeOptions()
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        self.driver = webdriver.Chrome(options=options)
+
+        self.driver.maximize_window()
+
+        self.driver.implicitly_wait(10)
+
+    def test_switch_button(self):
+        driver = self.driver
+        driver.get(self.base_url)
+
+        switch = driver.find_element(By.XPATH, '//*[@id="flexSwitchCheckDefault"]')
+        switch.click()
+
+        self.assertTrue(switch.is_enabled())
