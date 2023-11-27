@@ -108,10 +108,8 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 ![image]
 ![image]
 ## > Quadro da Sprint do Jira - Entrega 04
-![image]
-
-## > Quadro Backlog do Jira - Entrega 04
 ![image](https://github.com/claudioavgo/triphelper/assets/132563707/1c0dedfd-bb32-4d5a-8fae-9f47e30059e2)
+
 
 
 
