@@ -416,6 +416,9 @@ class switch_mode_test(TestCase):
 
     def setUp(self):
         options = webdriver.ChromeOptions()
+        options.add_argument("--no-sandbox")
+        options.add_argument('--headless')
+        options.add_argument("--disable-gpu")
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self.driver = webdriver.Chrome(options=options)
 
