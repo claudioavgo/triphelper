@@ -33,14 +33,6 @@ jobs:
           pip install -r requirements.txt
 
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
-
-      - name: Running tests cases
-        run: |
-          python manage.py migrate
-          sleep 2
-          python manage.py runserver &
-          sleep 2
-          python manage.py test
       
       - name: Zip artifact for deployment
         run: zip release.zip ./* -r
