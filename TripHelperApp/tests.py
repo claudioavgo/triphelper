@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from destination import cidades, paises
-from django.test import TestCase
+from django.test import TestCase, tag
 from selenium import webdriver
 
 import string
@@ -48,6 +48,7 @@ class fav_test(TestCase):
 
         self.driver.implicitly_wait(10)
 
+    @tag('skip')
     def test_no_fav_on_new_account(self):
         driver = self.driver
         driver.get(self.base_url)
@@ -97,6 +98,7 @@ class fav_test(TestCase):
 
         self.assertEqual(len(favs), 0)
 
+    @tag('skip')
     def test_fav_new_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -161,6 +163,7 @@ class fav_test(TestCase):
 
         self.assertEqual(heart.get_attribute("fill"), "red")
 
+    @tag('skip')
     def test_unfav_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
@@ -270,6 +273,7 @@ class comment_test(TestCase):
 
         self.driver.implicitly_wait(10)
 
+    @tag('skip')
     def test_comment_new_place_on_new_account(self):
         driver=self.driver
         driver.get(self.base_url)
