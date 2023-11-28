@@ -101,6 +101,7 @@ Nós demos continuidade ao uso do pair programming durante a terceira sprint. Op
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=J1SvC3eE8us)
 
 ## > Screencast build e deployment - Entrega 04
+[![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://youtu.be/BtIW1opI53Q)
 
 ## > Testes de Sistema (E2E) Automatizados - Entrega 04
 [![Veja o vídeo](https://i.ibb.co/Hnxk3FW/Trip-Helper-1.png)](https://www.youtube.com/watch?v=Qd35nrUn13o&ab_channel=CxS)
