@@ -4,7 +4,8 @@ whitenoise
 requests
 psycopg2
 schedule
+gunicorn
+selenium
 Django
 resend
 redis
-selenium
