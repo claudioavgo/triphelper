@@ -34,7 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', 'triphelperai.azurewebsites.net', 'localhost', 'triphelper.claudioav.com']
 CSRF_TRUSTED_ORIGINS = ['https://*.azurewebsites.net',
-                        'https://*.127.0.0.1', 'http://127.0.0.1', 'triphelper.claudioav.com']
+                        'https://*.127.0.0.1', 'http://127.0.0.1', 'https://*.claudioav.com']
 
 # Application definition
 
